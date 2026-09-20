@@ -19,8 +19,6 @@ h1 .sub { font-weight: 400; color: var(--dim); margin-left: 10px; font-size: 12.
 .seg button.on { background: #1d2a44; color: var(--cyan); }
 select, #refresh { background: var(--panel2); color: var(--txt); border: 1px solid var(--line);
   border-radius: 8px; padding: 5px 8px; font: inherit; cursor: pointer; }
-.ticker { display: flex; align-items: center; gap: 8px; color: var(--dim); font-size: 12.5px; min-width: 260px; }
-.iss-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 8px var(--cyan); }
 
 main { flex: 1; display: flex; min-height: 0; }
 #side { width: 420px; min-width: 340px; background: var(--panel); border-right: 1px solid var(--line);
@@ -40,6 +38,7 @@ main { flex: 1; display: flex; min-height: 0; }
 .asof { padding: 5px 12px; font-size: 11px; color: var(--dim); border-bottom: 1px solid var(--line); }
 .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; }
 .dot.gap { background: var(--red); } .dot.partial { background: var(--amber); } .dot.ready { background: var(--green); }
+.dot.sat { background: var(--cyan); box-shadow: 0 0 6px var(--cyan); }
 
 .list { overflow-y: auto; flex: 1; }
 .row { padding: 10px 12px; border-bottom: 1px solid #1a2030; cursor: pointer; }
@@ -66,7 +65,6 @@ main { flex: 1; display: flex; min-height: 0; }
 .pop td { padding: 2px 0; border-bottom: 1px dashed #222b40; }
 .pop td:last-child { text-align: right; font-weight: 600; }
 .pop .none { color: var(--red); font-size: 12px; }
-.iss-lab { filter: drop-shadow(0 0 6px #56c8ff); }
 
 .err { position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%); background: #3a1420;
   color: #ffb3bc; border: 1px solid #6e2735; padding: 8px 16px; border-radius: 8px; z-index: 99; }

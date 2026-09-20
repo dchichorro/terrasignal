@@ -43,9 +43,10 @@ https://dchichorro.github.io/terrasignal/ — the same dashboard, fully static:
   writing `public/data/radar-<region>-<days>.json`; it commits only when the data
   materially changed, so history stays small.
 - `.github/workflows/pages.yml` deploys `public/` to Pages on every push.
+- `public/data/tle.json` bundles Sentinel TLEs (CelesTrak, refreshed hourly); the browser
+  propagates them for live constellation markers and per-event "next Sentinel-2 look" ETAs.
 - The browser prefers the live API (`api/radar`) when the Node server is running and
-  falls back to the static snapshots otherwise; the ISS ticker polls its API directly
-  (CORS-open), so the shared site stays live where it matters.
+  falls back to the static snapshots otherwise.
 
 ## Layout
 
@@ -54,7 +55,7 @@ https://dchichorro.github.io/terrasignal/ — the same dashboard, fully static:
     src/eonet.mjs   NASA EONET open events → unified events
     src/stac.mjs    Sentinel-2 L2A catalog queries (Element 84 STAC, keyless)
     src/radar.mjs   orchestration: merge, dedupe, per-event supply scan, KPIs
-    src/server.mjs  static host + /api/radar + /api/pulse (ISS live), cache-warm on boot
+    src/server.mjs  static host + /api/radar, cache-warm on boot
     src/cli.mjs     ANSI report
     scripts/build-static.mjs  hourly snapshots for the Pages site
     public/         Leaflet dashboard (dark map, ranked sidebar, footprints, thumbnails)

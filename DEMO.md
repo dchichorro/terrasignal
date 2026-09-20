@@ -30,7 +30,10 @@ Nobody watches demand and supply together on one screen. TerraSignal does.
    (public S3 `preview.jpg`), observed revisit cadence, cloud %. The pitch here is
    analytics-on-free-data — deliverable *today*, zero acquisition cost.
 5. Sidebar meters: red segment = gap, green = serviceable-now; their sum = demand.
-6. The blue dot moving top-left ticker: **ISS live position** — because space is fun.
+6. The small glowing dots are the **live Copernicus constellation** (Sentinel TLEs
+   propagated in-browser). Open a ⛔ event: the popup's *next Sentinel-2 look* row is the
+   closer — "none in 4 d" means free eyes physically cannot see this demand. That single
+   line *is* the tasking pitch.
 
 ## 3. Terminal view (1 min)
 

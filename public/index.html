@@ -24,9 +24,6 @@
     </select>
     <button id="refresh" title="re-scan">⟳</button>
   </div>
-  <div class="ticker" id="ticker">
-    <span class="iss-dot"></span><span id="iss-info">ISS —</span>
-  </div>
 </header>
 
 <main>
@@ -36,6 +33,7 @@
       <span><i class="dot gap"></i>tasking gap — no fresh clear free data</span>
       <span><i class="dot partial"></i>partial coverage</span>
       <span><i class="dot ready"></i>Copernicus-ready — service today</span>
+      <span><i class="dot sat"></i>live Sentinel positions (propagated TLEs)</span>
     </div>
     <div class="asof" id="asof"></div>
     <div id="list" class="list"><div class="rows skeleton">scanning Copernicus catalogue…</div></div>
@@ -46,6 +44,7 @@
 <div id="err" class="err hidden"></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/satellite.js@5.0.0/dist/satellite.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

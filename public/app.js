@@ -11,7 +11,6 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/
 }).addTo(map);
 let markers = L.layerGroup().addTo(map);
 let footprints = L.layerGroup().addTo(map);
-let issMarker = null;
 let selPin = null;
 const state = { region: 'eu', days: 45, radar: null, selected: null };
 
@@ -104,12 +103,88 @@ function select(e, i, fromList = true) {
       <tr><td>classification</td><td style="color:${COLORS[e.cls]}">${e.cls}</td></tr>
       <tr><td>tasking gap / serviceable now</td><td>${e.opportunity} / ${e.serviceable}</td></tr>
       <tr><td>revisit cadence (observed)</td><td>${e.cadenceDays != null ? e.cadenceDays + ' d' : '—'}</td></tr>
+      <tr><td>next Sentinel-2 look</td><td id="nextpass">propagating…</td></tr>
       <tr><td>magnitude</td><td>${e.magnitudeValue != null ? e.magnitudeValue + ' ' + esc(e.magnitudeUnit ?? '') : '—'}</td></tr>
       ${rows}</table></div>`;
   if (selPin) markers.removeLayer(selPin);
   selPin = L.marker([e.lat, e.lng]).addTo(markers);
   selPin.bindPopup(popup, { maxWidth: 340, autoPan: true });
-  setTimeout(() => selPin.openPopup(), 900); // open after flyTo settles
+  setTimeout(() => { selPin.openPopup(); fillNextPass(e); }, 900); // after flyTo settles and popup DOM exists
+}
+
+// --- live Copernicus constellation: TLEs propagated in-browser (satellite.js) ---
+const SAT_COLORS = [['SENTINEL-1', '#56c8ff'], ['SENTINEL-2', '#3ddc97'], ['SENTINEL-3', '#7aa2ff'], ['SENTINEL-5', '#c58aff'], ['SENTINEL-6', '#ffb454']];
+const satColor = (n) => (SAT_COLORS.find(([p]) => n.startsWith(p)) ?? [, '#8b96ad'])[1];
+let satrecs = [];
+const satMarkers = L.layerGroup().addTo(map);
+
+function parseTleText(txt) {
+  const L = txt.split('\n').map((s) => s.trim()).filter(Boolean);
+  const out = [];
+  for (let i = 0; i + 2 < L.length; i += 3) {
+    if (L[i].startsWith('SENTINEL') && /^1 /.test(L[i + 1]) && /^2 /.test(L[i + 2])) out.push({ name: L[i], l1: L[i + 1], l2: L[i + 2] });
+  }
+  return out;
+}
+
+async function loadSats() {
+  if (typeof satellite === 'undefined') return;
+  let tles = null;
+  try { const r = await fetch('data/tle.json'); if (r.ok) tles = await r.json(); } catch { /* no bundle */ }
+  if (!tles?.length) {
+    try { tles = parseTleText(await (await fetch('https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=tle')).text()); } catch { return; }
+  }
+  satrecs = tles.map((t) => ({ name: t.name, rec: satellite.twoline2satrec(t.l1, t.l2) })).filter((s) => s.rec);
+  tickSats();
+  setInterval(tickSats, 15000);
+}
+
+function satPos(rec, date) {
+  const pv = satellite.propagate(rec, date);
+  if (!pv.position || !Number.isFinite(pv.position.x)) return null;
+  const geo = satellite.eciToGeodetic(pv.position, satellite.gstime(date));
+  return { lat: (geo.latitude * 180) / Math.PI, lng: (geo.longitude * 180) / Math.PI, alt: geo.height, vel: Math.hypot(pv.velocity.x, pv.velocity.y, pv.velocity.z) };
+}
+
+function tickSats() {
+  satMarkers.clearLayers();
+  const now = new Date();
+  for (const s of satrecs) {
+    const p = satPos(s.rec, now);
+    if (!p || !Number.isFinite(p.lat)) continue;
+    satMarkers.addLayer(L.circleMarker([p.lat, p.lng], { radius: 3.5, color: satColor(s.name), weight: 1.5, fillOpacity: 0.9 })
+      .bindTooltip(`${s.name} · ${Math.round(p.alt)} km · ${p.vel.toFixed(1)} km/s`, { direction: 'top' }));
+  }
+}
+
+const havKm = (la1, lo1, la2, lo2) => {
+  const R = 6371, dLa = ((la2 - la1) * Math.PI) / 180, dLo = ((lo2 - lo1) * Math.PI) / 180;
+  const a = Math.sin(dLa / 2) ** 2 + Math.cos((la1 * Math.PI) / 180) * Math.cos((la2 * Math.PI) / 180) * Math.sin(dLo / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(a));
+};
+
+// next time a Sentinel-2 ground track passes within half-swath (~150 km) of a point
+function nextS2Pass(lat, lng) {
+  const STEP = 45e3, HORIZON = 4 * 86400e3, t0 = Date.now();
+  let best = null;
+  for (const s of satrecs.filter((x) => x.name.startsWith('SENTINEL-2'))) {
+    for (let t = STEP; t < HORIZON; t += STEP) {
+      const p = satPos(s.rec, new Date(t0 + t));
+      if (p && havKm(lat, lng, p.lat, p.lng) < 150) { if (!best || t < best.t) best = { t, name: s.name }; break; }
+    }
+  }
+  return best;
+}
+
+function fillNextPass(e) {
+  const el = document.getElementById('nextpass');
+  if (!el) return;
+  setTimeout(() => {
+    if (!satrecs.length) { el.textContent = 'orbit data unavailable'; return; }
+    const b = nextS2Pass(e.lat, e.lng);
+    el.textContent = b ? `in ~${(b.t / 3600e3).toFixed(1)} h · ${b.name}` : 'none in 4 d — free eyes cannot see this';
+    el.style.color = b ? '' : 'var(--red)';
+  }, 30);
 }
 
 $('#region').addEventListener('click', (ev) => {
@@ -122,22 +197,5 @@ $('#region').addEventListener('click', (ev) => {
 $('#days').addEventListener('change', (e) => { state.days = Number(e.target.value); fetchRadar(); });
 $('#refresh').addEventListener('click', fetchRadar);
 
-async function pollIss() {
-  try {
-    let iss = null;
-    try {
-      iss = await (await fetch('https://api.wheretheiss.at/v1/satellites/25544')).json();
-    } catch { /* fall through to local proxy */ }
-    if (!iss) iss = (await (await fetch('api/pulse')).json()).iss;
-    if (!iss) return;
-    $('#iss-info').textContent = `ISS ${Math.round(iss.altitude)} km · ${Math.round(iss.velocity).toLocaleString('en-US')} km/h · ${iss.visibility}`;
-    const pos = [iss.latitude, iss.longitude];
-    if (!issMarker) {
-      issMarker = L.circleMarker(pos, { radius: 4, color: '#56c8ff', weight: 2, fillColor: '#56c8ff', fillOpacity: 1 })
-        .bindTooltip('ISS — live position').addTo(map);
-    } else issMarker.setLatLng(pos);
-  } catch { /* offline */ }
-}
-setInterval(pollIss, 7000);
-
-fetchRadar().then(pollIss);
+fetchRadar();
+loadSats();

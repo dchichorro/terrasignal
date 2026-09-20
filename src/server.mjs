@@ -3,8 +3,6 @@ import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { extname, normalize } from 'node:path';
 import { buildRadar, REGIONS } from './radar.mjs';
-import { cached } from './cache.mjs';
-import { fetchJson } from './http.mjs';
 
 const PORT = Number(process.env.PORT ?? 4660);
 const PUBLIC = new URL('../public/', import.meta.url).pathname;
@@ -19,12 +17,6 @@ const server = createServer(async (req, res) => {
       const focus = Number(url.searchParams.get('focus') ?? 30);
       const data = await buildRadar({ region, days, focus });
       return json(res, data);
-    }
-    if (url.pathname === '/api/pulse') {
-      const data = await cached('iss-pulse', 5_000, () =>
-        fetchJson('https://api.wheretheiss.at/v1/satellites/25544').catch(() => null),
-      );
-      return json(res, { iss: data, ts: Date.now() });
     }
     return await serveStatic(res, url.pathname);
   } catch (err) {
