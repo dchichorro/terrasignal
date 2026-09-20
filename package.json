@@ -9,6 +9,7 @@
   "scripts": {
     "radar": "node src/cli.mjs",
     "demo": "node src/server.mjs",
+    "build:static": "node scripts/build-static.mjs",
     "test": "node --test test/"
   },
   "license": "MIT",

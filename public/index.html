@@ -19,10 +19,8 @@
       <button data-v="global">Global</button>
     </div>
     <select id="days" title="events opened within">
-      <option value="15">last 15d</option>
       <option value="30">last 30d</option>
       <option value="45" selected>last 45d</option>
-      <option value="90">last 90d</option>
     </select>
     <button id="refresh" title="re-scan">⟳</button>
   </div>
@@ -39,6 +37,7 @@
       <span><i class="dot partial"></i>partial coverage</span>
       <span><i class="dot ready"></i>Copernicus-ready — service today</span>
     </div>
+    <div class="asof" id="asof"></div>
     <div id="list" class="list"><div class="rows skeleton">scanning Copernicus catalogue…</div></div>
   </aside>
   <div id="map"></div>

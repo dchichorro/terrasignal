@@ -18,9 +18,17 @@ const state = { region: 'eu', days: 45, radar: null, selected: null };
 async function fetchRadar() {
   $('#list').innerHTML = '<div class="skeleton">scanning Copernicus catalogue…</div>';
   try {
-    const r = await fetch(`/api/radar?region=${state.region}&days=${state.days}`);
-    if (!r.ok) throw new Error(await r.text());
-    state.radar = await r.json();
+    let data = null;
+    try {
+      const live = await fetch(`api/radar?region=${state.region}&days=${state.days}`);
+      if (live.ok) data = await live.json();
+    } catch { /* static hosting: no live API */ }
+    if (!data) {
+      const snap = await fetch(`data/radar-${state.region}-${state.days}.json`);
+      if (!snap.ok) throw new Error('no live API and no static snapshot');
+      data = await snap.json();
+    }
+    state.radar = data;
     $('#err').classList.add('hidden');
     render();
   } catch (e) {
@@ -31,6 +39,12 @@ async function fetchRadar() {
 
 function render() {
   const { kpis, events } = state.radar;
+  const asof = $('#asof');
+  if (asof) {
+    asof.textContent = state.radar.asOf
+      ? `static snapshot · ${state.radar.asOf.slice(0, 16).replace('T', ' ')} UTC`
+      : 'live scan';
+  }
   const fmt = (n) => (n == null ? '—' : n.toLocaleString('en-US'));
   $('#kpis').innerHTML = `
     <div class="kpi red"><b>${kpis.unmetSharePct}%</b><span>demand not met by free imagery → ${kpis.gaps} tasking gaps</span></div>
@@ -110,7 +124,11 @@ $('#refresh').addEventListener('click', fetchRadar);
 
 async function pollIss() {
   try {
-    const { iss } = await (await fetch('/api/pulse')).json();
+    let iss = null;
+    try {
+      iss = await (await fetch('https://api.wheretheiss.at/v1/satellites/25544')).json();
+    } catch { /* fall through to local proxy */ }
+    if (!iss) iss = (await (await fetch('api/pulse')).json()).iss;
     if (!iss) return;
     $('#iss-info').textContent = `ISS ${Math.round(iss.altitude)} km · ${Math.round(iss.velocity).toLocaleString('en-US')} km/h · ${iss.visibility}`;
     const pos = [iss.latitude, iss.longitude];

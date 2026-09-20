@@ -37,6 +37,7 @@ main { flex: 1; display: flex; min-height: 0; }
 
 .legend { padding: 8px 12px; display: flex; flex-direction: column; gap: 3px;
   font-size: 11.5px; color: var(--dim); border-bottom: 1px solid var(--line); }
+.asof { padding: 5px 12px; font-size: 11px; color: var(--dim); border-bottom: 1px solid var(--line); }
 .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; }
 .dot.gap { background: var(--red); } .dot.partial { background: var(--amber); } .dot.ready { background: var(--green); }
 
