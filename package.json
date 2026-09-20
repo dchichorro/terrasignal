@@ -1,0 +1,18 @@
+{
+  "name": "terrasignal",
+  "version": "0.1.0",
+  "description": "EO Demand Radar — match live natural-event demand against Copernicus Sentinel-2 imagery supply",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "radar": "node src/cli.mjs",
+    "demo": "node src/server.mjs",
+    "test": "node --test test/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "playwright-core": "^1.63.0"
+  }
+}

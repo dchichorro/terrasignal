@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TerraSignal — EO Demand Radar</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span class="logo">◉</span>
+    <h1>TerraSignal<span class="sub">EO Demand Radar</span></h1>
+  </div>
+  <div class="controls">
+    <div class="seg" id="region">
+      <button data-v="eu" class="on">Europe</button>
+      <button data-v="global">Global</button>
+    </div>
+    <select id="days" title="events opened within">
+      <option value="15">last 15d</option>
+      <option value="30">last 30d</option>
+      <option value="45" selected>last 45d</option>
+      <option value="90">last 90d</option>
+    </select>
+    <button id="refresh" title="re-scan">⟳</button>
+  </div>
+  <div class="ticker" id="ticker">
+    <span class="iss-dot"></span><span id="iss-info">ISS —</span>
+  </div>
+</header>
+
+<main>
+  <aside id="side">
+    <div class="kpis" id="kpis"></div>
+    <div class="legend">
+      <span><i class="dot gap"></i>tasking gap — no fresh clear free data</span>
+      <span><i class="dot partial"></i>partial coverage</span>
+      <span><i class="dot ready"></i>Copernicus-ready — service today</span>
+    </div>
+    <div id="list" class="list"><div class="rows skeleton">scanning Copernicus catalogue…</div></div>
+  </aside>
+  <div id="map"></div>
+</main>
+
+<div id="err" class="err hidden"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
