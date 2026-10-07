@@ -1,76 +1,97 @@
-# TerraSignal — EO Demand Radar
+# TerraSignal: the lead radar for Earth-observation sales
 
-**Who needs satellite data right now — and can free Copernicus imagery actually serve them?**
+**Find the satellite-imagery deals free data can't close.**
 
-TerraSignal turns the ESA space market's core economics into a live map. It fuses two
-public demand feeds — **GDACS** (the European Commission/UN disaster alert system) and
-**NASA EONET** (open natural events) — with the real **Sentinel-2 L2A** catalog (Copernicus
-data, served open via Element 84's STAC API), and scores every event on one axis:
+Copernicus gives away petabytes of imagery, and the EO market makes its money *around*
+that free supply: tasking where free data can't deliver, and analytics where it can.
+TerraSignal watches live disaster demand and free Sentinel supply on one screen, then
+turns the gap into **ranked, priced leads** for tasking and analytics sales teams.
 
-| Classification | Meaning | Business read |
+- **Live site:** https://dchichorro.github.io/terrasignal/ (landing) · [`radar.html`](https://dchichorro.github.io/terrasignal/radar.html) (dashboard)
+- **Product brief:** [`docs/product.md`](docs/product.md) covers customer, positioning, pricing and roadmap
+- **Domain glossary:** [`CONTEXT.md`](CONTEXT.md) · **Decisions:** [`docs/adr/`](docs/adr/)
+
+## What it does
+
+| Step | Inputs | Output |
 |---|---|---|
-| ⛔ **TASKING GAP** | high demand, no fresh & clear free imagery | commercial VHR tasking lead (Pleiades Neo, IDEa, Spire, ICEYE…) |
-| ◑ **PARTIAL** | stale or cloudy free data | up-sell: fusion, SAR complement, priority revisit |
-| ✔ **COPERNICUS-READY** | fresh, mostly clear S2 passes on scene | serviceable today — value-added analytics on free data |
+| **Demand** | Copernicus EMS activations, GDACS (EC JRC/UN), USGS earthquakes, NASA EONET | merged, de-duplicated events with a demand score `D` |
+| **Supply** | the real Sentinel-2 L2A optical + Sentinel-1 GRD radar catalogues (Element 84 STAC), live Sentinel orbits | free coverage `S` (freshness × cloud, radar-blended per hazard), next free pass |
+| **Lead** | a transparent price book | recommended product, AOI area, indicative deal value, sales brief |
 
-The headline KPI — **unmet demand share** — is a proxy for the addressable near-term
-tasking market, and the **24 h ingest counter** is the pulse of free-supply flooding
-Europe (≈1.5k new scenes/day over the continent).
+Each event's demand splits three ways, and the split is unit-tested:
 
-## Score model
+    D = coverage gap  D·(1−S)        free missions have not looked (well)     → tasking
+      + VHR gap       D·S·v          looked, but the need is sub-metre        → VHR tasking
+      + serviceable   D·S·(1−v)      deliverable today from free data         → analytics
 
-For each event, with free-imagery supply `S ∈ [0,1]` measured from actual catalog data
-(freshness × cloud, Sentinel-2 revisit ≈ 5 d) and demand `D ∈ [0,1]` from alert/category
-prior, age decay and reported magnitude:
+`v` is the hazard's very-high-resolution share: free 10 m pixels can't grade building
+damage, however fresh they are. Classification (⛔ **TASKING GAP** / ◑ **PARTIAL** /
+✔ **COPERNICUS-READY**) stays on coverage `S`, because it answers "can free data see it at all?".
 
-- `opportunity  = 100 · D · (1 − S)` → tasking-gap signal
-- `serviceable  = 100 · D · S` → revenue achievable off free data today
-- `opportunity + serviceable = demand` — the split is the insight, unit-tested.
+## Product surface
 
-## Quick start (zero dependencies, Node ≥ 20)
+- **Live radar**: ranked leads with deal value and recommended product, filters (gap / partial / ready / CEMS),
+  Sentinel footprints and thumbnails, live constellation, "next Sentinel-2 look" ETA, and feed-health indicators.
+- **Score any area**: drop a pin and set a radius to get a live S1+S2 supply score. This works on the static site
+  too, because the scoring core runs in the browser against the CORS-open STAC.
+- **Exports**: CSV (CRM), GeoJSON (GIS), Atom feed (Slack / Teams / RSS), and a one-click sales brief per lead.
+- **Deep links**: region, window, filter, selected lead and pin are all kept in the URL, so you can share exactly what you see.
+- **API**: `/api/radar`, `/api/aoi`, `/api/leads.csv`, `/api/leads.geojson`, `/feed.xml`, `/api/health`,
+  `/api/openapi.json`.
+
+## Quick start (zero runtime dependencies, Node ≥ 20)
 
 ```bash
-npm run radar -- --region=global --days=30   # terminal radar report
-npm run demo                                 # dashboard → http://localhost:4660
-npm test                                     # score model unit tests
+npm run radar -- --region=global --days=30   # terminal lead report
+npm start                                    # landing + radar → http://localhost:4660
+npm test                                     # 40 offline unit/integration tests
+npm run build:static                         # snapshots + exports for the static site
+npm run video                                # record the product demo (needs playwright-core's browser)
 ```
 
-## Shared site (GitHub Pages)
+## Architecture
 
-https://dchichorro.github.io/terrasignal/ — the same dashboard, fully static:
+    src/core/        ISOMORPHIC: runs in Node and the browser, no node: imports (test-enforced)
+      score.mjs      demand / supply / SAR blend / VHR split / classification (pure)
+      value.mjs      price book, product recommendation, deal sizing, pipeline totals
+      merge.mjs      cross-feed fusion and de-duplication (source precedence CEMS > GDACS > USGS > EONET)
+      aoi.mjs        custom-AOI scoring with injectable catalogue fetchers
+      export.mjs     CSV / GeoJSON / Atom / sales brief
+      stac.mjs       Sentinel-1/2 catalogue client · http.mjs fetch with timeout + retry
+    src/sources/     demand-feed adapters, one module each (id, label, fetchEvents) + registry
+    src/lib/cache.mjs disk cache: TTL, stale-on-error, single-flight
+    src/radar.mjs    orchestration, dependency-injected (sources, supply, cache, clock)
+    src/app.mjs      HTTP handler factory: routing, validation (400s), exports, static, security headers
+    src/server.mjs   entrypoint · src/cli.mjs terminal report · src/openapi.mjs API description
+    public/          landing (index.html), dashboard (radar.html, js/*.mjs ES modules), static data/
+    scripts/         build-static.mjs (snapshots, exports, core bundle) · demo-video.mjs
 
-- `.github/workflows/radar-data.yml` runs `npm run build:static` hourly (and on demand),
-  writing `public/data/radar-<region>-<days>.json`; it commits only when the data
-  materially changed, so history stays small.
-- `.github/workflows/pages.yml` deploys `public/` to Pages on every push.
-- `public/data/tle.json` bundles Sentinel TLEs (CelesTrak, refreshed hourly); the browser
-  propagates them for live constellation markers and per-event "next Sentinel-2 look" ETAs.
-- The browser prefers the live API (`api/radar`) when the Node server is running and
-  falls back to the static snapshots otherwise.
+The browser imports the same `src/core` (served at `/core/` live, or copied to
+`public/core/` for Pages). That gives one scoring model and one export format whether
+the radar runs on the server, in the browser, or in CI.
 
-## Layout
+**Resilience:** every feed is isolated. A dead source is reported in `radar.feeds` and
+shown in the UI, and the radar is built from whatever remains. Catalogue calls are
+disk-cached with stale-on-error, and concurrent identical calls share one upstream request.
 
-    src/score.mjs   pure demand/supply scoring model (tested)
-    src/gdacs.mjs   GDACS EC/UN alert RSS → unified events
-    src/eonet.mjs   NASA EONET open events → unified events
-    src/stac.mjs    Sentinel-2 L2A catalog queries (Element 84 STAC, keyless)
-    src/radar.mjs   orchestration: merge, dedupe, per-event supply scan, KPIs
-    src/server.mjs  static host + /api/radar, cache-warm on boot
-    src/cli.mjs     ANSI report
-    scripts/build-static.mjs  hourly snapshots for the Pages site
-    public/         Leaflet dashboard (dark map, ranked sidebar, footprints, thumbnails)
+## Deployment (GitHub Pages)
 
-Data is disk-cached (`.cache/`) with stale-on-error, so demos survive network blips.
+- `radar-data.yml` runs hourly: it builds snapshots and exports into `public/data/` and commits them
+  only when they materially changed.
+- `pages.yml` deploys on push **and after each radar-data run** (`workflow_run`). Bot pushes made
+  with `GITHUB_TOKEN` never trigger `push` workflows, so before this fix the site stopped
+  updating on 2026-09-20.
+- `ci.yml` runs the test suite on Node 20 and 22.
 
-## Roadmap / honest limitations
+## Honest limitations
 
-- EONET is currently US-biased; GDACS carries the non-US demand — a EU civil-protection
-  (ERCC) feed or EMS activation API would deepen it.
-- Supply is optical-only; a SAR complement (Sentinel-1 via the same STAC) would stop
-  penalising cloudy demand that commercial SAR can actually serve.
-- `gdx_score`, affected-population fields and ERCC news could sharpen the demand prior;
-  a Pleiades Neo / OneAtlas price book would convert gap scores into € of market.
+- Price-book values are **illustrative placeholders**. Calibrate `src/core/value.mjs` against a real price list.
+- `VHR_NEED`, `SAR_UTILITY` and the demand priors are reasoned heuristics, open for calibration against real order books.
+- EONET skews to the US; GDACS and CEMS carry most non-US demand. See [`docs/feed-research.md`](docs/feed-research.md)
+  for the next feeds (FIRMS, ReliefWeb, EFFIS…).
+- Supply is measured at the event point ± AOI margin, not the full footprint polygon.
 
-Data attribution: NASA EONET (GSFC), GDACS (EC JRC / UN), Copernicus Sentinel-2
-processed by ESA, catalog via Element 84's public STAC. This is a demo tool, not a
-response system.
+Data attribution: Copernicus EMS, GDACS (EC JRC / UN), USGS, NASA EONET (GSFC), Copernicus
+Sentinel-1/2 (ESA) via Element 84 Earth Search, CelesTrak. TerraSignal is a market-intelligence
+tool, not an emergency-response system.
