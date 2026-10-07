@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TerraSignal Radar</title>
+<meta name="description" content="Live Earth-observation demand vs free Copernicus supply: ranked, priced satellite-imagery leads." />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body class="app">
+<header>
+  <a class="brand" href="./" title="TerraSignal home">
+    <img class="logo" src="favicon.svg" alt="" width="20" height="20" />
+    <h1>TerraSignal<span class="sub">EO Demand Radar</span></h1>
+  </a>
+  <div class="controls">
+    <div class="seg" id="region">
+      <button data-v="eu" class="on">Europe</button>
+      <button data-v="global">Global</button>
+    </div>
+    <select id="days" title="events opened within">
+      <option value="30">last 30d</option>
+      <option value="45" selected>last 45d</option>
+    </select>
+    <button id="refresh" class="ctl" title="re-scan"><svg class="ico" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/></svg></button>
+    <span class="sep"></span>
+    <button id="pinBtn" class="ctl" title="score any area: click the map to drop an AOI pin"><svg class="ico" viewBox="0 0 24 24"><path d="M12 22s7-6.3 7-12a7 7 0 1 0-14 0c0 5.7 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg> Score an area</button>
+    <label class="radiusCtl" title="AOI radius around the pin">
+      r <input id="radius" type="range" min="2" max="50" step="1" value="10" />
+      <span id="radiusVal">10 km</span>
+    </label>
+    <button id="pinClear" class="ctl hidden" title="remove pin">✕</button>
+    <span class="sep"></span>
+    <div class="menuWrap">
+      <button id="exportBtn" class="ctl primary" title="export leads"><svg class="ico" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg> Export leads</button>
+      <div id="exportMenu" class="menu hidden">
+        <button data-x="csv">CSV <small>CRM import</small></button>
+        <button data-x="geojson">GeoJSON <small>QGIS / ArcGIS</small></button>
+        <button data-x="feed">Atom feed <small>Slack · Teams · RSS</small></button>
+      </div>
+    </div>
+    <button id="shareBtn" class="ctl" title="copy a link to exactly this view"><svg class="ico" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></button>
+  </div>
+</header>
+
+<main>
+  <aside id="side">
+    <div class="kpis" id="kpis"></div>
+    <div class="filters" id="filters">
+      <button data-f="all" class="on">All <em></em></button>
+      <button data-f="gap"><i class="dot gap"></i>Gap <em></em></button>
+      <button data-f="partial"><i class="dot partial"></i>Partial <em></em></button>
+      <button data-f="ready"><i class="dot ready"></i>Ready <em></em></button>
+      <button data-f="cems" title="Copernicus EMS activations: confirmed, funded tasking demand">CEMS <em></em></button>
+    </div>
+    <div class="asof" id="asof"></div>
+    <div id="list" class="list"><div class="skeleton">scanning Copernicus catalogue…</div></div>
+    <details class="legend">
+      <summary>How to read this</summary>
+      <span><i class="bar gap"></i>coverage gap: free Sentinels have not seen it (well): tasking lead</span>
+      <span><i class="bar res"></i>VHR gap: seen at 10 m, but the buyer needs sub-metre detail</span>
+      <span><i class="bar ready"></i>serviceable now from free Copernicus data: analytics lead</span>
+      <span><i class="dot sat"></i>live Sentinel positions (propagated TLEs)</span>
+      <span><i class="ring"></i>dashed ring = Copernicus EMS activation</span>
+    </details>
+  </aside>
+  <div id="map"></div>
+</main>
+
+<div id="err" class="err hidden"></div>
+<div id="toast" class="toast"></div>
+<div id="modal" class="modal hidden"><div class="card"><button class="close" title="close">✕</button><div id="modalBody"></div></div></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/satellite.js@5.0.0/dist/satellite.min.js"></script>
+<script type="module" src="js/app.mjs"></script>
+</body>
+</html>
