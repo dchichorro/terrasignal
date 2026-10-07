@@ -4,10 +4,11 @@ import { buildRadar, buildAoi, REGIONS } from './radar.mjs';
 import { createHandler } from './app.mjs';
 
 const PORT = Number(process.env.PORT ?? 4660);
+const HOST = process.env.HOST ?? '0.0.0.0'; // reachable from the LAN / Tailscale; HOST=127.0.0.1 for local-only
 const server = createServer(createHandler({ buildRadar, buildAoi, regions: REGIONS }));
 
-server.listen(PORT, async () => {
-  console.log(`TerraSignal radar on http://localhost:${PORT}`);
+server.listen(PORT, HOST, async () => {
+  console.log(`TerraSignal radar on http://${HOST}:${PORT}`);
   if (process.env.TERRASIGNAL_NO_WARM) return;
   for (const region of ['global', 'eu']) {
     try {
