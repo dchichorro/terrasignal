@@ -12,7 +12,12 @@ L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/
 let markers = L.layerGroup().addTo(map);
 let footprints = L.layerGroup().addTo(map);
 let selPin = null;
-const state = { region: 'eu', days: 45, radar: null, selected: null };
+const PIN_COLOR = '#c58aff';
+const pinLayer = L.layerGroup().addTo(map);
+let pinMarker = null;
+let aoiCircle = null;
+const state = { region: 'eu', days: 45, radar: null, selected: null, custom: null, pin: null, pinMode: false };
+let radiusKm = 10;
 
 async function fetchRadar() {
   $('#list').innerHTML = '<div class="skeleton">scanning Copernicus catalogue…</div>';
@@ -37,6 +42,36 @@ async function fetchRadar() {
 }
 
 function render() {
+  const loadingRow = state.customLoading && !state.custom
+    ? `<div class="row custom" data-custom="1">
+      <div class="top"><span class="rank">◆</span><span class="title">Scoring custom AOI · r ${radiusKm} km…</span>
+        <span class="badge custom">CUSTOM PIN</span></div>
+      <div class="metrics"><span class="pin-note">querying Sentinel-2 catalogue…</span></div>
+    </div>` : '';
+  const customRow = state.custom ? (() => {
+    const e = state.custom;
+    const supplyPct = Math.round(e.supply * 100);
+    const gapW = (e.demand / 100) * (100 - supplyPct);
+    const nowW = e.demand - gapW;
+    return `<div class="row custom${state.selected === 'custom' ? ' sel' : ''}" data-custom="1">
+      <div class="top"><span class="rank">◆</span><span class="title">${esc(e.title)}</span>
+        <span class="badge custom">CUSTOM PIN</span></div>
+      <div class="metrics"><span>gap <b style="color:${PIN_COLOR}">${e.opportunity}</b></span>
+        <span>last pass <b>${e.lastAgeDays != null ? e.lastAgeDays + 'd' : 'none'}</b></span>
+        <span>cloud <b>${e.medianCloud != null ? e.medianCloud + '%' : '—'}</b></span>
+        <span>passes <b>${e.count}</b></span><span>demand <b>${e.demand}</b></span>
+        <span class="pin-note">r ${esc(String(e.radiusKm ?? radiusKm))} km</span></div>
+      <div class="meter"><i style="width:${gapW}%;background:${PIN_COLOR}"></i><i style="left:${gapW}%;width:${nowW}%;background:var(--green)"></i></div>
+    </div>`;
+  })() : '';
+
+  // radar not loaded yet (or scan failed): still show the custom pin row / loader
+  if (!state.radar) {
+    $('#list').innerHTML = customRow + loadingRow + '<div class="skeleton">scanning Copernicus catalogue…</div>';
+    document.querySelectorAll('.row[data-custom]').forEach((el) =>
+      el.addEventListener('click', () => { if (state.custom) select(state.custom, 'custom'); }));
+    return;
+  }
   const { kpis, events } = state.radar;
   const asof = $('#asof');
   if (asof) {
@@ -51,7 +86,7 @@ function render() {
     <div class="kpi cyan"><b>${fmt(kpis.scenes24h)}<span class="spark"> ${kpis.euScenes24h != null ? '· ' + fmt(kpis.euScenes24h) + ' EU' : ''}</span></b><span>new S2 scenes ingested / 24 h</span></div>
     <div class="kpi"><b>${kpis.eventsAnalysed}<span class="spark"> / ${kpis.eventsInScope}</span></b><span>open EO-relevant events analysed</span></div>`;
 
-  $('#list').innerHTML = events.map((e, i) => {
+  $('#list').innerHTML = customRow + loadingRow + events.map((e, i) => {
     const cls = e.cls === 'TASKING GAP' ? 'gap' : e.cls === 'COPERNICUS-READY' ? 'ready' : 'partial';
     const supplyPct = Math.round(e.supply * 100);
     const gapW = (e.demand / 100) * (100 - supplyPct);
@@ -67,7 +102,10 @@ function render() {
     </div>`;
   }).join('');
   document.querySelectorAll('.row').forEach((el) =>
-    el.addEventListener('click', () => select(events[el.dataset.i], Number(el.dataset.i))));
+    el.addEventListener('click', () => {
+      if (el.dataset.custom) { if (state.custom) select(state.custom, 'custom'); }
+      else if (el.dataset.i !== undefined) select(events[el.dataset.i], Number(el.dataset.i));
+    }));
 
   markers.clearLayers();
   for (const [i, e] of events.entries()) {
@@ -84,7 +122,10 @@ function render() {
 
 function select(e, i, fromList = true) {
   state.selected = i;
-  document.querySelectorAll('.row').forEach((el) => el.classList.toggle('sel', Number(el.dataset.i) === i));
+  document.querySelectorAll('.row').forEach((el) => {
+    const isCustom = el.dataset.custom === '1';
+    el.classList.toggle('sel', isCustom ? i === 'custom' : Number(el.dataset.i) === i);
+  });
   if (fromList && e.lat != null) map.flyTo([e.lat, e.lng], Math.max(map.getZoom(), 6), { duration: 0.8 });
   footprints.clearLayers();
   const fps = (e.footprints ?? []).filter((f) => f.geom);
@@ -106,9 +147,14 @@ function select(e, i, fromList = true) {
       <tr><td>next Sentinel-2 look</td><td id="nextpass">propagating…</td></tr>
       <tr><td>magnitude</td><td>${e.magnitudeValue != null ? e.magnitudeValue + ' ' + esc(e.magnitudeUnit ?? '') : '—'}</td></tr>
       ${rows}</table></div>`;
-  if (selPin) markers.removeLayer(selPin);
+  if (selPin) { markers.removeLayer(selPin); selPin = null; }
+  if (e.custom && pinMarker) {
+    pinMarker.bindPopup(popup, { maxWidth: 340, maxHeight: 320, autoPan: true });
+    setTimeout(() => { pinMarker.openPopup(); fillNextPass(e); }, 300);
+    return;
+  }
   selPin = L.marker([e.lat, e.lng]).addTo(markers);
-  selPin.bindPopup(popup, { maxWidth: 340, autoPan: true });
+  selPin.bindPopup(popup, { maxWidth: 340, maxHeight: 320, autoPan: true });
   setTimeout(() => { selPin.openPopup(); fillNextPass(e); }, 900); // after flyTo settles and popup DOM exists
 }
 
@@ -194,8 +240,100 @@ $('#region').addEventListener('click', (ev) => {
   map.flyTo(VIEWS[state.region].center, VIEWS[state.region].zoom, { duration: 1 });
   fetchRadar();
 });
-$('#days').addEventListener('change', (e) => { state.days = Number(e.target.value); fetchRadar(); });
+$('#days').addEventListener('change', (e) => { state.days = Number(e.target.value); fetchRadar(); if (state.pin) fetchCustom(); });
 $('#refresh').addEventListener('click', fetchRadar);
+
+// --- custom pin + configurable AOI radius ---
+function setPinMode(on) {
+  state.pinMode = on;
+  $('#pinBtn').classList.toggle('on', on);
+  map.getContainer().classList.toggle('pin-mode', on);
+}
+
+$('#pinBtn').addEventListener('click', () => setPinMode(!state.pinMode));
+
+$('#pinClear').addEventListener('click', () => {
+  state.pin = null; state.custom = null;
+  if (state.selected === 'custom') state.selected = null;
+  pinLayer.clearLayers(); pinMarker = null; aoiCircle = null;
+  $('#pinClear').classList.add('hidden');
+  setPinMode(false);
+  render();
+});
+
+map.on('click', (ev) => {
+  if (!state.pinMode) return;
+  placePin(ev.latlng.lat, ev.latlng.lng);
+  setPinMode(false);
+});
+
+function placePin(lat, lng) {
+  state.pin = { lat: +lat.toFixed(5), lng: +lng.toFixed(5) };
+  drawPin();
+  $('#pinClear').classList.remove('hidden');
+  fetchCustom();
+}
+
+function drawPin() {
+  if (!state.pin) return;
+  pinLayer.clearLayers();
+  aoiCircle = L.circle([state.pin.lat, state.pin.lng], {
+    radius: radiusKm * 1000, color: PIN_COLOR, weight: 1.5, fillOpacity: 0.08, dashArray: '5 5',
+  }).addTo(pinLayer);
+  pinMarker = L.marker([state.pin.lat, state.pin.lng], { draggable: true }).addTo(pinLayer);
+  pinMarker.bindTooltip(`custom AOI · r ${radiusKm} km — drag to move`, { direction: 'top' });
+  pinMarker.on('dragend', () => {
+    const p = pinMarker.getLatLng();
+    state.pin = { lat: +p.lat.toFixed(5), lng: +p.lng.toFixed(5) };
+    aoiCircle.setLatLng(p);
+    fetchCustom();
+  });
+}
+
+let customTimer = null;
+let customSeq = 0;
+async function fetchCustom() {
+  if (!state.pin) return;
+  drawPinLiveRadius();
+  state.customLoading = true;
+  $('#err').classList.add('hidden');
+  render();
+  const my = ++customSeq;
+  const { lat, lng } = state.pin;
+  try {
+    const r = await fetch(`/api/aoi?lat=${lat}&lng=${lng}&radiusKm=${radiusKm}&days=${state.days}`);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data = await r.json();
+    if (data?.error) throw new Error(data.error);
+    if (my !== customSeq) return; // superseded by a newer radius/drag
+    state.custom = data;
+    state.customLoading = false;
+    render();
+    drawPin(); // re-draw over render (pin lives in its own layer, survives anyway)
+    select(data, 'custom', false);
+  } catch (e) {
+    if (my !== customSeq) return;
+    state.customLoading = false;
+    render();
+    console.error('custom AOI failed:', e);
+    $('#err').textContent =
+      'custom AOI failed (' + e.message + '). Needs the live server with the new /api/aoi endpoint — restart it (`npm run demo`) and hard-refresh the page. Static hosting has no AOI scoring.';
+    $('#err').classList.remove('hidden');
+  }
+}
+
+function drawPinLiveRadius() {
+  if (aoiCircle) aoiCircle.setRadius(radiusKm * 1000);
+  if (pinMarker) pinMarker.setTooltipContent(`custom AOI · r ${radiusKm} km — drag to move`);
+}
+
+$('#radius').addEventListener('input', (e) => {
+  radiusKm = Number(e.target.value);
+  $('#radiusVal').textContent = `${radiusKm} km`;
+  drawPinLiveRadius();
+  clearTimeout(customTimer);
+  if (state.pin) customTimer = setTimeout(fetchCustom, 450);
+});
 
 fetchRadar();
 loadSats();

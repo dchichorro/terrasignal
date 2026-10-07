@@ -23,6 +23,12 @@
       <option value="45" selected>last 45d</option>
     </select>
     <button id="refresh" title="re-scan">⟳</button>
+    <button id="pinBtn" title="place a pin: click the map to score a custom AOI (needs live server)">📍 pin</button>
+    <label class="radiusCtl" title="AOI radius around the pin">
+      r <input id="radius" type="range" min="2" max="50" step="1" value="10" />
+      <span id="radiusVal">10 km</span>
+    </label>
+    <button id="pinClear" class="hidden" title="remove pin">✕</button>
   </div>
 </header>
 
@@ -34,6 +40,7 @@
       <span><i class="dot partial"></i>partial coverage</span>
       <span><i class="dot ready"></i>Copernicus-ready — service today</span>
       <span><i class="dot sat"></i>live Sentinel positions (propagated TLEs)</span>
+      <span><i class="dot pin"></i>custom pin AOI (📍 pin → click map, drag slider for radius)</span>
     </div>
     <div class="asof" id="asof"></div>
     <div id="list" class="list"><div class="rows skeleton">scanning Copernicus catalogue…</div></div>

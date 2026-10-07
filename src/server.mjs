@@ -2,7 +2,7 @@
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { extname, normalize } from 'node:path';
-import { buildRadar, REGIONS } from './radar.mjs';
+import { buildRadar, buildAoi, REGIONS } from './radar.mjs';
 
 const PORT = Number(process.env.PORT ?? 4660);
 const PUBLIC = new URL('../public/', import.meta.url).pathname;
@@ -11,6 +11,14 @@ const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css
 const server = createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   try {
+    if (url.pathname === '/api/aoi') {
+      const lat = Number(url.searchParams.get('lat'));
+      const lng = Number(url.searchParams.get('lng'));
+      const radiusKm = Number(url.searchParams.get('radiusKm') ?? url.searchParams.get('radius') ?? 10);
+      const days = Number(url.searchParams.get('days') ?? 45);
+      const data = await buildAoi({ lat, lng, radiusKm, days });
+      return json(res, data);
+    }
     if (url.pathname === '/api/radar') {
       const region = REGIONS[url.searchParams.get('region')] ? url.searchParams.get('region') : 'eu';
       const days = Number(url.searchParams.get('days') ?? 45);

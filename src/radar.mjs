@@ -65,6 +65,40 @@ export async function buildRadar({ region = 'eu', days = 45, focus = 30, concurr
   };
 }
 
+/** Score a user-placed pin: AOI circle of radiusKm around (lat,lng) vs live S2 supply. */
+export async function buildAoi({ lat, lng, radiusKm = 10, days = 45 } = {}) {
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) throw new Error('lat/lng required');
+  if (lat < -90 || lat > 90 || lng < -180 || lng > 180) throw new Error('lat/lng out of range');
+  const r = Math.min(100, Math.max(1, Number(radiusKm) || 10));
+  const d = Math.min(90, Math.max(7, Number(days) || 45));
+  const nowMs = Date.now();
+  const sinceISO = new Date(nowMs - d * 86_400_000).toISOString();
+  const marginDeg = r / 111.32; // km → degrees latitude; stac.mjs widens lng by cos(lat)
+  const scenes = await cached(
+    `aoi:${lat.toFixed(3)}:${lng.toFixed(3)}:${r}:${sinceISO.slice(0, 10)}`,
+    15 * 60_000,
+    () => scenesAroundPoint({ lng, lat, sinceISO, marginDeg, limit: 25 }),
+  ).catch(() => []);
+  const evt = {
+    id: `custom:${lat.toFixed(4)},${lng.toFixed(4)}:r${r}`,
+    title: `Custom pin ${lat.toFixed(3)}, ${lng.toFixed(3)} · r ${r} km`,
+    place: 'user-placed pin',
+    catId: 'manual-events',
+    openedISO: new Date(nowMs).toISOString(),
+    lat,
+    lng,
+    radiusKm: r,
+    custom: true,
+    src: 'CUSTOM',
+  };
+  const scored = scoreEvent(evt, scenes, nowMs);
+  return {
+    ...scored,
+    footprints: scenes.slice(0, 12).map((s) => ({ dt: s.dt, cloud: s.cloud, platform: s.platform, geom: s.geom })),
+    recentScenes: scenes.slice(0, 6).map(({ id, dt, cloud, platform, thumb }) => ({ id, dt, cloud, platform, thumb })),
+  };
+}
+
 /** GDACS alerts win proximity conflicts (official, has severity); then dedupe within feed. */
 function mergeDemand(gdacs, eonet, nowMs, days) {
   const cutoff = nowMs - days * 86_400_000;
