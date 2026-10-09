@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { demandScore, supplyStats, scoreEvent, classify } from '../src/score.mjs';
+import { demandScore, supplyStats, sarStats, combinedSupply, scoreEvent, classify, gapReason } from '../src/core/score.mjs';
 
 const NOW = Date.parse('2026-09-19T00:00:00Z');
 const daysAgo = (d) => new Date(NOW - d * 86_400_000).toISOString();
@@ -18,6 +18,11 @@ test('magnitude boosts demand, capped', () => {
   const big = demandScore({ catId: 'wildfires', openedISO: daysAgo(3), magnitudeValue: 90000 }, NOW);
   assert.ok(big > plain);
   assert.ok(big <= 1);
+});
+
+test('a Copernicus EMS activation raises demand', () => {
+  const e = { catId: 'floods', prior: 0.7, openedISO: daysAgo(3) };
+  assert.ok(demandScore({ ...e, activation: 'EMSR1' }, NOW) > demandScore(e, NOW));
 });
 
 test('no scenes means zero supply', () => {
@@ -44,8 +49,41 @@ test('classify thresholds', () => {
   assert.equal(classify(0.9), 'COPERNICUS-READY');
 });
 
-test('opportunity + serviceable reconstruct demand (±1 rounding)', () => {
-  const e = scoreEvent({ catId: 'floods', openedISO: daysAgo(1) }, [scene(2, 30)], NOW);
-  assert.ok(Math.abs(e.opportunity + e.serviceable - e.demand) <= 1);
-  assert.ok(['TASKING GAP', 'PARTIAL', 'COPERNICUS-READY'].includes(e.cls));
+test('SAR supply ignores cloud and decays with age', () => {
+  assert.equal(sarStats([], NOW).sarSupply, 0);
+  const fresh = sarStats([{ dt: daysAgo(1) }], NOW).sarSupply;
+  const old = sarStats([{ dt: daysAgo(20) }], NOW).sarSupply;
+  assert.ok(fresh > 0.8 && old < 0.2);
+});
+
+test('SAR lifts cloudy flood supply far more than cloudy wildfire supply', () => {
+  const flood = combinedSupply(0.2, 0.9, 'floods');
+  const fire = combinedSupply(0.2, 0.9, 'wildfires');
+  assert.ok(flood > 0.85, `flood=${flood}`);
+  assert.ok(fire < 0.55, `fire=${fire}`);
+  assert.ok(Math.abs(combinedSupply(0.3, 0, 'floods') - 0.3) < 1e-9); // no SAR → optical only
+});
+
+test('opportunity + serviceable reconstruct demand (±2 rounding)', () => {
+  for (const catId of ['floods', 'earthquake', 'drought']) {
+    const e = scoreEvent({ catId, openedISO: daysAgo(1) }, [scene(2, 30)], NOW, { sarScenes: [{ dt: daysAgo(1) }] });
+    assert.ok(Math.abs(e.opportunity + e.serviceable - e.demand) <= 2, `${catId}: ${JSON.stringify(e)}`);
+    assert.ok(Math.abs(e.coverageGap + e.resolutionGap - e.opportunity) <= 1);
+  }
+});
+
+test('earthquakes keep a VHR resolution gap even when free data is fresh and clear', () => {
+  const scenes = [scene(0.5, 2), scene(3, 3)];
+  const quake = scoreEvent({ catId: 'earthquake', openedISO: daysAgo(1) }, scenes, NOW);
+  const drought = scoreEvent({ catId: 'drought', openedISO: daysAgo(1) }, scenes, NOW);
+  assert.equal(quake.cls, 'COPERNICUS-READY');
+  assert.ok(quake.resolutionGap > quake.coverageGap);
+  assert.ok(quake.resolutionGap > 3 * drought.resolutionGap);
+});
+
+test('gap reason names the shortfall', () => {
+  assert.equal(gapReason({ count: 0 }), 'no-pass');
+  assert.equal(gapReason({ count: 2, lastAgeDays: 15, medianCloud: 5 }), 'stale');
+  assert.equal(gapReason({ count: 2, lastAgeDays: 2, medianCloud: 80 }), 'cloud');
+  assert.equal(gapReason({ count: 2, lastAgeDays: 2, medianCloud: 10 }), null);
 });
