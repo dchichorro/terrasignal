@@ -71,6 +71,8 @@ years of Pro, so the value case is a single lead. The free tier is the marketing
 
 ## Roadmap
 
+Tracked as tickets in [`.scratch/v0.3-roadmap/`](../.scratch/v0.3-roadmap/spec.md); human-only items are listed there too.
+
 **Next (validate)**
 1. Calibrate the price book and `VHR_NEED` with 3–5 reseller sales leads. Track whether radar leads precede RFPs.
 2. Saved AOI watchlists with alerting (needs accounts, so it's the first paid feature).
