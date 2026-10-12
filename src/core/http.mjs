@@ -1,4 +1,6 @@
-export async function fetchJson(url, { method = 'GET', body, timeoutMs = 20000, retries = 2 } = {}) {
+// fetch helpers with timeout + retry. Isomorphic (global fetch/AbortController).
+
+async function request(url, { method = 'GET', body, timeoutMs = 20000, retries = 2, as = 'json' } = {}) {
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {
     const ac = new AbortController();
@@ -11,7 +13,7 @@ export async function fetchJson(url, { method = 'GET', body, timeoutMs = 20000, 
         signal: ac.signal,
       });
       if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
-      return await res.json();
+      return as === 'text' ? await res.text() : await res.json();
     } catch (err) {
       lastErr = err;
       if (attempt < retries) await new Promise((r) => setTimeout(r, 400 * (attempt + 1)));
@@ -21,6 +23,9 @@ export async function fetchJson(url, { method = 'GET', body, timeoutMs = 20000, 
   }
   throw lastErr;
 }
+
+export const fetchJson = (url, opts) => request(url, { ...opts, as: 'json' });
+export const fetchText = (url, opts) => request(url, { ...opts, as: 'text' });
 
 export async function pool(items, concurrency, fn) {
   const out = new Array(items.length);

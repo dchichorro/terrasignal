@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { buildRadar } from './radar.mjs';
+import { fmtEUR } from './core/value.mjs';
 
 const args = parseArgs(process.argv.slice(2));
 const useColor = !args['no-color'] && (process.stdout.isTTY === true || !!process.env.FORCE_COLOR);
@@ -26,6 +27,12 @@ console.log(
     `${C.grey}·${C.reset} ${C.red}${k.gaps} gaps${C.reset} / ${k.eventsAnalysed - k.gaps - k.ready} partial / ${C.green}${k.ready} ready now${C.reset}` +
     `  ${C.grey}(of ${k.eventsInScope} open events in scope)${C.reset}`,
 );
+console.log(
+  ` Indicative pipeline: ${C.bold}${fmtEUR(k.pipelineEUR)}${C.reset} ${C.grey}(${fmtEUR(k.taskingPipelineEUR)} tasking · ${fmtEUR(k.analyticsPipelineEUR)} analytics on free data · illustrative price book)${C.reset}` +
+    (k.activations ? `  ${C.grey}·${C.reset} ${C.cyan}${k.activations} Copernicus EMS activations${C.reset}` : ''),
+);
+const down = Object.entries(radar.feeds ?? {}).filter(([, f]) => !f.ok).map(([id]) => id);
+if (down.length) console.log(` ${C.yellow}feeds unavailable: ${down.join(', ')} (served from what remains)${C.reset}`);
 console.log(C.grey + '─'.repeat(96) + C.reset);
 
 for (const [i, e] of radar.events.entries()) {
@@ -34,11 +41,12 @@ for (const [i, e] of radar.events.entries()) {
   console.log(
     `${C.bold}${String(i + 1).padStart(2)}${C.reset}  ` +
       `${gapCol}GAP ${bar(e.opportunity)} ${e.opportunity}${C.reset}   ${nowCol}NOW ${bar(e.serviceable)} ${e.serviceable}${C.reset}   ${classTag(e.cls)}  ` +
-      `${C.bold}${trunc(e.title, 46)}${C.reset} ${C.grey}[${e.catId}${e.src === 'GDACS' ? ' · GDACS ' + (e.alertLevel ?? '') : ''}]${C.reset}`,
+      `${C.bold}${trunc(e.title, 46)}${C.reset} ${C.grey}[${e.catId} · ${e.src}${e.alertLevel ? ' ' + e.alertLevel : ''}${e.activation ? ' · ' + e.activation : ''}]${C.reset}`,
   );
   console.log(
-    `     ${C.grey}${e.lastAgeDays != null ? `${e.count} pass${e.count === 1 ? '' : 'es'} · last ${e.lastAgeDays}d ago · cloud ${e.medianCloud}% · cadence ${e.cadenceDays != null ? e.cadenceDays + 'd' : '—'} · ${e.demand} demand · ${e.place || ''}` : 'no free-imagery coverage found · ' + e.demand + ' demand · ' + (e.place || '')}${C.reset}`,
+    `     ${C.grey}${e.lastAgeDays != null ? `${e.count} pass${e.count === 1 ? '' : 'es'} · last ${e.lastAgeDays}d ago · cloud ${e.medianCloud}% · cadence ${e.cadenceDays != null ? e.cadenceDays + 'd' : '—'} · ${e.demand} demand · ${e.place || ''}` : 'no free-imagery coverage found · ' + e.demand + ' demand · ' + (e.place || '')}${e.sarLastAgeDays != null ? ` · S1 ${e.sarLastAgeDays}d ago` : ''}${C.reset}`,
   );
+  console.log(`     ${C.cyan}→ ${e.recommendation.label} · ~${e.areaKm2.toLocaleString('en-US')} km² · ${fmtEUR(e.dealEUR)}${C.reset}`);
 }
 
 function classTag(cls) {

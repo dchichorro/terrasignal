@@ -1,5 +1,8 @@
-import { fetchJson } from './http.mjs';
-import { CATEGORY_WEIGHT } from './score.mjs';
+import { fetchJson } from '../core/http.mjs';
+import { CATEGORY_WEIGHT } from '../core/score.mjs';
+
+export const id = 'EONET';
+export const label = 'NASA EONET — open natural events';
 
 const BASE = 'https://eonet.gsfc.nasa.gov/api/v3/events';
 
@@ -9,9 +12,12 @@ const EO_CATEGORIES = new Set([...Object.keys(CATEGORY_WEIGHT), 'lakes', 'iceber
  * Open EONET events, EO-relevant, newest geometry point kept.
  * EONET's server-side geo filter is unreliable, so we bbox client-side.
  */
-export async function fetchOpenEvents({ bbox, days = 60, maxEvents = 2000 } = {}) {
-  const data = await fetchJson(`${BASE}?status=open&limit=${maxEvents}`);
-  const cutoff = Date.now() - days * 86_400_000;
+export async function fetchEvents({ bbox, days = 60, maxEvents = 2000 } = {}) {
+  return parseEvents(await fetchJson(`${BASE}?status=open&limit=${maxEvents}`), { bbox, days });
+}
+
+export function parseEvents(data, { bbox, days = 60, nowMs = Date.now() } = {}) {
+  const cutoff = nowMs - days * 86_400_000;
   return (data.events ?? [])
     .map((e) => normalize(e))
     .filter((e) => e && EO_CATEGORIES.has(e.catId))

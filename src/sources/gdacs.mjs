@@ -1,4 +1,7 @@
-import { fetchJson } from './http.mjs';
+import { fetchText } from '../core/http.mjs';
+
+export const id = 'GDACS';
+export const label = 'GDACS — EC JRC / UN global disaster alerts';
 
 const FEED = 'https://www.gdacs.org/xml/rss.xml';
 const TYPE_MAP = {
@@ -16,18 +19,18 @@ const TYPE_MAP = {
 const ALERT_PRIOR = { Red: 1.0, Orange: 0.8, Green: 0.5 };
 
 function tag(block, name, ns = 'gdacs') {
-  const urls = { gdacs: 'http://www.gdacs.org', georss: 'http://www.georss.org/georss' };
   const re = new RegExp(`<(${ns}:)?${name}[^>]*>([\\s\\S]*?)<\\/(?:${ns}:)?${name}>`);
   const m = block.match(re);
   return m ? m[2].trim() : null;
 }
 
 /** Fetch GDACS (EC/UN) global alerts and map onto the unified event shape. */
-export async function fetchGdacsEvents({ bbox } = {}) {
-  const text = await fetch(FEED, { signal: AbortSignal.timeout(20000) }).then((r) => {
-    if (!r.ok) throw new Error(`GDACS HTTP ${r.status}`);
-    return r.text();
-  });
+export async function fetchEvents({ bbox } = {}) {
+  return parseRss(await fetchText(FEED), { bbox });
+}
+
+/** Parse the GDACS RSS; keeps the newest episode per event. */
+export function parseRss(text, { bbox } = {}) {
   const byEvent = new Map();
   for (const block of text.split('<item>').slice(1)) {
     const chunk = block.split('</item>')[0];
@@ -46,7 +49,7 @@ export async function fetchGdacsEvents({ bbox } = {}) {
     const evt = {
       id: `GDACS_${tag(chunk, 'eventid')}_${tag(chunk, 'episodeid') ?? '1'}`,
       eventId: `GDACS_${tag(chunk, 'eventid')}`,
-      title: mapped.label + (country ? `, ${country}` : ''),
+      title: titleFor(type, mapped.label, country, decode(tag(chunk, 'eventname') ?? '')),
       alertTitle: decode(tag(chunk, 'title')),
       place: country,
       catId: mapped.catId,
@@ -59,12 +62,18 @@ export async function fetchGdacsEvents({ bbox } = {}) {
       magnitudeUnit: null,
       alertLevel: tag(chunk, 'alertlevel'),
       src: 'GDACS',
-      sources: [tag(chunk, 'link')].filter(Boolean),
+      sources: [decode(tag(chunk, 'link'))].filter(Boolean),
     };
     const prev = byEvent.get(evt.eventId);
     if (!prev || Number(evt.id.split('_').pop()) > Number(prev.id.split('_').pop())) byEvent.set(evt.eventId, evt);
   }
   return [...byEvent.values()];
+}
+
+// storms carry a name ("RACHEL-26"); other hazards are best named by country
+function titleFor(type, label, country, name) {
+  if (type === 'TC' && name) return `${label} ${name}${country ? `, ${country}` : ''}`;
+  return label + (country ? `, ${country}` : '');
 }
 
 const decode = (s) =>

@@ -3,48 +3,140 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>TerraSignal — EO Demand Radar</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<title>TerraSignal: satellite-imagery demand radar</title>
+<meta name="description" content="TerraSignal watches live disaster demand and free Copernicus supply side by side, and turns the gap into ranked, priced leads for satellite-imagery sales teams." />
+<meta property="og:title" content="TerraSignal: find the imagery deals free data can't close" />
+<meta property="og:description" content="Live disaster demand vs free Copernicus Sentinel supply → ranked, priced tasking and analytics leads." />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
 <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="landing.css" />
 </head>
-<body>
-<header>
-  <div class="brand">
-    <span class="logo">◉</span>
-    <h1>TerraSignal<span class="sub">EO Demand Radar</span></h1>
+<body class="landing">
+<nav class="top">
+  <a class="brand" href="./"><img src="favicon.svg" alt="" width="22" height="22" /><b>TerraSignal</b></a>
+  <div class="links">
+    <a href="#how">How it works</a><a href="#who">Who it's for</a><a href="#pricing">Pricing</a>
+    <a class="btn" href="radar.html">Open live radar →</a>
   </div>
-  <div class="controls">
-    <div class="seg" id="region">
-      <button data-v="eu" class="on">Europe</button>
-      <button data-v="global">Global</button>
+</nav>
+
+<section class="hero">
+  <div class="copy">
+    <p class="eyebrow">Earth-observation sales intelligence</p>
+    <h1>Find the satellite-imagery deals <span>free data can't close.</span></h1>
+    <p class="lede">Copernicus gives away petabytes of imagery, and the EO market earns its money around that free supply.
+      TerraSignal watches live disaster demand and free Sentinel coverage side by side, and turns the gap into
+      <b>ranked, priced leads</b> for tasking and analytics sales teams.</p>
+    <div class="cta">
+      <a class="btn big" href="radar.html">Open the live radar</a>
+      <a class="btn ghost big" href="#pricing">Get early access</a>
     </div>
-    <select id="days" title="events opened within">
-      <option value="30">last 30d</option>
-      <option value="45" selected>last 45d</option>
-    </select>
-    <button id="refresh" title="re-scan">⟳</button>
+    <p class="fine">No sign-up. Live public data, refreshed hourly.</p>
   </div>
-</header>
-
-<main>
-  <aside id="side">
-    <div class="kpis" id="kpis"></div>
-    <div class="legend">
-      <span><i class="dot gap"></i>tasking gap — no fresh clear free data</span>
-      <span><i class="dot partial"></i>partial coverage</span>
-      <span><i class="dot ready"></i>Copernicus-ready — service today</span>
-      <span><i class="dot sat"></i>live Sentinel positions (propagated TLEs)</span>
+  <div class="live card" id="live">
+    <div class="livehead"><span class="pulse"></span> Right now · <span id="liveRegion">Global</span></div>
+    <div class="big" id="livePipeline">…</div>
+    <div class="dim">indicative weighted pipeline in open events</div>
+    <div class="trio">
+      <div><b id="liveShare">…</b><span>of demand needs paid imagery</span></div>
+      <div><b id="liveEvents">…</b><span>events scored</span></div>
+      <div><b id="liveScenes">…</b><span>new Sentinel-2 scenes / 24 h</span></div>
     </div>
-    <div class="asof" id="asof"></div>
-    <div id="list" class="list"><div class="rows skeleton">scanning Copernicus catalogue…</div></div>
-  </aside>
-  <div id="map"></div>
-</main>
+    <div class="leads" id="liveLeads"></div>
+  </div>
+</section>
 
-<div id="err" class="err hidden"></div>
+<section class="sources">
+  <span>Demand</span><b>Copernicus EMS</b><b>GDACS · EC JRC / UN</b><b>USGS</b><b>NASA EONET</b>
+  <span>Supply</span><b>Sentinel-2 L2A</b><b>Sentinel-1 GRD</b><b>live Sentinel orbits</b>
+</section>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://unpkg.com/satellite.js@5.0.0/dist/satellite.min.js"></script>
-<script src="app.js"></script>
+<section id="how" class="how">
+  <h2>From alert to qualified lead in one screen</h2>
+  <div class="steps">
+    <div class="step"><i>1</i><h3>Demand</h3><p>Disaster alerts from GDACS, USGS, NASA EONET and Copernicus EMS activations are merged and de-duplicated.
+      Every event gets a demand score from hazard type, alert level, magnitude and recency. An EMS activation counts as confirmed, funded demand.</p></div>
+    <div class="step"><i>2</i><h3>Supply</h3><p>For each event we query the real Sentinel-2 optical and Sentinel-1 radar catalogues: freshness, cloud and revisit.
+      Live orbits tell you when the next free pass is due.</p></div>
+    <div class="step"><i>3</i><h3>Gap → lead</h3><p>Demand splits into a <em class="r">coverage gap</em>, a <em class="p">VHR gap</em> (sub-metre needs) and
+      <em class="g">free-serviceable</em> work. Each event gets the product that closes it and an indicative deal value.</p></div>
+  </div>
+  <div class="split card">
+    <div class="eq"><b>demand</b> = <em class="r">coverage gap</em> + <em class="p">VHR gap</em> + <em class="g">free-serviceable</em></div>
+    <p class="dim">Transparent and unit-tested. Free supply S blends optical and radar (SAR counts more for floods and quakes, less for burn severity).
+      The VHR share is set per hazard: free 10 m pixels can't grade building damage, however fresh they are.</p>
+  </div>
+</section>
+
+<section id="who" class="who">
+  <h2>Built for teams who sell what Copernicus can't give away</h2>
+  <div class="grid">
+    <div class="card"><h3>Imagery resellers &amp; tasking sales</h3><p>Know where buyers will need fresh VHR or SAR <em>before</em> the RFP lands. Rank by deal value and brief an account manager in one click.</p></div>
+    <div class="card"><h3>Value-added analytics firms</h3><p>Find events that free Sentinel data already covers: zero acquisition cost, pure analytics margin, deliverable today.</p></div>
+    <div class="card"><h3>Insurers &amp; parametric risk</h3><p>Score any portfolio site with a pin. See whether free imagery will see it, and when the next pass is due.</p></div>
+    <div class="card"><h3>Emergency mapping providers</h3><p>See CEMS activations next to the free-coverage picture, and plan commercial and contributing-mission tasking where the Sentinels fall short.</p></div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="f"><h3>Score any area</h3><p>Drop a pin, set a radius, get a live supply score in seconds. Works even on the static site: the model runs in your browser.</p></div>
+  <div class="f"><h3>Export anywhere</h3><p>CSV for the CRM, GeoJSON for QGIS/ArcGIS, and an Atom feed for Slack or Teams channels.</p></div>
+  <div class="f"><h3>Sales brief in one click</h3><p>Every lead has a copy-ready paragraph covering the shortfall, the offer, area, value and source links.</p></div>
+  <div class="f"><h3>Open API</h3><p><code>/api/radar</code>, <code>/api/aoi</code>, lead exports and an OpenAPI spec. Self-host it on any Node 20 box.</p></div>
+  <div class="f"><h3>Your price book</h3><p>Deal values come from one transparent table. Plug in your list prices and the radar becomes your pipeline.</p></div>
+  <div class="f"><h3>Honest by design</h3><p>Every score traces back to public catalogue data. Feed health is shown live. No black box.</p></div>
+</section>
+
+<section id="pricing" class="pricing">
+  <h2>Early-access plans</h2>
+  <div class="grid">
+    <div class="card plan"><h3>Explorer</h3><div class="price">Free</div><ul>
+      <li>Public live radar, Europe + Global</li><li>Custom AOI scoring</li><li>CSV / GeoJSON export</li><li>Public Atom feed</li></ul>
+      <a class="btn ghost" href="radar.html">Open radar</a></div>
+    <div class="card plan hot"><h3>Pro</h3><div class="price">€490<small>/mo</small></div><ul>
+      <li>Your price book &amp; product catalogue</li><li>Saved AOI watchlists with alerts</li><li>Slack / Teams / email alerts on new gaps</li><li>API access, 10k calls/mo</li></ul>
+      <a class="btn" href="https://github.com/dchichorro/terrasignal/issues/new?title=Early+access:+Pro&labels=early-access" target="_blank" rel="noopener">Request access</a></div>
+    <div class="card plan"><h3>Enterprise</h3><div class="price">Talk to us</div><ul>
+      <li>CRM sync (Salesforce, HubSpot)</li><li>Private feeds &amp; own catalogues</li><li>Calibrated demand model on your order book</li><li>SLA &amp; on-prem deploy</li></ul>
+      <a class="btn ghost" href="https://github.com/dchichorro/terrasignal/issues/new?title=Early+access:+Enterprise&labels=early-access" target="_blank" rel="noopener">Contact</a></div>
+  </div>
+  <p class="dim center">Plans are early-access proposals. Pro and Enterprise features are on the roadmap.</p>
+</section>
+
+<footer>
+  <div>TerraSignal · demand radar for Earth observation</div>
+  <div class="dim">Data: Copernicus EMS, GDACS (EC JRC / UN), USGS, NASA EONET (GSFC), Copernicus Sentinel-1/2 (ESA) via Element 84 Earth Search, CelesTrak.
+    Deal values come from an illustrative price book and are not quotes. This is a market-intelligence tool, not an emergency-response system.</div>
+</footer>
+
+<script type="module">
+  import { fmtEUR } from './core/value.mjs';
+  const $ = (s) => document.querySelector(s);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+  async function load() {
+    for (const url of ['api/radar?region=global&days=45', 'data/radar-global-45.json']) {
+      try { const r = await fetch(url); if (r.ok) return r.json(); } catch {}
+    }
+  }
+  const radar = await load();
+  if (radar) {
+    const { toLead, pipelineTotals } = await import('./core/value.mjs');
+    if (!radar.events.every((e) => e.recommendation)) {
+      radar.events = radar.events.map((e) => (e.recommendation ? e : toLead(e)));
+      radar.kpis.pipelineEUR = pipelineTotals(radar.events).totalEUR;
+    }
+    const k = radar.kpis;
+    $('#livePipeline').textContent = fmtEUR(k.pipelineEUR);
+    $('#liveShare').textContent = (k.commercialSharePct ?? k.unmetSharePct) + '%';
+    $('#liveEvents').textContent = k.eventsAnalysed;
+    $('#liveScenes').textContent = k.scenes24h?.toLocaleString('en-US') ?? '—';
+    const top = [...radar.events].sort((a, b) => (b.weightedEUR ?? 0) - (a.weightedEUR ?? 0)).slice(0, 4);
+    $('#liveLeads').innerHTML = top.map((e) => `<a class="lead" href="radar.html#region=global&days=45&event=${encodeURIComponent(e.id)}">
+      <i class="dot ${{ 'TASKING GAP': 'gap', PARTIAL: 'partial', 'COPERNICUS-READY': 'ready' }[e.cls]}"></i>
+      <span>${esc(e.title)}</span><b>${fmtEUR(e.dealEUR)}</b></a>`).join('');
+  } else {
+    $('#live').classList.add('hidden');
+  }
+</script>
 </body>
 </html>

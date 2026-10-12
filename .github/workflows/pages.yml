@@ -2,6 +2,11 @@ name: pages
 on:
   push:
     branches: [main]
+  # Data commits are pushed with GITHUB_TOKEN, which never triggers `push`
+  # workflows — redeploy whenever the hourly snapshot job finishes instead.
+  workflow_run:
+    workflows: [radar-data]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -15,12 +20,20 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main # workflow_run checks out the triggering SHA; we want the fresh data commit
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: bundle isomorphic core
+        run: node scripts/build-static.mjs --assets-only
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
