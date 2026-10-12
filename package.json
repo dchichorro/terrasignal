@@ -12,7 +12,7 @@
     "start": "node src/server.mjs",
     "build:static": "node scripts/build-static.mjs",
     "build:assets": "node scripts/build-static.mjs --assets-only",
-    "test": "node --test test/",
+    "test": "node --test test/*.test.mjs",
     "video": "node scripts/demo-video.mjs"
   },
   "license": "MIT",
