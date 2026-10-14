@@ -1,7 +1,9 @@
 # Demo script (≈5 min)
 
-A recorded walkthrough is generated with `npm run video` (needs `npm start` running;
-writes `demo/terrasignal-demo.webm`).
+A narrated walkthrough is generated with `npm run video` (needs `npm start` running and ffmpeg;
+writes `demo/terrasignal-demo.mp4` + `.srt`). The voice is Piper TTS, shared with satprint's video
+build (`~/.local/share/satprint-video/`, override with `PIPER_PY` / `PIPER_VOICE`); without it the
+video is captions-only. The narration quotes the live radar, so numbers and events match the screen.
 
 ## 0. Start
 
