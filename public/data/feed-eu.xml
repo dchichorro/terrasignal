@@ -2,9 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Europe</id>
   <title>TerraSignal tasking leads — Europe</title>
-  <updated>2026-10-14T06:00:00.000Z</updated>
+  <updated>2026-10-14T12:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-eu.xml"/>
   <author><name>TerraSignal</name></author>
+  <entry>
+    <id>urn:terrasignal:GDACS_1104230_1</id>
+    <title>[TASKING GAP] Flood, Türkiye — €60k tasking</title>
+    <updated>2026-10-14T08:42:33.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1104230_1"/>
+    <category term="floods"/>
+    <content type="text">Flood, Türkiye — TASKING GAP
+Türkiye · floods · opened 2026-10-12
+Demand 45.8/100 · tasking gap 46 · serviceable from free data 0
+Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
+Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
+Location: 36.8328, 33.9686 · https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104230</content>
+  </entry>
   <entry>
     <id>urn:terrasignal:CEMS_EMSR930</id>
     <title>[COPERNICUS-READY] Storm in Basilicata, Italy. — €176k tasking</title>
@@ -13,8 +26,8 @@
     <category term="severe-storms"/>
     <content type="text">Storm in Basilicata, Italy. — COPERNICUS-READY
 Italy · severe-storms · opened 2026-09-07 · Copernicus EMS EMSR930 active
-Demand 25.8/100 · tasking gap 13 · serviceable from free data 12
-Free supply: Sentinel-2 last pass 0.8 d ago, 18.1% cloud · Sentinel-1 last pass 0.8 d ago
+Demand 25.6/100 · tasking gap 13 · serviceable from free data 12
+Free supply: Sentinel-2 last pass 1.1 d ago, 18.1% cloud · Sentinel-1 last pass 1.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 40.2307, 16.6885 · https://mapping.emergency.copernicus.eu/activations/EMSR930/</content>
   </entry>
@@ -26,8 +39,8 @@ Location: 40.2307, 16.6885 · https://mapping.emergency.copernicus.eu/activation
     <category term="severe-storms"/>
     <content type="text">Storm in Lombardy, Italy — COPERNICUS-READY
 Italy · severe-storms · opened 2026-09-02 · Copernicus EMS EMSR928 active
-Demand 21.5/100 · tasking gap 12 · serviceable from free data 9
-Free supply: Sentinel-2 last pass 1.8 d ago, 43.2% cloud · Sentinel-1 last pass 2.8 d ago
+Demand 21.3/100 · tasking gap 11 · serviceable from free data 10
+Free supply: Sentinel-2 last pass 2.1 d ago, 43.2% cloud · Sentinel-1 last pass 0.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 45.1640, 10.0818 · https://mapping.emergency.copernicus.eu/activations/EMSR928/</content>
   </entry>
