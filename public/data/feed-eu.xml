@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Europe</id>
   <title>TerraSignal tasking leads — Europe</title>
-  <updated>2026-10-16T06:00:00.000Z</updated>
+  <updated>2026-10-16T12:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-eu.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
@@ -13,8 +13,8 @@
     <category term="severe-storms"/>
     <content type="text">Storm in Basilicata, Italy. — COPERNICUS-READY
 Italy · severe-storms · opened 2026-09-07 · Copernicus EMS EMSR930 active
-Demand 24.1/100 · tasking gap 13 · serviceable from free data 11
-Free supply: Sentinel-2 last pass 0.8 d ago, 20.8% cloud · Sentinel-1 last pass 2.8 d ago
+Demand 23.9/100 · tasking gap 13 · serviceable from free data 11
+Free supply: Sentinel-2 last pass 1 d ago, 20.8% cloud · Sentinel-1 last pass 3 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 40.2307, 16.6885 · https://mapping.emergency.copernicus.eu/activations/EMSR930/</content>
   </entry>
@@ -26,8 +26,8 @@ Location: 40.2307, 16.6885 · https://mapping.emergency.copernicus.eu/activation
     <category term="severe-storms"/>
     <content type="text">Storm in Lombardy, Italy — COPERNICUS-READY
 Italy · severe-storms · opened 2026-09-02 · Copernicus EMS EMSR928 active
-Demand 20.1/100 · tasking gap 11 · serviceable from free data 9
-Free supply: Sentinel-2 last pass 1.8 d ago, 56.9% cloud · Sentinel-1 last pass 0.8 d ago
+Demand 19.9/100 · tasking gap 11 · serviceable from free data 9
+Free supply: Sentinel-2 last pass 2 d ago, 56.9% cloud · Sentinel-1 last pass 1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 45.1640, 10.0818 · https://mapping.emergency.copernicus.eu/activations/EMSR928/</content>
   </entry>
@@ -39,8 +39,8 @@ Location: 45.1640, 10.0818 · https://mapping.emergency.copernicus.eu/activation
     <category term="floods"/>
     <content type="text">Flood, Libya — PARTIAL
 Libya · floods · opened 2026-10-13
-Demand 44.7/100 · tasking gap 29 · serviceable from free data 16
-Free supply: Sentinel-2 last pass 2.8 d ago, 67.9% cloud (free optical passes are cloud-covered)
+Demand 44.3/100 · tasking gap 29 · serviceable from free data 15
+Free supply: Sentinel-2 last pass 3 d ago, 67.9% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 32.8967, 13.1778 · https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104231</content>
   </entry>
