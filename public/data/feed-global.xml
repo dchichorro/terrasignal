@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Global</id>
   <title>TerraSignal tasking leads — Global</title>
-  <updated>2026-10-15T18:00:00.000Z</updated>
+  <updated>2026-10-16T00:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone CHAMPI-26, Guam — TASKING GAP
 Guam · severe-storms · opened 2026-10-14
-Demand 76.2/100 · tasking gap 76 · serviceable from free data 0
+Demand 75.8/100 · tasking gap 76 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 11.5000, 156.5000 · https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338</content>
@@ -26,7 +26,7 @@ Location: 11.5000, 156.5000 · https://www.gdacs.org/report.aspx?eventtype=TC&am
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone TRUDY-26, México — TASKING GAP
 México · severe-storms · opened 2026-10-13
-Demand 73.9/100 · tasking gap 74 · serviceable from free data 0
+Demand 73.6/100 · tasking gap 74 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 13.7000, -101.7000 · https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001337</content>
@@ -39,8 +39,8 @@ Location: 13.7000, -101.7000 · https://www.gdacs.org/report.aspx?eventtype=TC&a
     <category term="earthquake"/>
     <content type="text">Earthquake in Los Santos, Panama — COPERNICUS-READY
 Panama · earthquake · opened 2026-10-09 · Copernicus EMS EMSR934 active
-Demand 100/100 · tasking gap 78 · serviceable from free data 22
-Free supply: Sentinel-2 last pass 2.4 d ago, 99.9% cloud · Sentinel-1 last pass 5.4 d ago (free optical passes are cloud-covered)
+Demand 100/100 · tasking gap 74 · serviceable from free data 26
+Free supply: Sentinel-2 last pass 0.6 d ago, 64.2% cloud · Sentinel-1 last pass 5.6 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activations/EMSR934/</content>
   </entry>
@@ -52,23 +52,10 @@ Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activation
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone SIMON-26, México — COPERNICUS-READY
 México · severe-storms · opened 2026-10-07
-Demand 60/100 · tasking gap 36 · serviceable from free data 24
-Free supply: Sentinel-2 last pass 4.4 d ago, 100% cloud · Sentinel-1 last pass 1.4 d ago (free optical passes are cloud-covered)
+Demand 59.7/100 · tasking gap 36 · serviceable from free data 23
+Free supply: Sentinel-2 last pass 4.6 d ago, 100% cloud · Sentinel-1 last pass 1.6 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 19.3000, -108.2000 · https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001335</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:GDACS_1001334_20</id>
-    <title>[PARTIAL] Tropical cyclone ISAIAS-26, United States — €153k tasking</title>
-    <updated>2026-10-06T21:01:35.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1001334_20"/>
-    <category term="severe-storms"/>
-    <content type="text">Tropical cyclone ISAIAS-26, United States — PARTIAL
-United States · severe-storms · opened 2026-10-06
-Demand 58.5/100 · tasking gap 40 · serviceable from free data 18
-Free supply: Sentinel-2 last pass 0.4 d ago, 94.3% cloud (free optical passes are cloud-covered)
-Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
-Location: 37.5000, -84.0000 · https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001334</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1571367_1739856</id>
@@ -78,23 +65,10 @@ Location: 37.5000, -84.0000 · https://www.gdacs.org/report.aspx?eventtype=TC&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Papua New Guinea — COPERNICUS-READY
 Papua New Guinea · earthquake · opened 2026-10-13
-Demand 51.3/100 · tasking gap 39 · serviceable from free data 12
-Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1.4 d ago (no Sentinel-2 pass in the event window)
+Demand 51.1/100 · tasking gap 39 · serviceable from free data 12
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1.6 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -5.4832, 152.1364 · https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1571367</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:GDACS_1570810_1739237</id>
-    <title>[COPERNICUS-READY] Earthquake, Papua New Guinea — €99k tasking</title>
-    <updated>2026-10-11T14:25:40.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1570810_1739237"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake, Papua New Guinea — COPERNICUS-READY
-Papua New Guinea · earthquake · opened 2026-10-11
-Demand 47.6/100 · tasking gap 37 · serviceable from free data 11
-Free supply: Sentinel-2 last pass 1.4 d ago, 29.3% cloud
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: -7.0062, 155.7021 · https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1570810</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1571305_1739816</id>
@@ -104,7 +78,7 @@ Location: -7.0062, 155.7021 · https://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Central Mid-Atlantic Ridge — TASKING GAP
 Central Mid-Atlantic Ridge · earthquake · opened 2026-10-13
-Demand 50.6/100 · tasking gap 51 · serviceable from free data 0
+Demand 50.4/100 · tasking gap 50 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -0.4085, -19.4308 · https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1571305</content>
@@ -117,7 +91,7 @@ Location: -0.4085, -19.4308 · https://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, United States — TASKING GAP
 United States · earthquake · opened 2026-10-15
-Demand 49.2/100 · tasking gap 49 · serviceable from free data 0
+Demand 49/100 · tasking gap 49 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 64.2290, -152.7030 · https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1571732</content>
@@ -130,10 +104,23 @@ Location: 64.2290, -152.7030 · https://www.gdacs.org/report.aspx?eventtype=EQ&a
     <category term="earthquake"/>
     <content type="text">Earthquake, Fiji — TASKING GAP
 Fiji · earthquake · opened 2026-10-14
-Demand 47.5/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.3/100 · tasking gap 47 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -20.9899, -178.7711 · https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1571524</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1570970_1739418</id>
+    <title>[PARTIAL] Earthquake, Tonga — €71k tasking</title>
+    <updated>2026-10-12T04:54:58.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1570970_1739418"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake, Tonga — PARTIAL
+Tonga · earthquake · opened 2026-10-12
+Demand 43.7/100 · tasking gap 36 · serviceable from free data 8
+Free supply: Sentinel-2 last pass 2.6 d ago, 55% cloud
+Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
+Location: -18.7230, -175.1452 · https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1570970</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1104231_1</id>
@@ -143,9 +130,22 @@ Location: -20.9899, -178.7711 · https://www.gdacs.org/report.aspx?eventtype=EQ&
     <category term="floods"/>
     <content type="text">Flood, Libya — PARTIAL
 Libya · floods · opened 2026-10-13
-Demand 45.2/100 · tasking gap 28 · serviceable from free data 17
-Free supply: Sentinel-2 last pass 2.4 d ago, 67.9% cloud (free optical passes are cloud-covered)
+Demand 45/100 · tasking gap 29 · serviceable from free data 17
+Free supply: Sentinel-2 last pass 2.6 d ago, 67.9% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 32.8967, 13.1778 · https://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104231</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1032807_2</id>
+    <title>[TASKING GAP] Forest fire, Bolivia — €18k tasking</title>
+    <updated>2026-10-14T23:00:43.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1032807_2"/>
+    <category term="wildfires"/>
+    <content type="text">Forest fire, Bolivia — TASKING GAP
+Bolivia · wildfires · opened 2026-10-13
+Demand 45/100 · tasking gap 34 · serviceable from free data 11
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1.6 d ago (no Sentinel-2 pass in the event window)
+Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
+Location: -21.6873, -64.9417 · https://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1032807</content>
   </entry>
 </feed>
