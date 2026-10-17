@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Europe</id>
   <title>TerraSignal tasking leads — Europe</title>
-  <updated>2026-10-17T00:00:00.000Z</updated>
+  <updated>2026-10-17T06:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-eu.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
@@ -13,22 +13,9 @@
     <category term="severe-storms"/>
     <content type="text">Storm in Basilicata, Italy. — COPERNICUS-READY
 Italy · severe-storms · opened 2026-09-07 · Copernicus EMS EMSR930 active
-Demand 23.4/100 · tasking gap 13 · serviceable from free data 11
-Free supply: Sentinel-2 last pass 1.7 d ago, 20.8% cloud · Sentinel-1 last pass 3.7 d ago
+Demand 23.2/100 · tasking gap 13 · serviceable from free data 10
+Free supply: Sentinel-2 last pass 1.9 d ago, 20.8% cloud · Sentinel-1 last pass 3.9 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 40.2307, 16.6885 · https://mapping.emergency.copernicus.eu/activations/EMSR930/</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:CEMS_EMSR928</id>
-    <title>[COPERNICUS-READY] Storm in Lombardy, Italy — €176k tasking</title>
-    <updated>2026-09-14T07:58:42.545Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=CEMS_EMSR928"/>
-    <category term="severe-storms"/>
-    <content type="text">Storm in Lombardy, Italy — COPERNICUS-READY
-Italy · severe-storms · opened 2026-09-02 · Copernicus EMS EMSR928 active
-Demand 19.4/100 · tasking gap 10 · serviceable from free data 9
-Free supply: Sentinel-2 last pass 0.7 d ago, 56.9% cloud · Sentinel-1 last pass 0.7 d ago
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
-Location: 45.1640, 10.0818 · https://mapping.emergency.copernicus.eu/activations/EMSR928/</content>
   </entry>
 </feed>
