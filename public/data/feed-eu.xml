@@ -13,8 +13,8 @@
     <category term="severe-storms"/>
     <content type="text">Storm in Basilicata, Italy. — COPERNICUS-READY
 Italy · severe-storms · opened 2026-09-07 · Copernicus EMS EMSR930 active
-Demand 22.7/100 · tasking gap 12 · serviceable from free data 11
-Free supply: Sentinel-2 last pass 0.5 d ago, 18.1% cloud · Sentinel-1 last pass 4.5 d ago
+Demand 22.5/100 · tasking gap 12 · serviceable from free data 10
+Free supply: Sentinel-2 last pass 0.7 d ago, 18.1% cloud · Sentinel-1 last pass 4.7 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 40.2307, 16.6885 · https://mapping.emergency.copernicus.eu/activations/EMSR930/</content>
   </entry>
