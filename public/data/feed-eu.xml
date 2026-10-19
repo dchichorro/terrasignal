@@ -8,7 +8,7 @@
   <entry>
     <id>urn:terrasignal:CEMS_EMSR935</id>
     <title>[TASKING GAP] Flood in Alicante-Valencia Regions, Spain — €60k tasking</title>
-    <updated>2026-10-19T19:14:37.275Z</updated>
+    <updated>2026-10-19T19:48:19.773Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=CEMS_EMSR935"/>
     <category term="floods"/>
     <content type="text">Flood in Alicante-Valencia Regions, Spain — TASKING GAP
@@ -26,8 +26,8 @@ Location: 38.8163, 0.0230 · https://mapping.emergency.copernicus.eu/activations
     <category term="severe-storms"/>
     <content type="text">Storm in Basilicata, Italy. — COPERNICUS-READY
 Italy · severe-storms · opened 2026-09-07 · Copernicus EMS EMSR930 active
-Demand 21.3/100 · tasking gap 11 · serviceable from free data 10
-Free supply: Sentinel-2 last pass 1.3 d ago, 18.1% cloud · Sentinel-1 last pass 0.3 d ago
+Demand 21.2/100 · tasking gap 11 · serviceable from free data 10
+Free supply: Sentinel-2 last pass 1.5 d ago, 18.1% cloud · Sentinel-1 last pass 0.5 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 40.2307, 16.6885 · https://mapping.emergency.copernicus.eu/activations/EMSR930/</content>
   </entry>
