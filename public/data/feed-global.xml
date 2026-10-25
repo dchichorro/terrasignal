@@ -13,8 +13,8 @@
     <category term="earthquake"/>
     <content type="text">Earthquake, China — COPERNICUS-READY
 China · earthquake · opened 2026-10-22
-Demand 100/100 · tasking gap 78 · serviceable from free data 22
-Free supply: Sentinel-2 last pass 0.8 d ago, 59.2% cloud
+Demand 100/100 · tasking gap 79 · serviceable from free data 21
+Free supply: Sentinel-2 last pass 1 d ago, 59.2% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3805, 93.7797 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1573141</content>
   </entry>
@@ -26,7 +26,7 @@ Location: 32.3805, 93.7797 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone JOSEPHINE-26, United States, Canada, Saint Pierre and Miquelon — TASKING GAP
 United States, Canada, Saint Pierre and Miquelon · severe-storms · opened 2026-10-21
-Demand 44.5/100 · tasking gap 44 · serviceable from free data 0
+Demand 44.1/100 · tasking gap 44 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 40.0000, -65.8000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001342</content>
@@ -39,7 +39,7 @@ Location: 40.0000, -65.8000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone VANCE-26, México — TASKING GAP
 México · severe-storms · opened 2026-10-21
-Demand 44.1/100 · tasking gap 44 · serviceable from free data 0
+Demand 43.8/100 · tasking gap 44 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 10.5000, -101.9000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001341</content>
@@ -52,8 +52,8 @@ Location: 10.5000, -101.9000 · http://www.gdacs.org/report.aspx?eventtype=TC&am
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone CHAMPI-26, Philippines, Guam, Northern Mariana Islands, Japan — COPERNICUS-READY
 Philippines, Guam, Northern Mariana Islands, Japan · severe-storms · opened 2026-10-14
-Demand 68.9/100 · tasking gap 38 · serviceable from free data 31
-Free supply: Sentinel-2 last pass 1.8 d ago, 40.4% cloud · Sentinel-1 last pass 1.8 d ago
+Demand 68.4/100 · tasking gap 38 · serviceable from free data 31
+Free supply: Sentinel-2 last pass 2 d ago, 40.4% cloud · Sentinel-1 last pass 2 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 22.7000, 123.8000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338</content>
   </entry>
@@ -65,8 +65,8 @@ Location: 22.7000, 123.8000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="earthquake"/>
     <content type="text">Earthquake M5.7, Khuzdar, Pakistan — COPERNICUS-READY
 48 km WNW of Khuzdar, Pakistan · earthquake · opened 2026-10-17
-Demand 66.8/100 · tasking gap 47 · serviceable from free data 19
-Free supply: Sentinel-2 last pass 2.8 d ago, 0% cloud · Sentinel-1 last pass 0.8 d ago
+Demand 66.3/100 · tasking gap 47 · serviceable from free data 19
+Free supply: Sentinel-2 last pass 3 d ago, 0% cloud · Sentinel-1 last pass 1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1</content>
   </entry>
@@ -78,8 +78,8 @@ Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake in Los Santos, Panama — COPERNICUS-READY
 Panama · earthquake · opened 2026-10-09 · Copernicus EMS EMSR934 active
-Demand 59.5/100 · tasking gap 44 · serviceable from free data 16
-Free supply: Sentinel-2 last pass 1.8 d ago, 78.1% cloud · Sentinel-1 last pass 1.8 d ago (free optical passes are cloud-covered)
+Demand 59/100 · tasking gap 43 · serviceable from free data 16
+Free supply: Sentinel-2 last pass 2 d ago, 78.1% cloud · Sentinel-1 last pass 2 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activations/EMSR934/</content>
   </entry>
@@ -91,8 +91,8 @@ Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activation
     <category term="earthquake"/>
     <content type="text">Earthquake, Bonin Islands, Japan Region — COPERNICUS-READY
 Bonin Islands, Japan Region · earthquake · opened 2026-10-24
-Demand 53.3/100 · tasking gap 40 · serviceable from free data 14
-Free supply: Sentinel-2 last pass -0.2 d ago, 42.9% cloud
+Demand 52.9/100 · tasking gap 39 · serviceable from free data 13
+Free supply: Sentinel-2 last pass 0 d ago, 42.9% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 27.7953, 139.6184 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1573709</content>
   </entry>
@@ -104,7 +104,7 @@ Location: 27.7953, 139.6184 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Bouvet Island Region — TASKING GAP
 Bouvet Island Region · earthquake · opened 2026-10-24
-Demand 49/100 · tasking gap 49 · serviceable from free data 0
+Demand 48.6/100 · tasking gap 49 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -54.0304, 7.0149 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1573640</content>
@@ -117,8 +117,8 @@ Location: -54.0304, 7.0149 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, Italy — COPERNICUS-READY
 Italy · earthquake · opened 2026-10-23
-Demand 46.9/100 · tasking gap 35 · serviceable from free data 12
-Free supply: Sentinel-2 no pass · Sentinel-1 last pass 0.8 d ago (no Sentinel-2 pass in the event window)
+Demand 46.6/100 · tasking gap 35 · serviceable from free data 11
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 38.7199, 14.1520 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1573344</content>
   </entry>
@@ -130,7 +130,7 @@ Location: 38.7199, 14.1520 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, Vanuatu Islands — TASKING GAP
 Vanuatu Islands · earthquake · opened 2026-10-24
-Demand 48.2/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.8/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -13.9017, 165.5967 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1573528</content>
@@ -138,13 +138,13 @@ Location: -13.9017, 165.5967 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
   <entry>
     <id>urn:terrasignal:GDACS_1033101_1</id>
     <title>[PARTIAL] Forest fire, Mauritania, Mali — €18k tasking</title>
-    <updated>2026-10-25T04:02:19.000Z</updated>
+    <updated>2026-10-25T08:02:31.000Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1033101_1"/>
     <category term="wildfires"/>
     <content type="text">Forest fire, Mauritania, Mali — PARTIAL
 Mauritania, Mali · wildfires · opened 2026-10-22
-Demand 44.7/100 · tasking gap 32 · serviceable from free data 12
-Free supply: Sentinel-2 no pass · Sentinel-1 last pass 0.8 d ago (no Sentinel-2 pass in the event window)
+Demand 44.3/100 · tasking gap 32 · serviceable from free data 12
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 15.7293, -5.9513 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033101</content>
   </entry>
