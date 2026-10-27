@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Europe</id>
   <title>TerraSignal tasking leads — Europe</title>
-  <updated>2026-10-27T12:00:00.000Z</updated>
+  <updated>2026-10-27T18:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-eu.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
@@ -13,8 +13,8 @@
     <category term="earthquake"/>
     <content type="text">Earthquake, Italy — PARTIAL
 Italy · earthquake · opened 2026-10-23
-Demand 43.1/100 · tasking gap 35 · serviceable from free data 8
-Free supply: Sentinel-2 no pass · Sentinel-1 last pass 3.2 d ago (no Sentinel-2 pass in the event window)
+Demand 42.8/100 · tasking gap 35 · serviceable from free data 8
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass 3.4 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 38.7199, 14.1520 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1573344</content>
   </entry>
