@@ -2,33 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Europe</id>
   <title>TerraSignal tasking leads — Europe</title>
-  <updated>2026-10-30T00:00:00.000Z</updated>
+  <updated>2026-10-30T06:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-eu.xml"/>
   <author><name>TerraSignal</name></author>
-  <entry>
-    <id>urn:terrasignal:GDACS_1104260_1</id>
-    <title>[PARTIAL] Flood, Romania — €60k tasking</title>
-    <updated>2026-10-29T09:46:13.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1104260_1"/>
-    <category term="floods"/>
-    <content type="text">Flood, Romania — PARTIAL
-Romania · floods · opened 2026-10-27
-Demand 45.1/100 · tasking gap 30 · serviceable from free data 15
-Free supply: Sentinel-2 last pass 1.5 d ago, 100% cloud (free optical passes are cloud-covered)
-Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
-Location: 44.2679, 28.2922 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104260</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:GDACS_1104254_1</id>
-    <title>[PARTIAL] Flood, Türkiye — €60k tasking</title>
-    <updated>2026-10-29T09:30:00.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1104254_1"/>
-    <category term="floods"/>
-    <content type="text">Flood, Türkiye — PARTIAL
-Türkiye · floods · opened 2026-10-26
-Demand 43.5/100 · tasking gap 29 · serviceable from free data 15
-Free supply: Sentinel-2 last pass 1.5 d ago, 100% cloud (free optical passes are cloud-covered)
-Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
-Location: 40.8722, 29.2705 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104254</content>
-  </entry>
+
 </feed>
