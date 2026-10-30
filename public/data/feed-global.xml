@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Global</id>
   <title>TerraSignal tasking leads — Global</title>
-  <updated>2026-10-29T18:00:00.000Z</updated>
+  <updated>2026-10-30T00:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
@@ -13,23 +13,23 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone ARNAB-26, India — COPERNICUS-READY
 India · severe-storms · opened 2026-10-26
-Demand 87.5/100 · tasking gap 51 · serviceable from free data 36
-Free supply: Sentinel-2 last pass 3.3 d ago, 85.2% cloud · Sentinel-1 last pass 1.3 d ago (free optical passes are cloud-covered)
+Demand 87/100 · tasking gap 51 · serviceable from free data 36
+Free supply: Sentinel-2 last pass 3.5 d ago, 85.2% cloud · Sentinel-1 last pass 1.5 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 16.4000, 81.8000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001345</content>
   </entry>
   <entry>
-    <id>urn:terrasignal:GDACS_1001338_46</id>
-    <title>[PARTIAL] Tropical cyclone CHAMPI-26, Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea — €153k tasking</title>
-    <updated>2026-10-14T14:31:53.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1001338_46"/>
-    <category term="severe-storms"/>
-    <content type="text">Tropical cyclone CHAMPI-26, Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea — PARTIAL
-Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea · severe-storms · opened 2026-10-14
-Demand 58.8/100 · tasking gap 44 · serviceable from free data 15
-Free supply: Sentinel-2 last pass 4.3 d ago, 56.6% cloud
-Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
-Location: 31.2000, 127.4000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001338</content>
+    <id>urn:terrasignal:USGS_us6000u43g</id>
+    <title>[COPERNICUS-READY] Earthquake M7.0, Nagqu, China — €99k tasking</title>
+    <updated>2026-10-24T06:28:16.586Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us6000u43g"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
+191 km ENE of Nagqu, China · earthquake · opened 2026-10-22
+Demand 77.4/100 · tasking gap 58 · serviceable from free data 20
+Free supply: Sentinel-2 last pass 0.5 d ago, 30.4% cloud
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
+Location: 32.3805, 93.7797 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
   <entry>
     <id>urn:terrasignal:USGS_us6000u2y1</id>
@@ -39,8 +39,8 @@ Location: 31.2000, 127.4000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="earthquake"/>
     <content type="text">Earthquake M5.7, Khuzdar, Pakistan — COPERNICUS-READY
 48 km WNW of Khuzdar, Pakistan · earthquake · opened 2026-10-17
-Demand 57/100 · tasking gap 41 · serviceable from free data 16
-Free supply: Sentinel-2 last pass 2.3 d ago, 0% cloud · Sentinel-1 last pass 5.3 d ago
+Demand 56.6/100 · tasking gap 41 · serviceable from free data 15
+Free supply: Sentinel-2 last pass 2.5 d ago, 0% cloud · Sentinel-1 last pass 5.5 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1</content>
   </entry>
@@ -52,7 +52,7 @@ Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Southeast Of Easter Island — TASKING GAP
 Southeast Of Easter Island · earthquake · opened 2026-10-29
-Demand 54.5/100 · tasking gap 54 · serviceable from free data 0
+Demand 54.1/100 · tasking gap 54 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -36.4058, -98.0489 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574517</content>
@@ -65,10 +65,23 @@ Location: -36.4058, -98.0489 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake in Los Santos, Panama — COPERNICUS-READY
 Panama · earthquake · opened 2026-10-09 · Copernicus EMS EMSR934 active
-Demand 50.7/100 · tasking gap 38 · serviceable from free data 13
-Free supply: Sentinel-2 last pass 1.3 d ago, 48.1% cloud · Sentinel-1 last pass 6.3 d ago
+Demand 50.4/100 · tasking gap 38 · serviceable from free data 13
+Free supply: Sentinel-2 last pass 1.5 d ago, 48.1% cloud · Sentinel-1 last pass 6.5 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activations/EMSR934/</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1574329_1743227</id>
+    <title>[COPERNICUS-READY] Earthquake, Reykjanes Ridge — €99k tasking</title>
+    <updated>2026-10-28T11:54:58.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1574329_1743227"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake, Reykjanes Ridge — COPERNICUS-READY
+Reykjanes Ridge · earthquake · opened 2026-10-28
+Demand 47.4/100 · tasking gap 35 · serviceable from free data 12
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass 0.5 d ago (no Sentinel-2 pass in the event window)
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
+Location: 58.1005, -32.1508 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574329</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1574467_1743396</id>
@@ -78,7 +91,7 @@ Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activation
     <category term="earthquake"/>
     <content type="text">Earthquake, Papua New Guinea — TASKING GAP
 Papua New Guinea · earthquake · opened 2026-10-29
-Demand 48.8/100 · tasking gap 49 · serviceable from free data 0
+Demand 48.5/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -5.6991, 141.9018 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574467</content>
@@ -91,7 +104,7 @@ Location: -5.6991, 141.9018 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Philippines — TASKING GAP
 Philippines · earthquake · opened 2026-10-29
-Demand 48.8/100 · tasking gap 49 · serviceable from free data 0
+Demand 48.5/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 8.3638, 127.4204 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574466</content>
@@ -104,7 +117,7 @@ Location: 8.3638, 127.4204 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, Indonesia — TASKING GAP
 Indonesia · earthquake · opened 2026-10-28
-Demand 48.4/100 · tasking gap 48 · serviceable from free data 0
+Demand 48.1/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -6.3231, 130.3957 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574426</content>
@@ -117,36 +130,10 @@ Location: -6.3231, 130.3957 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Japan — TASKING GAP
 Japan · earthquake · opened 2026-10-28
-Demand 47.9/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.6/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 35.7015, 140.7059 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574369</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:GDACS_1574329_1743227</id>
-    <title>[TASKING GAP] Earthquake, Reykjanes Ridge — €71k tasking</title>
-    <updated>2026-10-28T11:54:58.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1574329_1743227"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake, Reykjanes Ridge — TASKING GAP
-Reykjanes Ridge · earthquake · opened 2026-10-28
-Demand 47.7/100 · tasking gap 48 · serviceable from free data 0
-Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
-Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
-Location: 58.1005, -32.1508 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574329</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:GDACS_1573709_1742505</id>
-    <title>[TASKING GAP] Earthquake, Bonin Islands, Japan Region — €71k tasking</title>
-    <updated>2026-10-25T02:25:53.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1573709_1742505"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake, Bonin Islands, Japan Region — TASKING GAP
-Bonin Islands, Japan Region · earthquake · opened 2026-10-25
-Demand 47/100 · tasking gap 47 · serviceable from free data 0
-Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
-Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
-Location: 27.7953, 139.6184 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1573709</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1573942_1742778</id>
@@ -156,8 +143,8 @@ Location: 27.7953, 139.6184 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Fiji — PARTIAL
 Fiji · earthquake · opened 2026-10-26
-Demand 44.4/100 · tasking gap 38 · serviceable from free data 7
-Free supply: Sentinel-2 last pass 3.3 d ago, 72.2% cloud (free optical passes are cloud-covered)
+Demand 44.1/100 · tasking gap 38 · serviceable from free data 6
+Free supply: Sentinel-2 last pass 3.5 d ago, 72.2% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~2,827 km² — indicative €87k
 Location: -18.2830, -178.0109 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1573942</content>
   </entry>
@@ -169,8 +156,8 @@ Location: -18.2830, -178.0109 · http://www.gdacs.org/report.aspx?eventtype=EQ&a
     <category term="floods"/>
     <content type="text">Flood, Romania — PARTIAL
 Romania · floods · opened 2026-10-27
-Demand 45.4/100 · tasking gap 30 · serviceable from free data 16
-Free supply: Sentinel-2 last pass 1.3 d ago, 100% cloud (free optical passes are cloud-covered)
+Demand 45.1/100 · tasking gap 30 · serviceable from free data 15
+Free supply: Sentinel-2 last pass 1.5 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 44.2679, 28.2922 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104260</content>
   </entry>
@@ -182,21 +169,34 @@ Location: 44.2679, 28.2922 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;
     <category term="floods"/>
     <content type="text">Flood, Türkiye — PARTIAL
 Türkiye · floods · opened 2026-10-26
-Demand 43.8/100 · tasking gap 29 · serviceable from free data 15
-Free supply: Sentinel-2 last pass 1.3 d ago, 100% cloud (free optical passes are cloud-covered)
+Demand 43.5/100 · tasking gap 29 · serviceable from free data 15
+Free supply: Sentinel-2 last pass 1.5 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 40.8722, 29.2705 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104254</content>
   </entry>
   <entry>
+    <id>urn:terrasignal:GDACS_1033272_6</id>
+    <title>[TASKING GAP] Forest fire, Botswana — €18k tasking</title>
+    <updated>2026-10-28T20:01:40.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1033272_6"/>
+    <category term="wildfires"/>
+    <content type="text">Forest fire, Botswana — TASKING GAP
+Botswana · wildfires · opened 2026-10-27
+Demand 45/100 · tasking gap 45 · serviceable from free data 0
+Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
+Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
+Location: -23.0449, 21.4087 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033272</content>
+  </entry>
+  <entry>
     <id>urn:terrasignal:GDACS_1033270_1</id>
     <title>[PARTIAL] Forest fire, China — €18k tasking</title>
-    <updated>2026-10-29T16:02:06.000Z</updated>
+    <updated>2026-10-30T00:00:51.000Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1033270_1"/>
     <category term="wildfires"/>
     <content type="text">Forest fire, China — PARTIAL
 China · wildfires · opened 2026-10-28
-Demand 46.9/100 · tasking gap 25 · serviceable from free data 22
-Free supply: Sentinel-2 last pass 0.3 d ago, 100% cloud (free optical passes are cloud-covered)
+Demand 46.6/100 · tasking gap 26 · serviceable from free data 21
+Free supply: Sentinel-2 last pass 0.5 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 32.9135, 119.6761 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033270</content>
   </entry>
