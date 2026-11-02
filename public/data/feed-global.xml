@@ -2,32 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Global</id>
   <title>TerraSignal tasking leads — Global</title>
-  <updated>2026-11-02T00:00:00.000Z</updated>
+  <updated>2026-11-02T12:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
-    <id>urn:terrasignal:GDACS_1001346_5</id>
+    <id>urn:terrasignal:GDACS_1001346_7</id>
     <title>[TASKING GAP] Tropical cyclone MURASU-26, India — €153k tasking</title>
     <updated>2026-11-01T02:23:45.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1001346_5"/>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1001346_7"/>
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone MURASU-26, India — TASKING GAP
 India · severe-storms · opened 2026-11-01
-Demand 47.9/100 · tasking gap 48 · serviceable from free data 0
+Demand 94.4/100 · tasking gap 94 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
-Location: 13.5000, 81.8000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001346</content>
+Location: 14.7000, 80.7000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001346</content>
   </entry>
   <entry>
     <id>urn:terrasignal:USGS_us6000u43g</id>
     <title>[COPERNICUS-READY] Earthquake M7.0, Nagqu, China — €99k tasking</title>
-    <updated>2026-11-01T15:35:18.480Z</updated>
+    <updated>2026-11-02T15:03:19.067Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us6000u43g"/>
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 69.3/100 · tasking gap 50 · serviceable from free data 19
-Free supply: Sentinel-2 last pass 0.7 d ago, 57.6% cloud · Sentinel-1 last pass 1.7 d ago
+Demand 68.3/100 · tasking gap 50 · serviceable from free data 19
+Free supply: Sentinel-2 last pass 1.2 d ago, 57.6% cloud · Sentinel-1 last pass 2.2 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
@@ -39,8 +39,8 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Japan — COPERNICUS-READY
 Japan · earthquake · opened 2026-10-31
-Demand 52.8/100 · tasking gap 38 · serviceable from free data 14
-Free supply: Sentinel-2 last pass -0.3 d ago, 27.2% cloud
+Demand 52.1/100 · tasking gap 38 · serviceable from free data 14
+Free supply: Sentinel-2 last pass 0.2 d ago, 27.2% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 33.8220, 136.9854 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574997</content>
   </entry>
@@ -52,36 +52,10 @@ Location: 33.8220, 136.9854 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake M5.7, Khuzdar, Pakistan — COPERNICUS-READY
 48 km WNW of Khuzdar, Pakistan · earthquake · opened 2026-10-17
-Demand 50.6/100 · tasking gap 36 · serviceable from free data 15
-Free supply: Sentinel-2 last pass 0.7 d ago, 0% cloud · Sentinel-1 last pass 0.7 d ago
+Demand 49.9/100 · tasking gap 35 · serviceable from free data 15
+Free supply: Sentinel-2 last pass 1.2 d ago, 0% cloud · Sentinel-1 last pass 1.2 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:CEMS_EMSR934</id>
-    <title>[COPERNICUS-READY] Earthquake in Los Santos, Panama — €99k tasking</title>
-    <updated>2026-10-21T14:43:29.845Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=CEMS_EMSR934"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake in Los Santos, Panama — COPERNICUS-READY
-Panama · earthquake · opened 2026-10-09 · Copernicus EMS EMSR934 active
-Demand 45.1/100 · tasking gap 36 · serviceable from free data 9
-Free supply: Sentinel-2 last pass 4.7 d ago, 48.1% cloud · Sentinel-1 last pass 9.7 d ago
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activations/EMSR934/</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:GDACS_1574467_1743396</id>
-    <title>[COPERNICUS-READY] Earthquake, Papua New Guinea — €99k tasking</title>
-    <updated>2026-10-29T03:41:37.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1574467_1743396"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake, Papua New Guinea — COPERNICUS-READY
-Papua New Guinea · earthquake · opened 2026-10-29
-Demand 43.4/100 · tasking gap 35 · serviceable from free data 9
-Free supply: Sentinel-2 last pass -0.3 d ago, 92.1% cloud (free optical passes are cloud-covered)
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: -5.6991, 141.9018 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574467</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1574517_1743451</id>
@@ -91,10 +65,23 @@ Location: -5.6991, 141.9018 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Southeast Of Easter Island — TASKING GAP
 Southeast Of Easter Island · earthquake · opened 2026-10-29
-Demand 48.4/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.7/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -36.4058, -98.0489 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574517</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1574467_1743396</id>
+    <title>[COPERNICUS-READY] Earthquake, Papua New Guinea — €99k tasking</title>
+    <updated>2026-10-29T03:41:37.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1574467_1743396"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake, Papua New Guinea — COPERNICUS-READY
+Papua New Guinea · earthquake · opened 2026-10-29
+Demand 42.8/100 · tasking gap 34 · serviceable from free data 9
+Free supply: Sentinel-2 last pass 0.2 d ago, 92.1% cloud (free optical passes are cloud-covered)
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
+Location: -5.6991, 141.9018 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574467</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1574466_1743403</id>
@@ -104,9 +91,22 @@ Location: -36.4058, -98.0489 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Philippines — TASKING GAP
 Philippines · earthquake · opened 2026-10-29
-Demand 43.4/100 · tasking gap 43 · serviceable from free data 0
+Demand 42.8/100 · tasking gap 43 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 8.3638, 127.4204 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574466</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:CEMS_EMSR934</id>
+    <title>[PARTIAL] Earthquake in Los Santos, Panama — €71k tasking</title>
+    <updated>2026-10-21T14:43:29.845Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=CEMS_EMSR934"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake in Los Santos, Panama — PARTIAL
+Panama · earthquake · opened 2026-10-09 · Copernicus EMS EMSR934 active
+Demand 44.5/100 · tasking gap 36 · serviceable from free data 9
+Free supply: Sentinel-2 last pass 5.2 d ago, 48.1% cloud · Sentinel-1 last pass 10.2 d ago
+Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
+Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activations/EMSR934/</content>
   </entry>
 </feed>
