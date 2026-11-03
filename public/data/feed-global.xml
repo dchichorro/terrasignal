@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Global</id>
   <title>TerraSignal tasking leads — Global</title>
-  <updated>2026-11-03T12:00:00.000Z</updated>
+  <updated>2026-11-03T18:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
@@ -13,21 +13,21 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone MURASU-26, India — PARTIAL
 India · severe-storms · opened 2026-11-01
-Demand 91.3/100 · tasking gap 62 · serviceable from free data 29
-Free supply: Sentinel-2 last pass 0.1 d ago, 100% cloud (free optical passes are cloud-covered)
+Demand 90.5/100 · tasking gap 63 · serviceable from free data 28
+Free supply: Sentinel-2 last pass 0.4 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001346</content>
   </entry>
   <entry>
     <id>urn:terrasignal:USGS_us6000u43g</id>
     <title>[COPERNICUS-READY] Earthquake M7.0, Nagqu, China — €99k tasking</title>
-    <updated>2026-11-02T15:03:19.067Z</updated>
+    <updated>2026-11-03T20:32:52.154Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us6000u43g"/>
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 66/100 · tasking gap 48 · serviceable from free data 18
-Free supply: Sentinel-2 last pass 0.1 d ago, 56.3% cloud · Sentinel-1 last pass 3.1 d ago
+Demand 65.5/100 · tasking gap 48 · serviceable from free data 18
+Free supply: Sentinel-2 last pass 0.4 d ago, 56.3% cloud · Sentinel-1 last pass 3.4 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
@@ -39,8 +39,8 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Japan — COPERNICUS-READY
 Japan · earthquake · opened 2026-10-31
-Demand 50.3/100 · tasking gap 38 · serviceable from free data 12
-Free supply: Sentinel-2 last pass 1.1 d ago, 27.2% cloud
+Demand 49.9/100 · tasking gap 38 · serviceable from free data 12
+Free supply: Sentinel-2 last pass 1.4 d ago, 27.2% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 33.8220, 136.9854 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574997</content>
   </entry>
@@ -52,8 +52,8 @@ Location: 33.8220, 136.9854 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake M5.7, Khuzdar, Pakistan — COPERNICUS-READY
 48 km WNW of Khuzdar, Pakistan · earthquake · opened 2026-10-17
-Demand 48.3/100 · tasking gap 34 · serviceable from free data 14
-Free supply: Sentinel-2 last pass 0.1 d ago, 0% cloud · Sentinel-1 last pass 2.1 d ago
+Demand 47.9/100 · tasking gap 34 · serviceable from free data 14
+Free supply: Sentinel-2 last pass 0.4 d ago, 0% cloud · Sentinel-1 last pass 2.4 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1</content>
   </entry>
@@ -65,8 +65,8 @@ Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake in Los Santos, Panama — COPERNICUS-READY
 Panama · earthquake · opened 2026-10-09 · Copernicus EMS EMSR934 active
-Demand 43/100 · tasking gap 31 · serviceable from free data 12
-Free supply: Sentinel-2 last pass 1.1 d ago, 78% cloud · Sentinel-1 last pass 0.1 d ago (free optical passes are cloud-covered)
+Demand 42.6/100 · tasking gap 31 · serviceable from free data 12
+Free supply: Sentinel-2 last pass 1.4 d ago, 78% cloud · Sentinel-1 last pass 0.4 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activations/EMSR934/</content>
   </entry>
@@ -78,7 +78,7 @@ Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activation
     <category term="earthquake"/>
     <content type="text">Earthquake M6.4, Easter Island — TASKING GAP
 southeast of Easter Island · earthquake · opened 2026-10-29
-Demand 41.5/100 · tasking gap 42 · serviceable from free data 0
+Demand 41.2/100 · tasking gap 41 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -36.4058, -98.0489 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttxz</content>
@@ -91,8 +91,8 @@ Location: -36.4058, -98.0489 · https://earthquake.usgs.gov/earthquakes/eventpag
     <category term="floods"/>
     <content type="text">Flood, Bulgaria — PARTIAL
 Bulgaria · floods · opened 2026-11-02
-Demand 47.3/100 · tasking gap 30 · serviceable from free data 18
-Free supply: Sentinel-2 last pass 1.1 d ago, 94.4% cloud (free optical passes are cloud-covered)
+Demand 46.9/100 · tasking gap 30 · serviceable from free data 17
+Free supply: Sentinel-2 last pass 1.4 d ago, 94.4% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 43.4049, 28.1681 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104267</content>
   </entry>
@@ -104,8 +104,8 @@ Location: 43.4049, 28.1681 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;
     <category term="volcano"/>
     <content type="text">Volcano, Philippines — PARTIAL
 Philippines · volcano · opened 2026-10-30
-Demand 43.7/100 · tasking gap 27 · serviceable from free data 17
-Free supply: Sentinel-2 no pass · Sentinel-1 last pass 2.1 d ago (no Sentinel-2 pass in the event window)
+Demand 43.4/100 · tasking gap 27 · serviceable from free data 16
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass 2.4 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 13.2570, 123.6850 · http://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=1000153</content>
   </entry>
