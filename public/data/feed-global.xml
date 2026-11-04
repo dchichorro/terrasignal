@@ -13,8 +13,8 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone MURASU-26, India — COPERNICUS-READY
 India · severe-storms · opened 2026-10-20
-Demand 57.7/100 · tasking gap 36 · serviceable from free data 22
-Free supply: Sentinel-2 last pass 1.4 d ago, 77.2% cloud · Sentinel-1 last pass 7.4 d ago (free optical passes are cloud-covered)
+Demand 57.6/100 · tasking gap 36 · serviceable from free data 21
+Free supply: Sentinel-2 last pass 1.5 d ago, 77.2% cloud · Sentinel-1 last pass 7.5 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001346</content>
   </entry>
@@ -26,23 +26,10 @@ Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 63.1/100 · tasking gap 47 · serviceable from free data 16
-Free supply: Sentinel-2 last pass 1.4 d ago, 56.3% cloud · Sentinel-1 last pass 4.4 d ago
+Demand 63/100 · tasking gap 47 · serviceable from free data 16
+Free supply: Sentinel-2 last pass 1.5 d ago, 56.3% cloud · Sentinel-1 last pass 4.5 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:GDACS_1574997_1743978</id>
-    <title>[COPERNICUS-READY] Earthquake, Japan — €99k tasking</title>
-    <updated>2026-10-31T22:31:13.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1574997_1743978"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake, Japan — COPERNICUS-READY
-Japan · earthquake · opened 2026-10-31
-Demand 48.1/100 · tasking gap 34 · serviceable from free data 14
-Free supply: Sentinel-2 last pass 2.4 d ago, 27.2% cloud · Sentinel-1 last pass 0.4 d ago
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: 33.8220, 136.9854 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1574997</content>
   </entry>
   <entry>
     <id>urn:terrasignal:USGS_us6000u2y1</id>
@@ -53,9 +40,22 @@ Location: 33.8220, 136.9854 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <content type="text">Earthquake M5.7, Khuzdar, Pakistan — COPERNICUS-READY
 48 km WNW of Khuzdar, Pakistan · earthquake · opened 2026-10-17
 Demand 46.1/100 · tasking gap 33 · serviceable from free data 13
-Free supply: Sentinel-2 last pass 1.4 d ago, 0% cloud · Sentinel-1 last pass 3.4 d ago
+Free supply: Sentinel-2 last pass 1.5 d ago, 0% cloud · Sentinel-1 last pass 3.5 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:USGS_us7000tuku</id>
+    <title>[COPERNICUS-READY] Earthquake M6.0, Shima, Japan — €99k tasking</title>
+    <updated>2026-11-02T10:37:29.077Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us7000tuku"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake M6.0, Shima, Japan — COPERNICUS-READY
+58 km SSE of Shima, Japan · earthquake · opened 2026-10-31
+Demand 43.3/100 · tasking gap 31 · serviceable from free data 12
+Free supply: Sentinel-2 last pass 2.5 d ago, 27.2% cloud · Sentinel-1 last pass 0.5 d ago
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
+Location: 33.8220, 136.9854 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuku</content>
   </entry>
   <entry>
     <id>urn:terrasignal:CEMS_EMSR934</id>
@@ -65,8 +65,8 @@ Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake in Los Santos, Panama — COPERNICUS-READY
 Panama · earthquake · opened 2026-10-09 · Copernicus EMS EMSR934 active
-Demand 41.1/100 · tasking gap 30 · serviceable from free data 11
-Free supply: Sentinel-2 last pass 2.4 d ago, 78% cloud · Sentinel-1 last pass 1.4 d ago (free optical passes are cloud-covered)
+Demand 41/100 · tasking gap 30 · serviceable from free data 11
+Free supply: Sentinel-2 last pass 0.5 d ago, 82.3% cloud · Sentinel-1 last pass 1.5 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activations/EMSR934/</content>
   </entry>
@@ -78,8 +78,8 @@ Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activation
     <category term="wildfires"/>
     <content type="text">Forest fire, Australia — PARTIAL
 Australia · wildfires · opened 2026-10-31
-Demand 42.2/100 · tasking gap 22 · serviceable from free data 20
-Free supply: Sentinel-2 last pass 4.4 d ago, 19.7% cloud
+Demand 42.1/100 · tasking gap 22 · serviceable from free data 20
+Free supply: Sentinel-2 last pass 4.5 d ago, 19.7% cloud
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -17.5330, 136.6144 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033453</content>
   </entry>
