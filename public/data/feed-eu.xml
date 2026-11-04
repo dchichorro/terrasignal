@@ -2,20 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Europe</id>
   <title>TerraSignal tasking leads — Europe</title>
-  <updated>2026-11-04T00:00:00.000Z</updated>
+  <updated>2026-11-04T06:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-eu.xml"/>
   <author><name>TerraSignal</name></author>
-  <entry>
-    <id>urn:terrasignal:GDACS_1104267_1</id>
-    <title>[PARTIAL] Flood, Bulgaria — €60k tasking</title>
-    <updated>2026-11-03T10:19:06.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1104267_1"/>
-    <category term="floods"/>
-    <content type="text">Flood, Bulgaria — PARTIAL
-Bulgaria · floods · opened 2026-11-02
-Demand 46.6/100 · tasking gap 30 · serviceable from free data 16
-Free supply: Sentinel-2 last pass 1.6 d ago, 94.4% cloud (free optical passes are cloud-covered)
-Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
-Location: 43.4049, 28.1681 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104267</content>
-  </entry>
+
 </feed>
