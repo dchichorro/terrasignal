@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone MURASU-26, India — COPERNICUS-READY
 India · severe-storms · opened 2026-10-20
-Demand 56.4/100 · tasking gap 35 · serviceable from free data 22
+Demand 56.3/100 · tasking gap 35 · serviceable from free data 21
 Free supply: Sentinel-2 last pass 0.1 d ago, 99.2% cloud · Sentinel-1 last pass 8.1 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001346</content>
@@ -26,7 +26,7 @@ Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 61.8/100 · tasking gap 47 · serviceable from free data 15
+Demand 61.7/100 · tasking gap 46 · serviceable from free data 15
 Free supply: Sentinel-2 last pass 2.1 d ago, 56.3% cloud · Sentinel-1 last pass 5.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
@@ -39,7 +39,7 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake M5.7, Khuzdar, Pakistan — COPERNICUS-READY
 48 km WNW of Khuzdar, Pakistan · earthquake · opened 2026-10-17
-Demand 45.2/100 · tasking gap 33 · serviceable from free data 13
+Demand 45.1/100 · tasking gap 33 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 2.1 d ago, 0% cloud · Sentinel-1 last pass 4.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1</content>
@@ -52,7 +52,7 @@ Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake M6.0, Shima, Japan — COPERNICUS-READY
 58 km SSE of Shima, Japan · earthquake · opened 2026-10-31
-Demand 42.4/100 · tasking gap 30 · serviceable from free data 12
+Demand 42.3/100 · tasking gap 30 · serviceable from free data 12
 Free supply: Sentinel-2 last pass 0.1 d ago, 70.4% cloud · Sentinel-1 last pass 1.1 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 33.8220, 136.9854 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuku</content>
@@ -65,7 +65,7 @@ Location: 33.8220, 136.9854 · https://earthquake.usgs.gov/earthquakes/eventpage
     <category term="wildfires"/>
     <content type="text">Forest fire, Australia — TASKING GAP
 Australia · wildfires · opened 2026-11-04
-Demand 47.4/100 · tasking gap 47 · serviceable from free data 0
+Demand 47.3/100 · tasking gap 47 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -20.2074, 131.1099 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033505</content>
@@ -78,7 +78,7 @@ Location: -20.2074, 131.1099 · http://www.gdacs.org/report.aspx?eventtype=WF&am
     <category term="wildfires"/>
     <content type="text">Forest fire, Australia — PARTIAL
 Australia · wildfires · opened 2026-11-03
-Demand 45.8/100 · tasking gap 34 · serviceable from free data 12
+Demand 45.7/100 · tasking gap 34 · serviceable from free data 12
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1.1 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -20.3216, 138.7621 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033506</content>
