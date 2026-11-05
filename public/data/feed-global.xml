@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Global</id>
   <title>TerraSignal tasking leads — Global</title>
-  <updated>2026-11-04T18:00:00.000Z</updated>
+  <updated>2026-11-05T00:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone MURASU-26, India — COPERNICUS-READY
 India · severe-storms · opened 2026-10-20
-Demand 57.6/100 · tasking gap 36 · serviceable from free data 21
+Demand 57.5/100 · tasking gap 36 · serviceable from free data 21
 Free supply: Sentinel-2 last pass 1.5 d ago, 77.2% cloud · Sentinel-1 last pass 7.5 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001346</content>
@@ -26,7 +26,7 @@ Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 63/100 · tasking gap 47 · serviceable from free data 16
+Demand 62.9/100 · tasking gap 47 · serviceable from free data 16
 Free supply: Sentinel-2 last pass 1.5 d ago, 56.3% cloud · Sentinel-1 last pass 4.5 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
@@ -39,7 +39,7 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake M5.7, Khuzdar, Pakistan — COPERNICUS-READY
 48 km WNW of Khuzdar, Pakistan · earthquake · opened 2026-10-17
-Demand 46.1/100 · tasking gap 33 · serviceable from free data 13
+Demand 46/100 · tasking gap 33 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 1.5 d ago, 0% cloud · Sentinel-1 last pass 3.5 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1</content>
@@ -52,7 +52,7 @@ Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake M6.0, Shima, Japan — COPERNICUS-READY
 58 km SSE of Shima, Japan · earthquake · opened 2026-10-31
-Demand 43.3/100 · tasking gap 31 · serviceable from free data 12
+Demand 43.2/100 · tasking gap 31 · serviceable from free data 12
 Free supply: Sentinel-2 last pass 2.5 d ago, 27.2% cloud · Sentinel-1 last pass 0.5 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 33.8220, 136.9854 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuku</content>
@@ -65,7 +65,7 @@ Location: 33.8220, 136.9854 · https://earthquake.usgs.gov/earthquakes/eventpage
     <category term="earthquake"/>
     <content type="text">Earthquake in Los Santos, Panama — COPERNICUS-READY
 Panama · earthquake · opened 2026-10-09 · Copernicus EMS EMSR934 active
-Demand 41/100 · tasking gap 30 · serviceable from free data 11
+Demand 40.9/100 · tasking gap 30 · serviceable from free data 11
 Free supply: Sentinel-2 last pass 0.5 d ago, 82.3% cloud · Sentinel-1 last pass 1.5 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activations/EMSR934/</content>
@@ -78,7 +78,7 @@ Location: 8.0067, -80.6708 · https://mapping.emergency.copernicus.eu/activation
     <category term="wildfires"/>
     <content type="text">Forest fire, Australia — PARTIAL
 Australia · wildfires · opened 2026-10-31
-Demand 42.1/100 · tasking gap 22 · serviceable from free data 20
+Demand 42/100 · tasking gap 22 · serviceable from free data 20
 Free supply: Sentinel-2 last pass 4.5 d ago, 19.7% cloud
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -17.5330, 136.6144 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033453</content>
