@@ -13,8 +13,8 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone MURASU-26, India — COPERNICUS-READY
 India · severe-storms · opened 2026-10-20
-Demand 56.7/100 · tasking gap 35 · serviceable from free data 22
-Free supply: Sentinel-2 last pass -0.1 d ago, 95.6% cloud · Sentinel-1 last pass 7.9 d ago (free optical passes are cloud-covered)
+Demand 56.6/100 · tasking gap 35 · serviceable from free data 22
+Free supply: Sentinel-2 last pass 0 d ago, 95.6% cloud · Sentinel-1 last pass 8 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001346</content>
   </entry>
@@ -27,7 +27,7 @@ Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
 Demand 62/100 · tasking gap 47 · serviceable from free data 15
-Free supply: Sentinel-2 last pass 1.9 d ago, 56.3% cloud · Sentinel-1 last pass 4.9 d ago
+Free supply: Sentinel-2 last pass 2 d ago, 56.3% cloud · Sentinel-1 last pass 5 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
@@ -40,7 +40,7 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <content type="text">Earthquake M5.7, Khuzdar, Pakistan — COPERNICUS-READY
 48 km WNW of Khuzdar, Pakistan · earthquake · opened 2026-10-17
 Demand 45.3/100 · tasking gap 33 · serviceable from free data 13
-Free supply: Sentinel-2 last pass 1.9 d ago, 0% cloud · Sentinel-1 last pass 3.9 d ago
+Free supply: Sentinel-2 last pass 2 d ago, 0% cloud · Sentinel-1 last pass 4 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1</content>
   </entry>
@@ -52,8 +52,8 @@ Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake M6.0, Shima, Japan — COPERNICUS-READY
 58 km SSE of Shima, Japan · earthquake · opened 2026-10-31
-Demand 42.6/100 · tasking gap 30 · serviceable from free data 12
-Free supply: Sentinel-2 last pass -0.1 d ago, 70.4% cloud · Sentinel-1 last pass 0.9 d ago (free optical passes are cloud-covered)
+Demand 42.5/100 · tasking gap 30 · serviceable from free data 12
+Free supply: Sentinel-2 last pass 0 d ago, 70.4% cloud · Sentinel-1 last pass 1 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 33.8220, 136.9854 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuku</content>
   </entry>
