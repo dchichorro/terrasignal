@@ -6,17 +6,17 @@
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
-    <id>urn:terrasignal:GDACS_1001347_1</id>
+    <id>urn:terrasignal:GDACS_1001347_2</id>
     <title>[TASKING GAP] Tropical cyclone THIRTYONE-26, Japan — €153k tasking</title>
     <updated>2026-11-06T07:50:41.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1001347_1"/>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1001347_2"/>
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone THIRTYONE-26, Japan — TASKING GAP
 Japan · severe-storms · opened 2026-11-06
-Demand 49.4/100 · tasking gap 49 · serviceable from free data 0
+Demand 49.3/100 · tasking gap 49 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
-Location: 18.0000, 149.0000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001347</content>
+Location: 17.9000, 147.5000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001347</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1001346_10</id>
@@ -26,7 +26,7 @@ Location: 18.0000, 149.0000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone MURASU-26, India — COPERNICUS-READY
 India · severe-storms · opened 2026-10-20
-Demand 54.4/100 · tasking gap 36 · serviceable from free data 19
+Demand 54.3/100 · tasking gap 36 · serviceable from free data 19
 Free supply: Sentinel-2 last pass 1.1 d ago, 99.2% cloud · Sentinel-1 last pass 9.1 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
 Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001346</content>
@@ -39,7 +39,7 @@ Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 59.6/100 · tasking gap 43 · serviceable from free data 16
+Demand 59.5/100 · tasking gap 43 · serviceable from free data 16
 Free supply: Sentinel-2 last pass 0.1 d ago, 40.1% cloud · Sentinel-1 last pass 6.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
@@ -52,7 +52,7 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Fiji — COPERNICUS-READY
 Fiji · earthquake · opened 2026-11-05
-Demand 53.7/100 · tasking gap 40 · serviceable from free data 13
+Demand 53.6/100 · tasking gap 40 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 1.1 d ago, 21.2% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -21.1984, -178.7145 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1575788</content>
@@ -78,7 +78,7 @@ Location: 34.9677, 142.1175 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake M5.7, Khuzdar, Pakistan — COPERNICUS-READY
 48 km WNW of Khuzdar, Pakistan · earthquake · opened 2026-10-17
-Demand 43.6/100 · tasking gap 31 · serviceable from free data 13
+Demand 43.5/100 · tasking gap 30 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 0.1 d ago, 0% cloud · Sentinel-1 last pass 1.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1</content>
