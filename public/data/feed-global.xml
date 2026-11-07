@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone 02-20262027-27, Madagascar — TASKING GAP
 Madagascar · severe-storms · opened 2026-11-07
-Demand 49.3/100 · tasking gap 49 · serviceable from free data 0
+Demand 49.2/100 · tasking gap 49 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -13.9000, 53.4200 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001349</content>
@@ -39,7 +39,7 @@ Location: 11.4000, -153.3000 · http://www.gdacs.org/report.aspx?eventtype=TC&am
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone CEMPAKA-26, Japan — TASKING GAP
 Japan · severe-storms · opened 2026-11-06
-Demand 47.6/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.5/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 20.6000, 141.6000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001347</content>
@@ -65,7 +65,7 @@ Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 57.4/100 · tasking gap 43 · serviceable from free data 15
+Demand 57.3/100 · tasking gap 43 · serviceable from free data 15
 Free supply: Sentinel-2 last pass 1.2 d ago, 40.1% cloud · Sentinel-1 last pass 7.2 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
@@ -78,7 +78,7 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Fiji — COPERNICUS-READY
 Fiji · earthquake · opened 2026-11-05
-Demand 51.7/100 · tasking gap 40 · serviceable from free data 12
+Demand 51.6/100 · tasking gap 40 · serviceable from free data 12
 Free supply: Sentinel-2 last pass 2.2 d ago, 21.2% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -21.1984, -178.7145 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1575788</content>
@@ -91,23 +91,23 @@ Location: -21.1984, -178.7145 · http://www.gdacs.org/report.aspx?eventtype=EQ&a
     <category term="earthquake"/>
     <content type="text">Earthquake, Japan — COPERNICUS-READY
 Japan · earthquake · opened 2026-11-06
-Demand 53/100 · tasking gap 38 · serviceable from free data 15
+Demand 52.9/100 · tasking gap 38 · serviceable from free data 15
 Free supply: Sentinel-2 last pass 0.2 d ago, 7.1% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 36.1884, 141.4404 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576071</content>
   </entry>
   <entry>
-    <id>urn:terrasignal:USGS_us6000u2y1</id>
-    <title>[COPERNICUS-READY] Earthquake M5.7, Khuzdar, Pakistan — €99k tasking</title>
-    <updated>2026-11-07T12:57:50.348Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us6000u2y1"/>
+    <id>urn:terrasignal:GDACS_1576118_1745227</id>
+    <title>[COPERNICUS-READY] Earthquake, Japan — €99k tasking</title>
+    <updated>2026-11-07T16:22:23.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1576118_1745227"/>
     <category term="earthquake"/>
-    <content type="text">Earthquake M5.7, Khuzdar, Pakistan — COPERNICUS-READY
-47 km WNW of Khuzdar, Pakistan · earthquake · opened 2026-10-17
-Demand 41.9/100 · tasking gap 30 · serviceable from free data 12
-Free supply: Sentinel-2 last pass 1.2 d ago, 0% cloud · Sentinel-1 last pass 2.2 d ago
+    <content type="text">Earthquake, Japan — COPERNICUS-READY
+Japan · earthquake · opened 2026-10-31
+Demand 43.7/100 · tasking gap 32 · serviceable from free data 11
+Free supply: Sentinel-2 last pass 0.2 d ago, 99.6% cloud · Sentinel-1 last pass 3.2 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: 28.0196, 66.1855 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1</content>
+Location: 34.8611, 137.6910 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576118</content>
   </entry>
   <entry>
     <id>urn:terrasignal:EONET_26057</id>
@@ -130,7 +130,7 @@ Location: 44.3306, -71.0313 · https://irwin.doi.gov/observer/incidents/2026-NHW
     <category term="wildfires"/>
     <content type="text">Wildfire South Tank Trail, Perry, Mississippi — PARTIAL
 wildfires · opened 2026-10-24
-Demand 84.8/100 · tasking gap 46 · serviceable from free data 39
+Demand 84.6/100 · tasking gap 46 · serviceable from free data 38
 Free supply: Sentinel-2 last pass 5.2 d ago, 48.2% cloud · Sentinel-1 last pass 5.2 d ago
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 31.0858, -89.0978 · https://irwin.doi.gov/observer/incidents/2026-MSMNF-000680</content>
@@ -143,7 +143,7 @@ Location: 31.0858, -89.0978 · https://irwin.doi.gov/observer/incidents/2026-MSM
     <category term="wildfires"/>
     <content type="text">Forest fire, Burkina Faso — TASKING GAP
 Burkina Faso · wildfires · opened 2026-11-05
-Demand 45.6/100 · tasking gap 46 · serviceable from free data 0
+Demand 45.5/100 · tasking gap 46 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 13.1321, -2.6842 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033512</content>
@@ -156,7 +156,7 @@ Location: 13.1321, -2.6842 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;
     <category term="wildfires"/>
     <content type="text">Wildfire Craig Lake 1, Baraga, Michigan — PARTIAL
 7 Miles NW from Michigamme, MI · wildfires · opened 2026-10-08
-Demand 47.8/100 · tasking gap 26 · serviceable from free data 22
+Demand 47.7/100 · tasking gap 26 · serviceable from free data 22
 Free supply: Sentinel-2 last pass 4.2 d ago, 69.5% cloud · Sentinel-1 last pass 3.2 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 46.6333, -88.1696 · https://irwin.doi.gov/observer/incidents/2026-MIMIS-070006</content>
@@ -182,7 +182,7 @@ Location: -24.6036, 22.7499 · http://www.gdacs.org/report.aspx?eventtype=WF&amp
     <category term="wildfires"/>
     <content type="text">Prescribed Fire West Fork RX, Wasatch, Utah — PARTIAL
 wildfires · opened 2026-10-05
-Demand 43.2/100 · tasking gap 23 · serviceable from free data 20
+Demand 43.1/100 · tasking gap 23 · serviceable from free data 20
 Free supply: Sentinel-2 last pass 5.2 d ago, 58.1% cloud · Sentinel-1 last pass 2.2 d ago
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 40.4646, -111.0584 · https://irwin.doi.gov/observer/incidents/2026-UTUWF-200827</content>
