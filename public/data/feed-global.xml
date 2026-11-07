@@ -26,7 +26,7 @@ Location: 11.2000, -151.1000 · http://www.gdacs.org/report.aspx?eventtype=TC&am
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone THIRTYONE-26, Japan — TASKING GAP
 Japan · severe-storms · opened 2026-11-06
-Demand 48.3/100 · tasking gap 48 · serviceable from free data 0
+Demand 48.2/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 19.0000, 144.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001347</content>
@@ -39,7 +39,7 @@ Location: 19.0000, 144.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone MURASU-26, India — PARTIAL
 India · severe-storms · opened 2026-10-20
-Demand 53.2/100 · tasking gap 36 · serviceable from free data 17
+Demand 53.1/100 · tasking gap 36 · serviceable from free data 17
 Free supply: Sentinel-2 last pass 1.8 d ago, 99.2% cloud · Sentinel-1 last pass 9.8 d ago (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001346</content>
@@ -52,7 +52,7 @@ Location: 15.8000, 80.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 58.2/100 · tasking gap 43 · serviceable from free data 15
+Demand 58.1/100 · tasking gap 43 · serviceable from free data 15
 Free supply: Sentinel-2 last pass 0.8 d ago, 40.1% cloud · Sentinel-1 last pass 6.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
@@ -78,7 +78,7 @@ Location: -21.1984, -178.7145 · http://www.gdacs.org/report.aspx?eventtype=EQ&a
     <category term="earthquake"/>
     <content type="text">Earthquake, Off East Coast Of Honshu, Japan — TASKING GAP
 Off East Coast Of Honshu, Japan · earthquake · opened 2026-11-06
-Demand 53.8/100 · tasking gap 54 · serviceable from free data 0
+Demand 53.7/100 · tasking gap 54 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 34.9677, 142.1175 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1575911</content>
@@ -91,7 +91,7 @@ Location: 34.9677, 142.1175 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake M5.7, Khuzdar, Pakistan — COPERNICUS-READY
 48 km WNW of Khuzdar, Pakistan · earthquake · opened 2026-10-17
-Demand 42.6/100 · tasking gap 30 · serviceable from free data 13
+Demand 42.5/100 · tasking gap 30 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 0.8 d ago, 0% cloud · Sentinel-1 last pass 1.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 28.0179, 66.1708 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1</content>
@@ -117,7 +117,7 @@ Location: 13.1321, -2.6859 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;
     <category term="wildfires"/>
     <content type="text">Wildfire Craig Lake 1, Baraga, Michigan — PARTIAL
 7 Miles NW from Michigamme, MI · wildfires · opened 2026-10-08
-Demand 48.5/100 · tasking gap 25 · serviceable from free data 23
+Demand 48.4/100 · tasking gap 25 · serviceable from free data 23
 Free supply: Sentinel-2 last pass 3.8 d ago, 69.5% cloud · Sentinel-1 last pass 2.8 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 46.6333, -88.1696 · https://irwin.doi.gov/observer/incidents/2026-MIMIS-070006</content>
