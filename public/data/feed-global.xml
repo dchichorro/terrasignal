@@ -19,17 +19,17 @@ Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² �
 Location: -11.8000, 50.5400 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001349</content>
   </entry>
   <entry>
-    <id>urn:terrasignal:GDACS_1001348_8</id>
+    <id>urn:terrasignal:GDACS_1001348_9</id>
     <title>[TASKING GAP] Tropical cyclone PENA-26 — €153k tasking</title>
     <updated>2026-11-06T21:20:31.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1001348_8"/>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1001348_9"/>
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone PENA-26 — TASKING GAP
 severe-storms · opened 2026-11-06
 Demand 46.6/100 · tasking gap 47 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
-Location: 11.6000, -156.1000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001348</content>
+Location: 11.6000, -157.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001348</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1001347_11</id>
@@ -45,19 +45,6 @@ Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² �
 Location: 22.9000, 135.7000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001347</content>
   </entry>
   <entry>
-    <id>urn:terrasignal:GDACS_1575788_1744892</id>
-    <title>[COPERNICUS-READY] Earthquake, Fiji — €99k tasking</title>
-    <updated>2026-11-05T17:39:33.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1575788_1744892"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake, Fiji — COPERNICUS-READY
-Fiji · earthquake · opened 2026-11-05
-Demand 49.6/100 · tasking gap 40 · serviceable from free data 10
-Free supply: Sentinel-2 last pass 3.4 d ago, 21.2% cloud
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: -21.1984, -178.7145 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1575788</content>
-  </entry>
-  <entry>
     <id>urn:terrasignal:USGS_us6000u43g</id>
     <title>[COPERNICUS-READY] Earthquake M7.0, Nagqu, China — €99k tasking</title>
     <updated>2026-11-03T22:14:46.682Z</updated>
@@ -69,6 +56,19 @@ Demand 55/100 · tasking gap 39 · serviceable from free data 16
 Free supply: Sentinel-2 last pass 0.4 d ago, 25.3% cloud · Sentinel-1 last pass 1.4 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1575788_1744892</id>
+    <title>[COPERNICUS-READY] Earthquake, Fiji — €99k tasking</title>
+    <updated>2026-11-05T17:39:33.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1575788_1744892"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake, Fiji — COPERNICUS-READY
+Fiji · earthquake · opened 2026-11-05
+Demand 49.5/100 · tasking gap 39 · serviceable from free data 10
+Free supply: Sentinel-2 last pass 3.4 d ago, 21.2% cloud
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
+Location: -21.1984, -178.7145 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1575788</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1576071_1745172</id>
