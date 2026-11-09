@@ -5,5 +5,30 @@
   <updated>2026-11-09T06:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-eu.xml"/>
   <author><name>TerraSignal</name></author>
-
+  <entry>
+    <id>urn:terrasignal:GDACS_1104273_1</id>
+    <title>[TASKING GAP] Flood, Israel — €60k tasking</title>
+    <updated>2026-11-09T07:37:17.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1104273_1"/>
+    <category term="floods"/>
+    <content type="text">Flood, Israel — TASKING GAP
+Israel · floods · opened 2026-11-07
+Demand 46.2/100 · tasking gap 46 · serviceable from free data 0
+Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
+Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
+Location: 32.3286, 34.8566 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104273</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1104274_1</id>
+    <title>[TASKING GAP] Flood, Syria — €60k tasking</title>
+    <updated>2026-11-09T07:37:25.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1104274_1"/>
+    <category term="floods"/>
+    <content type="text">Flood, Syria — TASKING GAP
+Syria · floods · opened 2026-11-07
+Demand 46.2/100 · tasking gap 46 · serviceable from free data 0
+Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
+Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
+Location: 34.4506, 40.9171 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104274</content>
+  </entry>
 </feed>
