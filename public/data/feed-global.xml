@@ -52,7 +52,7 @@ Location: 23.8000, 135.0000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Japan — COPERNICUS-READY
 Japan · earthquake · opened 2026-11-06
-Demand 50.2/100 · tasking gap 40 · serviceable from free data 10
+Demand 50.1/100 · tasking gap 40 · serviceable from free data 10
 Free supply: Sentinel-2 last pass -0.2 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576372</content>
@@ -65,7 +65,7 @@ Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Solomon Is. — TASKING GAP
 Solomon Is. · earthquake · opened 2026-11-09
-Demand 55.2/100 · tasking gap 55 · serviceable from free data 0
+Demand 55.1/100 · tasking gap 55 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576364</content>
@@ -78,7 +78,7 @@ Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 54.3/100 · tasking gap 39 · serviceable from free data 16
+Demand 54.2/100 · tasking gap 39 · serviceable from free data 16
 Free supply: Sentinel-2 last pass 0.8 d ago, 25.3% cloud · Sentinel-1 last pass 1.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
@@ -104,7 +104,7 @@ Location: -21.1984, -178.7145 · http://www.gdacs.org/report.aspx?eventtype=EQ&a
     <category term="earthquake"/>
     <content type="text">Earthquake, Central Mid-Atlantic Ridge — TASKING GAP
 Central Mid-Atlantic Ridge · earthquake · opened 2026-11-07
-Demand 47.8/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.7/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 7.4618, -36.8221 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576162</content>
@@ -117,7 +117,7 @@ Location: 7.4618, -36.8221 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="wildfires"/>
     <content type="text">Wildfire Wild River, Coos, New Hampshire — PARTIAL
 5 Miles SW from Shelburne, NH · wildfires · opened 2026-11-02
-Demand 100/100 · tasking gap 58 · serviceable from free data 42
+Demand 100/100 · tasking gap 59 · serviceable from free data 41
 Free supply: Sentinel-2 last pass 4.8 d ago, 88.8% cloud · Sentinel-1 last pass 2.8 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 44.3306, -71.0313 · https://irwin.doi.gov/observer/incidents/2026-NHWMF-000182</content>
