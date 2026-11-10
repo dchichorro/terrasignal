@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Global</id>
   <title>TerraSignal tasking leads — Global</title>
-  <updated>2026-11-10T00:00:00.000Z</updated>
+  <updated>2026-11-10T06:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone 02-20262027-27 — TASKING GAP
 severe-storms · opened 2026-11-07
-Demand 45.1/100 · tasking gap 45 · serviceable from free data 0
+Demand 45/100 · tasking gap 45 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -11.8000, 50.5400 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001349</content>
@@ -26,7 +26,7 @@ Location: -11.8000, 50.5400 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone PENA-26 — TASKING GAP
 severe-storms · opened 2026-11-06
-Demand 44.5/100 · tasking gap 45 · serviceable from free data 0
+Demand 44.5/100 · tasking gap 44 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 11.7000, -162.7000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001348</content>
@@ -39,7 +39,7 @@ Location: 11.7000, -162.7000 · http://www.gdacs.org/report.aspx?eventtype=TC&am
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone CEMPAKA-26, Japan — TASKING GAP
 Japan · severe-storms · opened 2026-11-06
-Demand 43.6/100 · tasking gap 44 · serviceable from free data 0
+Demand 43.5/100 · tasking gap 44 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 25.0000, 138.0000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001347</content>
@@ -52,8 +52,8 @@ Location: 25.0000, 138.0000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 52.5/100 · tasking gap 38 · serviceable from free data 15
-Free supply: Sentinel-2 last pass 1.7 d ago, 25.3% cloud · Sentinel-1 last pass 2.7 d ago
+Demand 52.5/100 · tasking gap 38 · serviceable from free data 14
+Free supply: Sentinel-2 last pass 1.8 d ago, 25.3% cloud · Sentinel-1 last pass 2.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
@@ -65,7 +65,7 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Solomon Is. — TASKING GAP
 Solomon Is. · earthquake · opened 2026-11-09
-Demand 53.4/100 · tasking gap 53 · serviceable from free data 0
+Demand 53.3/100 · tasking gap 53 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576364</content>
@@ -78,8 +78,8 @@ Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Japan — PARTIAL
 Japan · earthquake · opened 2026-11-06
-Demand 48.5/100 · tasking gap 40 · serviceable from free data 9
-Free supply: Sentinel-2 last pass 0.7 d ago, 100% cloud (free optical passes are cloud-covered)
+Demand 48.5/100 · tasking gap 40 · serviceable from free data 8
+Free supply: Sentinel-2 last pass 0.8 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~2,827 km² — indicative €87k
 Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576372</content>
   </entry>
@@ -91,7 +91,7 @@ Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Central Mid-Atlantic Ridge — TASKING GAP
 Central Mid-Atlantic Ridge · earthquake · opened 2026-11-07
-Demand 46.3/100 · tasking gap 46 · serviceable from free data 0
+Demand 46.2/100 · tasking gap 46 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 7.4618, -36.8221 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576162</content>
@@ -104,8 +104,8 @@ Location: 7.4618, -36.8221 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="floods"/>
     <content type="text">Flood, Vietnam — PARTIAL
 Vietnam · floods · opened 2026-11-06
-Demand 43.3/100 · tasking gap 29 · serviceable from free data 15
-Free supply: Sentinel-2 last pass 1.7 d ago, 96.6% cloud (free optical passes are cloud-covered)
+Demand 43.2/100 · tasking gap 29 · serviceable from free data 15
+Free supply: Sentinel-2 last pass 1.8 d ago, 96.6% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 22.5023, 104.3068 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104271</content>
   </entry>
