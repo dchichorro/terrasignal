@@ -13,22 +13,22 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone PENA-26 — TASKING GAP
 severe-storms · opened 2026-11-06
-Demand 43.1/100 · tasking gap 43 · serviceable from free data 0
+Demand 43/100 · tasking gap 43 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 10.5000, -166.0000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001348</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1001349_6</id>
-    <title>[COPERNICUS-READY] Tropical cyclone 02-20262027-27 — €176k tasking</title>
+    <title>[PARTIAL] Tropical cyclone 02-20262027-27 — €153k tasking</title>
     <updated>2026-11-07T07:05:43.000Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1001349_6"/>
     <category term="severe-storms"/>
-    <content type="text">Tropical cyclone 02-20262027-27 — COPERNICUS-READY
+    <content type="text">Tropical cyclone 02-20262027-27 — PARTIAL
 severe-storms · opened 2026-11-07
 Demand 43.6/100 · tasking gap 29 · serviceable from free data 14
 Free supply: Sentinel-2 last pass 0.7 d ago, 82.5% cloud (free optical passes are cloud-covered)
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~5,027 km² — indicative €176k
+Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -11.8000, 50.5400 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001349</content>
   </entry>
   <entry>
@@ -39,7 +39,7 @@ Location: -11.8000, 50.5400 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Solomon Is. — TASKING GAP
 Solomon Is. · earthquake · opened 2026-11-09
-Demand 51.7/100 · tasking gap 52 · serviceable from free data 0
+Demand 51.6/100 · tasking gap 52 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576364</content>
@@ -104,7 +104,7 @@ Location: 7.4618, -36.8221 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="wildfires"/>
     <content type="text">Forest fire, Australia — TASKING GAP
 Australia · wildfires · opened 2026-11-10
-Demand 48/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.9/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -24.0242, 126.1572 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033687</content>
@@ -117,7 +117,7 @@ Location: -24.0242, 126.1572 · http://www.gdacs.org/report.aspx?eventtype=WF&am
     <category term="wildfires"/>
     <content type="text">Forest fire, Botswana — TASKING GAP
 Botswana · wildfires · opened 2026-11-09
-Demand 46.4/100 · tasking gap 35 · serviceable from free data 12
+Demand 46.3/100 · tasking gap 35 · serviceable from free data 11
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1.7 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -20.7774, 24.4862 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033699</content>
