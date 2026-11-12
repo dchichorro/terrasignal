@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone 02-20262027-27 — PARTIAL
 severe-storms · opened 2026-11-07
-Demand 41.6/100 · tasking gap 30 · serviceable from free data 11
+Demand 41.5/100 · tasking gap 30 · serviceable from free data 11
 Free supply: Sentinel-2 last pass 2.1 d ago, 82.5% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -11.8000, 50.5400 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001349</content>
@@ -26,23 +26,10 @@ Location: -11.8000, 50.5400 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Solomon Is. — COPERNICUS-READY
 Solomon Is. · earthquake · opened 2026-11-09
-Demand 49.3/100 · tasking gap 37 · serviceable from free data 13
+Demand 49.2/100 · tasking gap 37 · serviceable from free data 12
 Free supply: Sentinel-2 last pass 1.1 d ago, 17.5% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576364</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:USGS_us6000u43g</id>
-    <title>[COPERNICUS-READY] Earthquake M7.0, Nagqu, China — €99k tasking</title>
-    <updated>2026-11-10T08:27:37.066Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us6000u43g"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
-189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 48.5/100 · tasking gap 36 · serviceable from free data 13
-Free supply: Sentinel-2 last pass 1.1 d ago, 42.2% cloud · Sentinel-1 last pass 5.1 d ago
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1576372_1745512</id>
@@ -52,10 +39,23 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Japan — PARTIAL
 Japan · earthquake · opened 2026-11-06
-Demand 44.8/100 · tasking gap 39 · serviceable from free data 6
+Demand 44.7/100 · tasking gap 39 · serviceable from free data 6
 Free supply: Sentinel-2 last pass 3.1 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~2,827 km² — indicative €87k
 Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576372</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:USGS_us6000u43g</id>
+    <title>[COPERNICUS-READY] Earthquake M7.0, Nagqu, China — €99k tasking</title>
+    <updated>2026-11-10T08:27:37.066Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us6000u43g"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
+189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
+Demand 48.4/100 · tasking gap 34 · serviceable from free data 14
+Free supply: Sentinel-2 last pass 1.1 d ago, 42.2% cloud · Sentinel-1 last pass 0.1 d ago
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
+Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1576618_1746073</id>
@@ -65,7 +65,7 @@ Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Guatemala — COPERNICUS-READY
 Guatemala · earthquake · opened 2026-11-10
-Demand 46.8/100 · tasking gap 34 · serviceable from free data 13
+Demand 46.7/100 · tasking gap 34 · serviceable from free data 12
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 0.1 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576618</content>
@@ -84,19 +84,6 @@ Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² �
 Location: 21.5122, 98.0098 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104280</content>
   </entry>
   <entry>
-    <id>urn:terrasignal:GDACS_1033699_1</id>
-    <title>[TASKING GAP] Forest fire, Botswana — €18k tasking</title>
-    <updated>2026-11-11T20:01:51.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1033699_1"/>
-    <category term="wildfires"/>
-    <content type="text">Forest fire, Botswana — TASKING GAP
-Botswana · wildfires · opened 2026-11-09
-Demand 44.2/100 · tasking gap 35 · serviceable from free data 9
-Free supply: Sentinel-2 no pass · Sentinel-1 last pass 3.1 d ago (no Sentinel-2 pass in the event window)
-Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
-Location: -20.7774, 24.4862 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033699</content>
-  </entry>
-  <entry>
     <id>urn:terrasignal:GDACS_1033659_3</id>
     <title>[PARTIAL] Forest fire, Australia — €18k tasking</title>
     <updated>2026-11-09T12:01:40.000Z</updated>
@@ -104,7 +91,7 @@ Location: -20.7774, 24.4862 · http://www.gdacs.org/report.aspx?eventtype=WF&amp
     <category term="wildfires"/>
     <content type="text">Forest fire, Australia — PARTIAL
 Australia · wildfires · opened 2026-11-08
-Demand 42.7/100 · tasking gap 23 · serviceable from free data 19
+Demand 42.6/100 · tasking gap 23 · serviceable from free data 19
 Free supply: Sentinel-2 last pass 4.1 d ago, 69.7% cloud · Sentinel-1 last pass 4.1 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -29.9721, 131.5819 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033659</content>
