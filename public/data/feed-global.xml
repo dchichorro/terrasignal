@@ -26,7 +26,7 @@ Location: -11.8000, 50.5400 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Solomon Is. — COPERNICUS-READY
 Solomon Is. · earthquake · opened 2026-11-09
-Demand 49.2/100 · tasking gap 37 · serviceable from free data 12
+Demand 49.1/100 · tasking gap 37 · serviceable from free data 12
 Free supply: Sentinel-2 last pass 1.1 d ago, 17.5% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576364</content>
@@ -39,7 +39,7 @@ Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Japan — PARTIAL
 Japan · earthquake · opened 2026-11-06
-Demand 44.7/100 · tasking gap 39 · serviceable from free data 6
+Demand 44.6/100 · tasking gap 39 · serviceable from free data 6
 Free supply: Sentinel-2 last pass 3.1 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~2,827 km² — indicative €87k
 Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576372</content>
@@ -52,7 +52,7 @@ Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 48.4/100 · tasking gap 34 · serviceable from free data 14
+Demand 48.3/100 · tasking gap 34 · serviceable from free data 14
 Free supply: Sentinel-2 last pass 1.1 d ago, 42.2% cloud · Sentinel-1 last pass 0.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
@@ -65,7 +65,7 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Guatemala — COPERNICUS-READY
 Guatemala · earthquake · opened 2026-11-10
-Demand 46.7/100 · tasking gap 34 · serviceable from free data 12
+Demand 46.6/100 · tasking gap 34 · serviceable from free data 12
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 0.1 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576618</content>
@@ -78,7 +78,7 @@ Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="floods"/>
     <content type="text">Flood, Myanmar — PARTIAL
 Myanmar · floods · opened 2026-11-10
-Demand 45.8/100 · tasking gap 27 · serviceable from free data 19
+Demand 45.7/100 · tasking gap 27 · serviceable from free data 19
 Free supply: Sentinel-2 last pass 0.1 d ago, 99% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 21.5122, 98.0098 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104280</content>
@@ -95,5 +95,18 @@ Demand 42.6/100 · tasking gap 23 · serviceable from free data 19
 Free supply: Sentinel-2 last pass 4.1 d ago, 69.7% cloud · Sentinel-1 last pass 4.1 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -29.9721, 131.5819 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033659</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1033647_2</id>
+    <title>[PARTIAL] Forest fire, Australia — €18k tasking</title>
+    <updated>2026-11-11T16:04:45.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1033647_2"/>
+    <category term="wildfires"/>
+    <content type="text">Forest fire, Australia — PARTIAL
+Australia · wildfires · opened 2026-11-07
+Demand 41.1/100 · tasking gap 21 · serviceable from free data 20
+Free supply: Sentinel-2 last pass 1.1 d ago, 72.8% cloud (free optical passes are cloud-covered)
+Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
+Location: -21.5103, 131.9012 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033647</content>
   </entry>
 </feed>
