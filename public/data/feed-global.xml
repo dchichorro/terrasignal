@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone PENA-26 — TASKING GAP
 severe-storms · opened 2026-11-06
-Demand 41.5/100 · tasking gap 41 · serviceable from free data 0
+Demand 41.4/100 · tasking gap 41 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 9.8000, -170.6000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001348</content>
@@ -39,7 +39,7 @@ Location: -11.8000, 50.5400 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Solomon Is. — COPERNICUS-READY
 Solomon Is. · earthquake · opened 2026-11-09
-Demand 49.8/100 · tasking gap 37 · serviceable from free data 13
+Demand 49.7/100 · tasking gap 37 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 0.8 d ago, 17.5% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576364</content>
@@ -72,15 +72,15 @@ Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1576618_1746073</id>
-    <title>[TASKING GAP] Earthquake, Guatemala — €71k tasking</title>
+    <title>[COPERNICUS-READY] Earthquake, Guatemala — €99k tasking</title>
     <updated>2026-11-10T15:15:15.000Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1576618_1746073"/>
     <category term="earthquake"/>
-    <content type="text">Earthquake, Guatemala — TASKING GAP
+    <content type="text">Earthquake, Guatemala — COPERNICUS-READY
 Guatemala · earthquake · opened 2026-11-10
-Demand 47.2/100 · tasking gap 47 · serviceable from free data 0
-Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
-Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
+Demand 47.2/100 · tasking gap 34 · serviceable from free data 13
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass -0.2 d ago (no Sentinel-2 pass in the event window)
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576618</content>
   </entry>
   <entry>
@@ -95,19 +95,6 @@ Demand 44.6/100 · tasking gap 35 · serviceable from free data 10
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 2.8 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -20.7774, 24.4862 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033699</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:GDACS_1033687_2</id>
-    <title>[PARTIAL] Forest fire, Australia — €18k tasking</title>
-    <updated>2026-11-10T12:01:23.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1033687_2"/>
-    <category term="wildfires"/>
-    <content type="text">Forest fire, Australia — PARTIAL
-Australia · wildfires · opened 2026-11-10
-Demand 46.2/100 · tasking gap 33 · serviceable from free data 13
-Free supply: Sentinel-2 no pass · Sentinel-1 last pass 0.8 d ago (no Sentinel-2 pass in the event window)
-Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
-Location: -24.0242, 126.1572 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033687</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1033659_3</id>
