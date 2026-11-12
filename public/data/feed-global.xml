@@ -26,7 +26,7 @@ Location: -11.8000, 50.5400 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Solomon Is. — COPERNICUS-READY
 Solomon Is. · earthquake · opened 2026-11-09
-Demand 49.6/100 · tasking gap 37 · serviceable from free data 13
+Demand 49.5/100 · tasking gap 37 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 0.9 d ago, 17.5% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576364</content>
@@ -78,7 +78,7 @@ Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="wildfires"/>
     <content type="text">Forest fire, Botswana — TASKING GAP
 Botswana · wildfires · opened 2026-11-09
-Demand 44.5/100 · tasking gap 35 · serviceable from free data 10
+Demand 44.4/100 · tasking gap 35 · serviceable from free data 10
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 2.9 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -20.7774, 24.4862 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033699</content>
