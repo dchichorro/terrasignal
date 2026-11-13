@@ -39,7 +39,7 @@ Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Guatemala — COPERNICUS-READY
 Guatemala · earthquake · opened 2026-11-10
-Demand 45.1/100 · tasking gap 34 · serviceable from free data 11
+Demand 45/100 · tasking gap 34 · serviceable from free data 11
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1.1 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576618</content>
@@ -52,7 +52,7 @@ Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Japan — PARTIAL
 Japan · earthquake · opened 2026-11-06
-Demand 43.2/100 · tasking gap 38 · serviceable from free data 5
+Demand 43.1/100 · tasking gap 38 · serviceable from free data 5
 Free supply: Sentinel-2 last pass 4.1 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~2,827 km² — indicative €87k
 Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576372</content>
@@ -78,7 +78,7 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="floods"/>
     <content type="text">Flood, Myanmar — PARTIAL
 Myanmar · floods · opened 2026-11-10
-Demand 44.2/100 · tasking gap 28 · serviceable from free data 16
+Demand 44.1/100 · tasking gap 28 · serviceable from free data 16
 Free supply: Sentinel-2 last pass 1.1 d ago, 99% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 21.5122, 98.0098 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104280</content>
