@@ -2,22 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Global</id>
   <title>TerraSignal tasking leads — Global</title>
-  <updated>2026-11-13T00:00:00.000Z</updated>
+  <updated>2026-11-13T06:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
-  <entry>
-    <id>urn:terrasignal:GDACS_1577060_1746280</id>
-    <title>[COPERNICUS-READY] Earthquake, Papua New Guinea — €99k tasking</title>
-    <updated>2026-11-12T22:20:24.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1577060_1746280"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake, Papua New Guinea — COPERNICUS-READY
-Papua New Guinea · earthquake · opened 2026-11-12
-Demand 49.5/100 · tasking gap 37 · serviceable from free data 13
-Free supply: Sentinel-2 last pass -0.3 d ago, 36% cloud
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577060</content>
-  </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1576364_1745503</id>
     <title>[COPERNICUS-READY] Earthquake, Solomon Is. — €99k tasking</title>
@@ -26,10 +13,23 @@ Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Solomon Is. — COPERNICUS-READY
 Solomon Is. · earthquake · opened 2026-11-09
-Demand 48.1/100 · tasking gap 37 · serviceable from free data 12
-Free supply: Sentinel-2 last pass 1.7 d ago, 17.5% cloud
+Demand 48.1/100 · tasking gap 37 · serviceable from free data 11
+Free supply: Sentinel-2 last pass 1.8 d ago, 17.5% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576364</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1577060_1746280</id>
+    <title>[COPERNICUS-READY] Earthquake, Papua New Guinea — €99k tasking</title>
+    <updated>2026-11-12T22:20:24.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1577060_1746280"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake, Papua New Guinea — COPERNICUS-READY
+Papua New Guinea · earthquake · opened 2026-11-12
+Demand 49.4/100 · tasking gap 36 · serviceable from free data 13
+Free supply: Sentinel-2 last pass -0.2 d ago, 36% cloud
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
+Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577060</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1576372_1745512</id>
@@ -40,7 +40,7 @@ Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <content type="text">Earthquake, Japan — PARTIAL
 Japan · earthquake · opened 2026-11-06
 Demand 43.7/100 · tasking gap 39 · serviceable from free data 5
-Free supply: Sentinel-2 last pass 3.7 d ago, 100% cloud (free optical passes are cloud-covered)
+Free supply: Sentinel-2 last pass 3.8 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~2,827 km² — indicative €87k
 Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576372</content>
   </entry>
@@ -52,8 +52,8 @@ Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 47.4/100 · tasking gap 34 · serviceable from free data 14
-Free supply: Sentinel-2 last pass 1.7 d ago, 42.2% cloud · Sentinel-1 last pass 0.7 d ago
+Demand 47.3/100 · tasking gap 34 · serviceable from free data 13
+Free supply: Sentinel-2 last pass 1.8 d ago, 42.2% cloud · Sentinel-1 last pass 0.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
@@ -65,8 +65,8 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Guatemala — COPERNICUS-READY
 Guatemala · earthquake · opened 2026-11-10
-Demand 45.7/100 · tasking gap 34 · serviceable from free data 11
-Free supply: Sentinel-2 no pass · Sentinel-1 last pass 0.7 d ago (no Sentinel-2 pass in the event window)
+Demand 45.6/100 · tasking gap 34 · serviceable from free data 11
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass 0.8 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576618</content>
   </entry>
@@ -78,8 +78,8 @@ Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="floods"/>
     <content type="text">Flood, Myanmar — PARTIAL
 Myanmar · floods · opened 2026-11-10
-Demand 44.8/100 · tasking gap 28 · serviceable from free data 17
-Free supply: Sentinel-2 last pass 0.7 d ago, 99% cloud (free optical passes are cloud-covered)
+Demand 44.7/100 · tasking gap 28 · serviceable from free data 17
+Free supply: Sentinel-2 last pass 0.8 d ago, 99% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 21.5122, 98.0098 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104280</content>
   </entry>
