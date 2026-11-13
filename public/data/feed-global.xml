@@ -14,7 +14,7 @@
     <content type="text">Earthquake, Papua New Guinea — COPERNICUS-READY
 Papua New Guinea · earthquake · opened 2026-11-12
 Demand 49.1/100 · tasking gap 36 · serviceable from free data 13
-Free supply: Sentinel-2 last pass -0.1 d ago, 36% cloud
+Free supply: Sentinel-2 last pass 0 d ago, 36% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577060</content>
   </entry>
@@ -27,7 +27,7 @@ Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <content type="text">Earthquake, Japan — PARTIAL
 Japan · earthquake · opened 2026-11-06
 Demand 43.4/100 · tasking gap 39 · serviceable from free data 5
-Free supply: Sentinel-2 last pass 3.9 d ago, 100% cloud (free optical passes are cloud-covered)
+Free supply: Sentinel-2 last pass 4 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~2,827 km² — indicative €87k
 Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576372</content>
   </entry>
@@ -39,8 +39,8 @@ Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Solomon Is. — COPERNICUS-READY
 Solomon Is. · earthquake · opened 2026-11-09
-Demand 47.8/100 · tasking gap 34 · serviceable from free data 14
-Free supply: Sentinel-2 last pass 1.9 d ago, 17.5% cloud · Sentinel-1 last pass -0.1 d ago
+Demand 47.7/100 · tasking gap 34 · serviceable from free data 14
+Free supply: Sentinel-2 last pass 2 d ago, 17.5% cloud · Sentinel-1 last pass 0 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576364</content>
   </entry>
@@ -52,8 +52,8 @@ Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Guatemala — COPERNICUS-READY
 Guatemala · earthquake · opened 2026-11-10
-Demand 45.4/100 · tasking gap 34 · serviceable from free data 11
-Free supply: Sentinel-2 no pass · Sentinel-1 last pass 0.9 d ago (no Sentinel-2 pass in the event window)
+Demand 45.3/100 · tasking gap 34 · serviceable from free data 11
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576618</content>
   </entry>
@@ -66,7 +66,7 @@ Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
 Demand 47/100 · tasking gap 33 · serviceable from free data 14
-Free supply: Sentinel-2 last pass -0.1 d ago, 33.8% cloud · Sentinel-1 last pass 0.9 d ago
+Free supply: Sentinel-2 last pass 0 d ago, 22.4% cloud · Sentinel-1 last pass 1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
@@ -78,8 +78,8 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="floods"/>
     <content type="text">Flood, Myanmar — PARTIAL
 Myanmar · floods · opened 2026-11-10
-Demand 44.5/100 · tasking gap 28 · serviceable from free data 17
-Free supply: Sentinel-2 last pass 0.9 d ago, 99% cloud (free optical passes are cloud-covered)
+Demand 44.4/100 · tasking gap 28 · serviceable from free data 16
+Free supply: Sentinel-2 last pass 1 d ago, 99% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 21.5122, 98.0098 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104280</content>
   </entry>
