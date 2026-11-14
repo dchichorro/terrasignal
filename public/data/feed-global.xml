@@ -13,7 +13,7 @@
     <category term="earthquake"/>
     <content type="text">Earthquake, Papua New Guinea — COPERNICUS-READY
 Papua New Guinea · earthquake · opened 2026-11-12
-Demand 48/100 · tasking gap 36 · serviceable from free data 12
+Demand 47.9/100 · tasking gap 36 · serviceable from free data 12
 Free supply: Sentinel-2 last pass 0.6 d ago, 36% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577060</content>
@@ -26,7 +26,7 @@ Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — TASKING GAP
 Peru · earthquake · opened 2026-11-13
-Demand 49.3/100 · tasking gap 49 · serviceable from free data 0
+Demand 49.2/100 · tasking gap 49 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577195</content>
@@ -91,7 +91,7 @@ Location: 21.5122, 98.0098 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;
     <category term="wildfires"/>
     <content type="text">Prescribed Fire Compartment 170 RX, Greene, Georgia — PARTIAL
 wildfires · opened 2026-11-09
-Demand 100/100 · tasking gap 51 · serviceable from free data 49
+Demand 100/100 · tasking gap 52 · serviceable from free data 48
 Free supply: Sentinel-2 last pass 2.6 d ago, 79.9% cloud · Sentinel-1 last pass 3.6 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 33.7473, -83.2594 · https://irwin.doi.gov/observer/incidents/2026-GACHF-260217</content>
@@ -104,7 +104,7 @@ Location: 33.7473, -83.2594 · https://irwin.doi.gov/observer/incidents/2026-GAC
     <category term="wildfires"/>
     <content type="text">Forest fire, Argentina — TASKING GAP
 Argentina · wildfires · opened 2026-11-10
-Demand 43.4/100 · tasking gap 34 · serviceable from free data 10
+Demand 43.3/100 · tasking gap 34 · serviceable from free data 10
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 2.6 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -24.4952, -60.5781 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033788</content>
