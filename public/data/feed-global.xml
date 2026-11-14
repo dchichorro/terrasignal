@@ -19,6 +19,19 @@ Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km
 Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577060</content>
   </entry>
   <entry>
+    <id>urn:terrasignal:GDACS_1577321_1746580</id>
+    <title>[TASKING GAP] Earthquake, Northern Mid-Atlantic Ridge — €71k tasking</title>
+    <updated>2026-11-14T09:43:12.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1577321_1746580"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake, Northern Mid-Atlantic Ridge — TASKING GAP
+Northern Mid-Atlantic Ridge · earthquake · opened 2026-11-14
+Demand 49.9/100 · tasking gap 50 · serviceable from free data 0
+Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
+Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
+Location: 30.1220, -42.6346 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577321</content>
+  </entry>
+  <entry>
     <id>urn:terrasignal:GDACS_1577195_1746435</id>
     <title>[TASKING GAP] Earthquake, Peru — €71k tasking</title>
     <updated>2026-11-13T17:03:43.000Z</updated>
@@ -39,7 +52,7 @@ Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Guatemala — COPERNICUS-READY
 Guatemala · earthquake · opened 2026-11-10
-Demand 43.9/100 · tasking gap 34 · serviceable from free data 10
+Demand 43.8/100 · tasking gap 34 · serviceable from free data 10
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1.9 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576618</content>
@@ -52,7 +65,7 @@ Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 45.5/100 · tasking gap 32 · serviceable from free data 13
+Demand 45.4/100 · tasking gap 32 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 0.9 d ago, 22.4% cloud · Sentinel-1 last pass 1.9 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
@@ -91,7 +104,7 @@ Location: 33.7473, -83.2594 · https://irwin.doi.gov/observer/incidents/2026-GAC
     <category term="wildfires"/>
     <content type="text">Prescribed Fire TON RX - BAILEY LOST HP, Okanogan, Washington — PARTIAL
   · wildfires · opened 2026-10-26
-Demand 70.6/100 · tasking gap 37 · serviceable from free data 34
+Demand 70.5/100 · tasking gap 37 · serviceable from free data 33
 Free supply: Sentinel-2 last pass 1.9 d ago, 97.1% cloud · Sentinel-1 last pass 3.9 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 48.5327, -119.0552 · https://irwin.doi.gov/observer/incidents/2026-WACOF-002153</content>
@@ -104,7 +117,7 @@ Location: 48.5327, -119.0552 · https://irwin.doi.gov/observer/incidents/2026-WA
     <category term="wildfires"/>
     <content type="text">Forest fire, Argentina — TASKING GAP
 Argentina · wildfires · opened 2026-11-10
-Demand 43/100 · tasking gap 34 · serviceable from free data 9
+Demand 42.9/100 · tasking gap 34 · serviceable from free data 9
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 2.9 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -24.4961, -60.5784 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033788</content>
