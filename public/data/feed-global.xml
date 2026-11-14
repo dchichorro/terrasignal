@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Global</id>
   <title>TerraSignal tasking leads — Global</title>
-  <updated>2026-11-13T18:00:00.000Z</updated>
+  <updated>2026-11-14T00:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
@@ -13,7 +13,7 @@
     <category term="earthquake"/>
     <content type="text">Earthquake, Papua New Guinea — COPERNICUS-READY
 Papua New Guinea · earthquake · opened 2026-11-12
-Demand 48.2/100 · tasking gap 36 · serviceable from free data 12
+Demand 48.1/100 · tasking gap 36 · serviceable from free data 12
 Free supply: Sentinel-2 last pass 0.5 d ago, 36% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577060</content>
@@ -26,7 +26,7 @@ Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — TASKING GAP
 Peru · earthquake · opened 2026-11-13
-Demand 49.5/100 · tasking gap 50 · serviceable from free data 0
+Demand 49.4/100 · tasking gap 49 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577195</content>
@@ -39,36 +39,10 @@ Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Guatemala — COPERNICUS-READY
 Guatemala · earthquake · opened 2026-11-10
-Demand 44.5/100 · tasking gap 34 · serviceable from free data 10
+Demand 44.4/100 · tasking gap 34 · serviceable from free data 10
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1.5 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 13.5622, -90.8534 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576618</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:GDACS_1576372_1745512</id>
-    <title>[TASKING GAP] Earthquake, Japan — €87k tasking</title>
-    <updated>2026-11-09T05:03:32.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1576372_1745512"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake, Japan — TASKING GAP
-Japan · earthquake · opened 2026-11-06
-Demand 42.6/100 · tasking gap 38 · serviceable from free data 4
-Free supply: Sentinel-2 last pass 4.5 d ago, 100% cloud (free optical passes are cloud-covered)
-Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~2,827 km² — indicative €87k
-Location: 36.2471, 141.8299 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576372</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:GDACS_1576364_1745503</id>
-    <title>[COPERNICUS-READY] Earthquake, Solomon Is. — €99k tasking</title>
-    <updated>2026-11-09T03:45:14.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1576364_1745503"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake, Solomon Is. — COPERNICUS-READY
-Solomon Is. · earthquake · opened 2026-11-09
-Demand 46.9/100 · tasking gap 33 · serviceable from free data 14
-Free supply: Sentinel-2 last pass 2.5 d ago, 17.5% cloud · Sentinel-1 last pass 0.5 d ago
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: -10.8669, 165.5616 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1576364</content>
   </entry>
   <entry>
     <id>urn:terrasignal:USGS_us6000u43g</id>
@@ -84,6 +58,19 @@ Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
   <entry>
+    <id>urn:terrasignal:USGS_us7000tx16</id>
+    <title>[COPERNICUS-READY] Earthquake M6.4, Lata, Solomon Islands — €99k tasking</title>
+    <updated>2026-11-13T21:48:31.187Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us7000tx16"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake M6.4, Lata, Solomon Islands — COPERNICUS-READY
+30 km WSW of Lata, Solomon Islands · earthquake · opened 2026-11-09
+Demand 42.1/100 · tasking gap 30 · serviceable from free data 12
+Free supply: Sentinel-2 last pass 2.5 d ago, 17.5% cloud · Sentinel-1 last pass 0.5 d ago
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
+Location: -10.8669, 165.5616 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx16</content>
+  </entry>
+  <entry>
     <id>urn:terrasignal:GDACS_1104280_1</id>
     <title>[PARTIAL] Flood, Myanmar — €60k tasking</title>
     <updated>2026-11-12T07:27:59.000Z</updated>
@@ -97,16 +84,16 @@ Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² �
 Location: 21.5122, 98.0098 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104280</content>
   </entry>
   <entry>
-    <id>urn:terrasignal:GDACS_1033788_2</id>
+    <id>urn:terrasignal:GDACS_1033788_3</id>
     <title>[TASKING GAP] Forest fire, Argentina — €18k tasking</title>
     <updated>2026-11-13T12:04:18.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1033788_2"/>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1033788_3"/>
     <category term="wildfires"/>
     <content type="text">Forest fire, Argentina — TASKING GAP
 Argentina · wildfires · opened 2026-11-10
-Demand 43.6/100 · tasking gap 34 · serviceable from free data 10
+Demand 43.5/100 · tasking gap 34 · serviceable from free data 10
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 2.5 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
-Location: -24.4936, -60.5830 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033788</content>
+Location: -24.4952, -60.5781 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033788</content>
   </entry>
 </feed>
