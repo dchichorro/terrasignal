@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone FOUR-26, Cook Islands — TASKING GAP
 Cook Islands · severe-storms · opened 2026-11-15
-Demand 49.5/100 · tasking gap 50 · serviceable from free data 0
+Demand 49.5/100 · tasking gap 49 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -8.4000, -158.9000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001350</content>
@@ -26,8 +26,8 @@ Location: -8.4000, -158.9000 · http://www.gdacs.org/report.aspx?eventtype=TC&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Papua New Guinea — COPERNICUS-READY
 Papua New Guinea · earthquake · opened 2026-11-12
-Demand 45.7/100 · tasking gap 36 · serviceable from free data 10
-Free supply: Sentinel-2 last pass 0 d ago, 74.1% cloud (free optical passes are cloud-covered)
+Demand 45.6/100 · tasking gap 36 · serviceable from free data 10
+Free supply: Sentinel-2 last pass 0.1 d ago, 74.1% cloud (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577060</content>
   </entry>
@@ -39,22 +39,22 @@ Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Northern Mid-Atlantic Ridge — TASKING GAP
 Northern Mid-Atlantic Ridge · earthquake · opened 2026-11-14
-Demand 48.1/100 · tasking gap 48 · serviceable from free data 0
+Demand 48/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 30.1220, -42.6346 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577321</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1577195_1746435</id>
-    <title>[TASKING GAP] Earthquake, Peru — €71k tasking</title>
+    <title>[COPERNICUS-READY] Earthquake, Peru — €99k tasking</title>
     <updated>2026-11-13T17:03:43.000Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1577195_1746435"/>
     <category term="earthquake"/>
-    <content type="text">Earthquake, Peru — TASKING GAP
+    <content type="text">Earthquake, Peru — COPERNICUS-READY
 Peru · earthquake · opened 2026-11-13
-Demand 47/100 · tasking gap 47 · serviceable from free data 0
-Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
-Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
+Demand 46.9/100 · tasking gap 34 · serviceable from free data 13
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass 0.1 d ago (no Sentinel-2 pass in the event window)
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577195</content>
   </entry>
   <entry>
@@ -66,7 +66,7 @@ Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
 Demand 43.7/100 · tasking gap 32 · serviceable from free data 12
-Free supply: Sentinel-2 last pass 2 d ago, 22.4% cloud · Sentinel-1 last pass 3 d ago
+Free supply: Sentinel-2 last pass 2.1 d ago, 22.4% cloud · Sentinel-1 last pass 3.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
@@ -79,7 +79,7 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <content type="text">Earthquake M6.4, Lata, Solomon Islands — COPERNICUS-READY
 30 km WSW of Lata, Solomon Islands · earthquake · opened 2026-11-09
 Demand 40/100 · tasking gap 29 · serviceable from free data 11
-Free supply: Sentinel-2 last pass 4 d ago, 17.5% cloud · Sentinel-1 last pass 2 d ago
+Free supply: Sentinel-2 last pass 4.1 d ago, 17.5% cloud · Sentinel-1 last pass 2.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8669, 165.5616 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx16</content>
   </entry>
@@ -92,7 +92,7 @@ Location: -10.8669, 165.5616 · https://earthquake.usgs.gov/earthquakes/eventpag
     <content type="text">Earthquake, Fiji — PARTIAL
 Fiji · earthquake · opened 2026-11-05
 Demand 39.4/100 · tasking gap 32 · serviceable from free data 7
-Free supply: Sentinel-2 last pass 5 d ago, 18.4% cloud
+Free supply: Sentinel-2 last pass 5.1 d ago, 18.4% cloud
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -19.5554, -177.8215 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577445</content>
   </entry>
@@ -105,7 +105,7 @@ Location: -19.5554, -177.8215 · http://www.gdacs.org/report.aspx?eventtype=EQ&a
     <content type="text">Prescribed Fire Compartment 170 RX, Greene, Georgia — PARTIAL
 wildfires · opened 2026-11-09
 Demand 100/100 · tasking gap 58 · serviceable from free data 42
-Free supply: Sentinel-2 last pass 4 d ago, 79.9% cloud · Sentinel-1 last pass 5 d ago (free optical passes are cloud-covered)
+Free supply: Sentinel-2 last pass 4.1 d ago, 79.9% cloud · Sentinel-1 last pass 5.1 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 33.7473, -83.2594 · https://irwin.doi.gov/observer/incidents/2026-GACHF-260217</content>
   </entry>
@@ -118,7 +118,7 @@ Location: 33.7473, -83.2594 · https://irwin.doi.gov/observer/incidents/2026-GAC
     <content type="text">Forest fire, Mali — PARTIAL
 Mali · wildfires · opened 2026-11-10
 Demand 41.3/100 · tasking gap 25 · serviceable from free data 16
-Free supply: Sentinel-2 last pass 4 d ago, 56.3% cloud
+Free supply: Sentinel-2 last pass 4.1 d ago, 56.3% cloud
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 15.4994, -0.0093 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033770</content>
   </entry>
