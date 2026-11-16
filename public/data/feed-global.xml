@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Global</id>
   <title>TerraSignal tasking leads — Global</title>
-  <updated>2026-11-16T00:00:00.000Z</updated>
+  <updated>2026-11-16T06:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
@@ -26,22 +26,22 @@ Location: -8.1000, -160.1000 · http://www.gdacs.org/report.aspx?eventtype=TC&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Papua New Guinea — COPERNICUS-READY
 Papua New Guinea · earthquake · opened 2026-11-12
-Demand 44.6/100 · tasking gap 36 · serviceable from free data 9
-Free supply: Sentinel-2 last pass 0.7 d ago, 74.1% cloud (free optical passes are cloud-covered)
+Demand 44.5/100 · tasking gap 36 · serviceable from free data 9
+Free supply: Sentinel-2 last pass 0.8 d ago, 74.1% cloud (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -1.5882, 149.8877 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577060</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1577487_1746763</id>
-    <title>[TASKING GAP] Earthquake, Philippines — €71k tasking</title>
+    <title>[COPERNICUS-READY] Earthquake, Philippines — €99k tasking</title>
     <updated>2026-11-15T13:55:51.000Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1577487_1746763"/>
     <category term="earthquake"/>
-    <content type="text">Earthquake, Philippines — TASKING GAP
+    <content type="text">Earthquake, Philippines — COPERNICUS-READY
 Philippines · earthquake · opened 2026-11-15
-Demand 48.9/100 · tasking gap 49 · serviceable from free data 0
-Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
-Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
+Demand 48.8/100 · tasking gap 35 · serviceable from free data 14
+Free supply: Sentinel-2 last pass -0.2 d ago, 12.6% cloud
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 9.7595, 126.2000 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577487</content>
   </entry>
   <entry>
@@ -52,7 +52,7 @@ Location: 9.7595, 126.2000 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, Northern Mid-Atlantic Ridge — TASKING GAP
 Northern Mid-Atlantic Ridge · earthquake · opened 2026-11-14
-Demand 46.9/100 · tasking gap 47 · serviceable from free data 0
+Demand 46.8/100 · tasking gap 47 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 30.1220, -42.6346 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577321</content>
@@ -65,8 +65,8 @@ Location: 30.1220, -42.6346 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — COPERNICUS-READY
 Peru · earthquake · opened 2026-11-13
-Demand 45.8/100 · tasking gap 32 · serviceable from free data 13
-Free supply: Sentinel-2 last pass 0.7 d ago, 13% cloud · Sentinel-1 last pass 0.7 d ago
+Demand 45.7/100 · tasking gap 32 · serviceable from free data 13
+Free supply: Sentinel-2 last pass 0.8 d ago, 13% cloud · Sentinel-1 last pass 0.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577195</content>
   </entry>
@@ -78,8 +78,8 @@ Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 42.7/100 · tasking gap 31 · serviceable from free data 11
-Free supply: Sentinel-2 last pass 2.7 d ago, 22.4% cloud · Sentinel-1 last pass 3.7 d ago
+Demand 42.6/100 · tasking gap 31 · serviceable from free data 11
+Free supply: Sentinel-2 last pass 2.8 d ago, 22.4% cloud · Sentinel-1 last pass 3.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
@@ -92,7 +92,7 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <content type="text">Earthquake M6.4, Lata, Solomon Islands — COPERNICUS-READY
 30 km WSW of Lata, Solomon Islands · earthquake · opened 2026-11-09
 Demand 39/100 · tasking gap 29 · serviceable from free data 10
-Free supply: Sentinel-2 last pass 4.7 d ago, 17.5% cloud · Sentinel-1 last pass 2.7 d ago
+Free supply: Sentinel-2 last pass 4.8 d ago, 17.5% cloud · Sentinel-1 last pass 2.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8669, 165.5616 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx16</content>
   </entry>
@@ -104,8 +104,8 @@ Location: -10.8669, 165.5616 · https://earthquake.usgs.gov/earthquakes/eventpag
     <category term="wildfires"/>
     <content type="text">Prescribed Fire Compartment 170 RX, Greene, Georgia — PARTIAL
 wildfires · opened 2026-11-09
-Demand 100/100 · tasking gap 60 · serviceable from free data 40
-Free supply: Sentinel-2 last pass 4.7 d ago, 79.9% cloud · Sentinel-1 last pass 5.7 d ago (free optical passes are cloud-covered)
+Demand 100/100 · tasking gap 61 · serviceable from free data 39
+Free supply: Sentinel-2 last pass 4.8 d ago, 79.9% cloud · Sentinel-1 last pass 5.8 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 33.7473, -83.2594 · https://irwin.doi.gov/observer/incidents/2026-GACHF-260217</content>
   </entry>
@@ -117,23 +117,23 @@ Location: 33.7473, -83.2594 · https://irwin.doi.gov/observer/incidents/2026-GAC
     <category term="wildfires"/>
     <content type="text">Prescribed Fire TON RX - BAILEY LOST HP, Okanogan, Washington — PARTIAL
   · wildfires · opened 2026-10-26
-Demand 66.2/100 · tasking gap 35 · serviceable from free data 31
-Free supply: Sentinel-2 last pass 1.7 d ago, 97.1% cloud · Sentinel-1 last pass 5.7 d ago (free optical passes are cloud-covered)
+Demand 66.1/100 · tasking gap 36 · serviceable from free data 31
+Free supply: Sentinel-2 last pass 1.8 d ago, 97.1% cloud · Sentinel-1 last pass 5.8 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 48.5327, -119.0552 · https://irwin.doi.gov/observer/incidents/2026-WACOF-002153</content>
   </entry>
   <entry>
-    <id>urn:terrasignal:GDACS_1033770_1</id>
-    <title>[PARTIAL] Forest fire, Mali — €18k tasking</title>
-    <updated>2026-11-16T04:39:56.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1033770_1"/>
+    <id>urn:terrasignal:GDACS_1033869_2</id>
+    <title>[PARTIAL] Forest fire, Niger, Burkina Faso — €18k tasking</title>
+    <updated>2026-11-15T20:01:45.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1033869_2"/>
     <category term="wildfires"/>
-    <content type="text">Forest fire, Mali — PARTIAL
-Mali · wildfires · opened 2026-11-10
-Demand 40.3/100 · tasking gap 26 · serviceable from free data 15
-Free supply: Sentinel-2 last pass 4.7 d ago, 56.3% cloud
+    <content type="text">Forest fire, Niger, Burkina Faso — PARTIAL
+Niger, Burkina Faso · wildfires · opened 2026-11-09
+Demand 38.9/100 · tasking gap 27 · serviceable from free data 12
+Free supply: Sentinel-2 last pass 4.8 d ago, 73.3% cloud (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
-Location: 15.4994, -0.0093 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033770</content>
+Location: 14.0063, 0.3737 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033869</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1033788_5</id>
@@ -143,8 +143,8 @@ Location: 15.4994, -0.0093 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;
     <category term="wildfires"/>
     <content type="text">Forest fire, Argentina — PARTIAL
 Argentina · wildfires · opened 2026-11-10
-Demand 40.3/100 · tasking gap 21 · serviceable from free data 19
-Free supply: Sentinel-2 last pass 1.7 d ago, 100% cloud · Sentinel-1 last pass 4.7 d ago (free optical passes are cloud-covered)
+Demand 40.2/100 · tasking gap 21 · serviceable from free data 19
+Free supply: Sentinel-2 last pass 1.8 d ago, 100% cloud · Sentinel-1 last pass 4.8 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -24.4962, -60.5771 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033788</content>
   </entry>
