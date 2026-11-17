@@ -66,7 +66,7 @@ Location: -6.0804, 131.4868 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <content type="text">Earthquake, Philippines — COPERNICUS-READY
 Philippines · earthquake · opened 2026-11-15
 Demand 47.5/100 · tasking gap 35 · serviceable from free data 13
-Free supply: Sentinel-2 last pass 0.5 d ago, 12.6% cloud
+Free supply: Sentinel-2 last pass 0.6 d ago, 12.6% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 9.7595, 126.2000 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577487</content>
   </entry>
@@ -91,8 +91,8 @@ Location: 30.1220, -42.6346 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — COPERNICUS-READY
 Peru · earthquake · opened 2026-11-13
-Demand 44.6/100 · tasking gap 32 · serviceable from free data 13
-Free supply: Sentinel-2 last pass 1.5 d ago, 13% cloud · Sentinel-1 last pass 1.5 d ago
+Demand 44.5/100 · tasking gap 32 · serviceable from free data 13
+Free supply: Sentinel-2 last pass 1.6 d ago, 13% cloud · Sentinel-1 last pass 1.6 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577195</content>
   </entry>
@@ -105,8 +105,21 @@ Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
 Demand 41.5/100 · tasking gap 30 · serviceable from free data 12
-Free supply: Sentinel-2 last pass 0.5 d ago, 30.1% cloud · Sentinel-1 last pass 4.5 d ago
+Free supply: Sentinel-2 last pass 0.6 d ago, 30.1% cloud · Sentinel-1 last pass 4.6 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1033878_2</id>
+    <title>[PARTIAL] Forest fire, Australia — €18k tasking</title>
+    <updated>2026-11-16T20:02:07.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1033878_2"/>
+    <category term="wildfires"/>
+    <content type="text">Forest fire, Australia — PARTIAL
+Australia · wildfires · opened 2026-11-14
+Demand 45/100 · tasking gap 24 · serviceable from free data 21
+Free supply: Sentinel-2 last pass 2.6 d ago, 48.4% cloud
+Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
+Location: -24.0343, 138.4002 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033878</content>
   </entry>
 </feed>
