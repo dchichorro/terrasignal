@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>urn:terrasignal:leads:Global</id>
   <title>TerraSignal tasking leads — Global</title>
-  <updated>2026-11-17T00:00:00.000Z</updated>
+  <updated>2026-11-17T06:00:00.000Z</updated>
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone AKVAN-26, India — TASKING GAP
 India · severe-storms · opened 2026-11-16
-Demand 78.7/100 · tasking gap 79 · serviceable from free data 0
+Demand 78.6/100 · tasking gap 79 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 11.6000, 87.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001351</content>
@@ -26,23 +26,10 @@ Location: 11.6000, 87.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone XAVIER-26, Cook Islands — TASKING GAP
 Cook Islands · severe-storms · opened 2026-11-15
-Demand 46.7/100 · tasking gap 47 · serviceable from free data 0
+Demand 46.6/100 · tasking gap 47 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -8.9000, -162.6000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001350</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:CEMS_EMSR936</id>
-    <title>[TASKING GAP] Flood in Ecuador — €60k tasking</title>
-    <updated>2026-11-16T23:57:23.723Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=CEMS_EMSR936"/>
-    <category term="floods"/>
-    <content type="text">Flood in Ecuador — TASKING GAP
-Ecuador · floods · opened 2026-11-16 · Copernicus EMS EMSR936 active
-Demand 100/100 · tasking gap 100 · serviceable from free data 0
-Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
-Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
-Location: -2.1198, -79.6246 · https://mapping.emergency.copernicus.eu/activations/EMSR936/</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1577696_1746999</id>
@@ -52,7 +39,7 @@ Location: -2.1198, -79.6246 · https://mapping.emergency.copernicus.eu/activatio
     <category term="earthquake"/>
     <content type="text">Earthquake, Indonesia — TASKING GAP
 Indonesia · earthquake · opened 2026-11-16
-Demand 54.9/100 · tasking gap 55 · serviceable from free data 0
+Demand 54.8/100 · tasking gap 55 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -6.0804, 131.4868 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577696</content>
@@ -65,8 +52,8 @@ Location: -6.0804, 131.4868 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Philippines — COPERNICUS-READY
 Philippines · earthquake · opened 2026-11-15
-Demand 47.2/100 · tasking gap 35 · serviceable from free data 13
-Free supply: Sentinel-2 last pass 0.7 d ago, 12.6% cloud
+Demand 47.1/100 · tasking gap 35 · serviceable from free data 13
+Free supply: Sentinel-2 last pass 0.8 d ago, 12.6% cloud
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 9.7595, 126.2000 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577487</content>
   </entry>
@@ -91,8 +78,8 @@ Location: 30.1220, -42.6346 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — COPERNICUS-READY
 Peru · earthquake · opened 2026-11-13
-Demand 44.3/100 · tasking gap 32 · serviceable from free data 13
-Free supply: Sentinel-2 last pass 1.7 d ago, 13% cloud · Sentinel-1 last pass 1.7 d ago
+Demand 44.2/100 · tasking gap 32 · serviceable from free data 13
+Free supply: Sentinel-2 last pass 1.8 d ago, 13% cloud · Sentinel-1 last pass 1.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577195</content>
   </entry>
@@ -105,7 +92,7 @@ Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
 Demand 41.2/100 · tasking gap 30 · serviceable from free data 11
-Free supply: Sentinel-2 last pass 0.7 d ago, 30.1% cloud · Sentinel-1 last pass 4.7 d ago
+Free supply: Sentinel-2 last pass 0.8 d ago, 30.1% cloud · Sentinel-1 last pass 4.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
   </entry>
