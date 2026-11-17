@@ -6,17 +6,17 @@
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
-    <id>urn:terrasignal:GDACS_1001351_1</id>
+    <id>urn:terrasignal:GDACS_1001351_2</id>
     <title>[TASKING GAP] Tropical cyclone AKVAN-26, India — €153k tasking</title>
     <updated>2026-11-16T20:06:39.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1001351_1"/>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1001351_2"/>
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone AKVAN-26, India — TASKING GAP
 India · severe-storms · opened 2026-11-16
-Demand 79/100 · tasking gap 79 · serviceable from free data 0
+Demand 78.9/100 · tasking gap 79 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
-Location: 11.3000, 86.7000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001351</content>
+Location: 11.6000, 87.2000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001351</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1001350_4</id>
@@ -26,7 +26,7 @@ Location: 11.3000, 86.7000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone XAVIER-26, Cook Islands — TASKING GAP
 Cook Islands · severe-storms · opened 2026-11-15
-Demand 46.9/100 · tasking gap 47 · serviceable from free data 0
+Demand 46.8/100 · tasking gap 47 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -8.9000, -162.6000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001350</content>
@@ -52,7 +52,7 @@ Location: -2.1198, -79.6246 · https://mapping.emergency.copernicus.eu/activatio
     <category term="earthquake"/>
     <content type="text">Earthquake, Indonesia — TASKING GAP
 Indonesia · earthquake · opened 2026-11-16
-Demand 55.1/100 · tasking gap 55 · serviceable from free data 0
+Demand 55/100 · tasking gap 55 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -6.0804, 131.4868 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577696</content>
@@ -78,7 +78,7 @@ Location: 9.7595, 126.2000 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, Northern Mid-Atlantic Ridge — TASKING GAP
 Northern Mid-Atlantic Ridge · earthquake · opened 2026-11-14
-Demand 45.5/100 · tasking gap 46 · serviceable from free data 0
+Demand 45.5/100 · tasking gap 45 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 30.1220, -42.6346 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577321</content>
@@ -104,7 +104,7 @@ Location: -14.9934, -75.8807 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake M7.0, Nagqu, China — COPERNICUS-READY
 189 km ENE of Nagqu, China · earthquake · opened 2026-10-22
-Demand 41.4/100 · tasking gap 30 · serviceable from free data 12
+Demand 41.3/100 · tasking gap 30 · serviceable from free data 11
 Free supply: Sentinel-2 last pass 0.6 d ago, 30.1% cloud · Sentinel-1 last pass 4.6 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g</content>
@@ -117,7 +117,7 @@ Location: 32.3376, 93.7837 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="wildfires"/>
     <content type="text">Forest fire, Australia — PARTIAL
 Australia · wildfires · opened 2026-11-14
-Demand 44.9/100 · tasking gap 24 · serviceable from free data 21
+Demand 44.8/100 · tasking gap 24 · serviceable from free data 21
 Free supply: Sentinel-2 last pass 2.6 d ago, 48.4% cloud
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -24.0343, 138.4002 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1033878</content>
