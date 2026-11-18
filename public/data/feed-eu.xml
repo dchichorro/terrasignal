@@ -8,12 +8,12 @@
   <entry>
     <id>urn:terrasignal:USGS_us7000tyw8</id>
     <title>[TASKING GAP] Earthquake M5.3, Comandău, Romania — €71k tasking</title>
-    <updated>2026-11-18T08:12:36.261Z</updated>
+    <updated>2026-11-18T08:46:40.854Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us7000tyw8"/>
     <category term="earthquake"/>
     <content type="text">Earthquake M5.3, Comandău, Romania — TASKING GAP
 16 km ESE of Comandău, Romania · earthquake · opened 2026-11-18
-Demand 54.4/100 · tasking gap 54 · serviceable from free data 0
+Demand 54.3/100 · tasking gap 54 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 45.6863, 26.4520 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw8</content>
