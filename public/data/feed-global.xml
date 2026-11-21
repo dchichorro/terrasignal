@@ -13,7 +13,7 @@
     <category term="earthquake"/>
     <content type="text">Earthquake, Indonesia — TASKING GAP
 Indonesia · earthquake · opened 2026-11-21
-Demand 55.3/100 · tasking gap 55 · serviceable from free data 0
+Demand 55.2/100 · tasking gap 55 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578530</content>
@@ -39,7 +39,7 @@ Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — TASKING GAP
 Peru · earthquake · opened 2026-11-21
-Demand 54.5/100 · tasking gap 55 · serviceable from free data 0
+Demand 54.4/100 · tasking gap 54 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578468</content>
@@ -52,7 +52,7 @@ Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Pacific-Antarctic Ridge — TASKING GAP
 Pacific-Antarctic Ridge · earthquake · opened 2026-11-18
-Demand 50.3/100 · tasking gap 50 · serviceable from free data 0
+Demand 50.2/100 · tasking gap 50 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -57.5192, -146.8744 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578046</content>
@@ -73,7 +73,7 @@ Location: -24.6996, 171.2326 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
   <entry>
     <id>urn:terrasignal:USGS_nc75468702</id>
     <title>[TASKING GAP] Earthquake M5.0, Pinnacles, CA — €71k tasking</title>
-    <updated>2026-11-21T10:47:31.362Z</updated>
+    <updated>2026-11-21T13:20:24.821Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_nc75468702"/>
     <category term="earthquake"/>
     <content type="text">Earthquake M5.0, Pinnacles, CA — TASKING GAP
@@ -91,7 +91,7 @@ Location: 36.6072, -121.2083 · https://earthquake.usgs.gov/earthquakes/eventpag
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — COPERNICUS-READY
 Peru · earthquake · opened 2026-11-18
-Demand 44.6/100 · tasking gap 32 · serviceable from free data 13
+Demand 44.5/100 · tasking gap 32 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 1.1 d ago, 14% cloud · Sentinel-1 last pass 1.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -15.1438, -75.9238 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577946</content>
@@ -104,7 +104,7 @@ Location: -15.1438, -75.9238 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Indonesia — COPERNICUS-READY
 Indonesia · earthquake · opened 2026-11-18
-Demand 44.5/100 · tasking gap 32 · serviceable from free data 12
+Demand 44.4/100 · tasking gap 32 · serviceable from free data 12
 Free supply: Sentinel-2 last pass 0.1 d ago, 56.8% cloud · Sentinel-1 last pass 3.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -8.2501, 120.5285 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577920</content>
@@ -130,7 +130,7 @@ Location: -5.7009, 146.5479 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, South Of Mariana Islands — TASKING GAP
 South Of Mariana Islands · earthquake · opened 2026-11-18
-Demand 44.4/100 · tasking gap 44 · serviceable from free data 0
+Demand 44.3/100 · tasking gap 44 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 12.1387, 143.8866 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1577901</content>
@@ -156,7 +156,7 @@ Location: 45.6816, 26.4521 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake M6.6, Tual, Indonesia — COPERNICUS-READY
 149 km WSW of Tual, Indonesia · earthquake · opened 2026-11-16
-Demand 42.5/100 · tasking gap 30 · serviceable from free data 12
+Demand 42.4/100 · tasking gap 30 · serviceable from free data 12
 Free supply: Sentinel-2 last pass 2.1 d ago, 57.3% cloud · Sentinel-1 last pass 0.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -6.0208, 131.4593 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu</content>
@@ -169,7 +169,7 @@ Location: -6.0208, 131.4593 · https://earthquake.usgs.gov/earthquakes/eventpage
     <category term="wildfires"/>
     <content type="text">Prescribed Fire 2027 TXTMR HFR RX, Matagorda, Texas — PARTIAL
 wildfires · opened 2026-11-18
-Demand 100/100 · tasking gap 65 · serviceable from free data 35
+Demand 100/100 · tasking gap 66 · serviceable from free data 34
 Free supply: Sentinel-2 last pass 3.1 d ago, 88% cloud (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 28.7624, -95.8080 · https://irwin.doi.gov/observer/incidents/2026-TXHGR-000422</content>
@@ -208,7 +208,7 @@ Location: 40.4072, -7.5448 · https://mapping.emergency.copernicus.eu/activation
     <category term="wildfires"/>
     <content type="text">Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida — PARTIAL
 28 Miles NW from LAKE CITY, FL · wildfires · opened 2026-10-22
-Demand 50.6/100 · tasking gap 31 · serviceable from free data 20
+Demand 50.5/100 · tasking gap 31 · serviceable from free data 20
 Free supply: Sentinel-2 last pass 5.1 d ago, 88.6% cloud · Sentinel-1 last pass 4.1 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 30.4953, -82.8578 · https://irwin.doi.gov/observer/incidents/2026-FLFLS-260601105</content>
