@@ -6,19 +6,6 @@
   <link rel="self" href="https://dchichorro.github.io/terrasignal/data/feed-global.xml"/>
   <author><name>TerraSignal</name></author>
   <entry>
-    <id>urn:terrasignal:GDACS_1578540_1747930</id>
-    <title>[COPERNICUS-READY] Earthquake, China — €99k tasking</title>
-    <updated>2026-11-21T11:02:39.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1578540_1747930"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake, China — COPERNICUS-READY
-China · earthquake · opened 2026-11-21
-Demand 51.8/100 · tasking gap 40 · serviceable from free data 11
-Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1.8 d ago (no Sentinel-2 pass in the event window)
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578540</content>
-  </entry>
-  <entry>
     <id>urn:terrasignal:GDACS_1578798_1748237</id>
     <title>[TASKING GAP] Earthquake, Vanuatu Islands Region — €71k tasking</title>
     <updated>2026-11-23T02:48:52.000Z</updated>
@@ -26,7 +13,7 @@ Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, Vanuatu Islands Region — TASKING GAP
 Vanuatu Islands Region · earthquake · opened 2026-11-23
-Demand 55.1/100 · tasking gap 55 · serviceable from free data 0
+Demand 55/100 · tasking gap 55 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578798</content>
@@ -52,10 +39,23 @@ Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — COPERNICUS-READY
 Peru · earthquake · opened 2026-11-21
-Demand 51.3/100 · tasking gap 37 · serviceable from free data 15
+Demand 51.2/100 · tasking gap 37 · serviceable from free data 15
 Free supply: Sentinel-2 last pass 0.8 d ago, 48.3% cloud · Sentinel-1 last pass 0.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578468</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1578540_1747930</id>
+    <title>[COPERNICUS-READY] Earthquake, China — €99k tasking</title>
+    <updated>2026-11-21T11:02:39.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1578540_1747930"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake, China — COPERNICUS-READY
+China · earthquake · opened 2026-11-21
+Demand 51.7/100 · tasking gap 36 · serviceable from free data 16
+Free supply: Sentinel-2 last pass -0.2 d ago, 0.4% cloud · Sentinel-1 last pass 1.8 d ago
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
+Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578540</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1578280_1747643</id>
@@ -78,7 +78,7 @@ Location: -24.6996, 171.2326 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake M5.0, Pinnacles, CA — COPERNICUS-READY
 10 km NW of Pinnacles, CA · earthquake · opened 2026-11-20
-Demand 44.5/100 · tasking gap 32 · serviceable from free data 13
+Demand 44.4/100 · tasking gap 32 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 1.8 d ago, 98.5% cloud · Sentinel-1 last pass -0.2 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 36.6072, -121.2083 · https://earthquake.usgs.gov/earthquakes/eventpage/nc75468702</content>
@@ -91,7 +91,7 @@ Location: 36.6072, -121.2083 · https://earthquake.usgs.gov/earthquakes/eventpag
     <category term="earthquake"/>
     <content type="text">Earthquake M6.0, Pacific-Antarctic Ridge — TASKING GAP
 Pacific-Antarctic Ridge · earthquake · opened 2026-11-18
-Demand 42.6/100 · tasking gap 43 · serviceable from free data 0
+Demand 42.5/100 · tasking gap 42 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -57.5192, -146.8744 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz37</content>
@@ -104,7 +104,7 @@ Location: -57.5192, -146.8744 · https://earthquake.usgs.gov/earthquakes/eventpa
     <category term="earthquake"/>
     <content type="text">Earthquake M5.3, Comandău, Romania — COPERNICUS-READY
 17 km ESE of Comandău, Romania · earthquake · opened 2026-11-18
-Demand 41.2/100 · tasking gap 30 · serviceable from free data 12
+Demand 41.2/100 · tasking gap 30 · serviceable from free data 11
 Free supply: Sentinel-2 last pass 2.8 d ago, 47.7% cloud · Sentinel-1 last pass 0.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 45.6816, 26.4521 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw8</content>
@@ -117,7 +117,7 @@ Location: 45.6816, 26.4521 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake M6.6, Tual, Indonesia — COPERNICUS-READY
 149 km WSW of Tual, Indonesia · earthquake · opened 2026-11-16
-Demand 40/100 · tasking gap 29 · serviceable from free data 11
+Demand 39.9/100 · tasking gap 29 · serviceable from free data 10
 Free supply: Sentinel-2 last pass 3.8 d ago, 57.3% cloud · Sentinel-1 last pass 1.8 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -6.0208, 131.4593 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu</content>
@@ -130,7 +130,7 @@ Location: -6.0208, 131.4593 · https://earthquake.usgs.gov/earthquakes/eventpage
     <category term="wildfires"/>
     <content type="text">Prescribed Fire STEELY MILL RX, El Dorado, California — PARTIAL
 wildfires · opened 2026-11-16
-Demand 100/100 · tasking gap 53 · serviceable from free data 47
+Demand 100/100 · tasking gap 54 · serviceable from free data 46
 Free supply: Sentinel-2 last pass 1.8 d ago, 99.3% cloud · Sentinel-1 last pass 4.8 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 38.6194, -120.5002 · https://irwin.doi.gov/observer/incidents/2026-CAENF-035548</content>
@@ -138,7 +138,7 @@ Location: 38.6194, -120.5002 · https://irwin.doi.gov/observer/incidents/2026-CA
   <entry>
     <id>urn:terrasignal:CEMS_EMSR937</id>
     <title>[TASKING GAP] Mass Movement in Manteigas, Portugal — €8k tasking</title>
-    <updated>2026-11-22T11:05:14.773Z</updated>
+    <updated>2026-11-23T08:18:05.265Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=CEMS_EMSR937"/>
     <category term="manual-events"/>
     <content type="text">Mass Movement in Manteigas, Portugal — TASKING GAP
