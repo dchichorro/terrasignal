@@ -32,17 +32,17 @@ Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km
 Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578540</content>
   </entry>
   <entry>
-    <id>urn:terrasignal:GDACS_1578798_1748215</id>
+    <id>urn:terrasignal:GDACS_1578798_1748237</id>
     <title>[TASKING GAP] Earthquake, Vanuatu Islands Region — €71k tasking</title>
     <updated>2026-11-23T02:48:52.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1578798_1748215"/>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1578798_1748237"/>
     <category term="earthquake"/>
     <content type="text">Earthquake, Vanuatu Islands Region — TASKING GAP
 Vanuatu Islands Region · earthquake · opened 2026-11-23
 Demand 55.3/100 · tasking gap 55 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
-Location: -13.6607, 172.2423 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578798</content>
+Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578798</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1578530_1747917</id>
@@ -52,7 +52,7 @@ Location: -13.6607, 172.2423 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Indonesia — COPERNICUS-READY
 Indonesia · earthquake · opened 2026-11-21
-Demand 52.3/100 · tasking gap 37 · serviceable from free data 15
+Demand 52.2/100 · tasking gap 37 · serviceable from free data 15
 Free supply: Sentinel-2 last pass 0.7 d ago, 56% cloud · Sentinel-1 last pass 0.7 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578530</content>
@@ -65,7 +65,7 @@ Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — COPERNICUS-READY
 Peru · earthquake · opened 2026-11-21
-Demand 51.5/100 · tasking gap 37 · serviceable from free data 15
+Demand 51.4/100 · tasking gap 37 · serviceable from free data 15
 Free supply: Sentinel-2 last pass 0.7 d ago, 48.3% cloud · Sentinel-1 last pass 0.7 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578468</content>
@@ -73,12 +73,12 @@ Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
   <entry>
     <id>urn:terrasignal:USGS_nc75468702</id>
     <title>[PARTIAL] Earthquake M5.0, Pinnacles, CA — €87k tasking</title>
-    <updated>2026-11-22T23:07:05.143Z</updated>
+    <updated>2026-11-23T04:37:07.048Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_nc75468702"/>
     <category term="earthquake"/>
     <content type="text">Earthquake M5.0, Pinnacles, CA — PARTIAL
 10 km NW of Pinnacles, CA · earthquake · opened 2026-11-20
-Demand 44.7/100 · tasking gap 38 · serviceable from free data 7
+Demand 44.6/100 · tasking gap 38 · serviceable from free data 7
 Free supply: Sentinel-2 last pass 1.7 d ago, 98.5% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~2,827 km² — indicative €87k
 Location: 36.6072, -121.2083 · https://earthquake.usgs.gov/earthquakes/eventpage/nc75468702</content>
@@ -130,7 +130,7 @@ Location: 45.6816, 26.4521 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake M6.6, Tual, Indonesia — COPERNICUS-READY
 149 km WSW of Tual, Indonesia · earthquake · opened 2026-11-16
-Demand 40.2/100 · tasking gap 30 · serviceable from free data 11
+Demand 40.1/100 · tasking gap 30 · serviceable from free data 11
 Free supply: Sentinel-2 last pass 3.7 d ago, 57.3% cloud · Sentinel-1 last pass 1.7 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -6.0208, 131.4593 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu</content>
