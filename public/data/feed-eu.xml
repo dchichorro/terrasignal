@@ -13,15 +13,15 @@
     <category term="earthquake"/>
     <content type="text">Earthquake M5.3, Comandău, Romania — COPERNICUS-READY
 17 km ESE of Comandău, Romania · earthquake · opened 2026-11-18
-Demand 40.8/100 · tasking gap 29 · serviceable from free data 12
-Free supply: Sentinel-2 last pass 0.1 d ago, 63.1% cloud · Sentinel-1 last pass 1.1 d ago (free optical passes are cloud-covered)
+Demand 40.7/100 · tasking gap 29 · serviceable from free data 12
+Free supply: Sentinel-2 last pass 0.2 d ago, 63.1% cloud · Sentinel-1 last pass 1.2 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 45.6816, 26.4521 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw8</content>
   </entry>
   <entry>
     <id>urn:terrasignal:CEMS_EMSR937</id>
     <title>[TASKING GAP] Mass Movement in Manteigas, Portugal — €8k tasking</title>
-    <updated>2026-11-23T09:21:35.385Z</updated>
+    <updated>2026-11-23T15:51:10.467Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=CEMS_EMSR937"/>
     <category term="manual-events"/>
     <content type="text">Mass Movement in Manteigas, Portugal — TASKING GAP
