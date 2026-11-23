@@ -26,7 +26,7 @@ Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Indonesia — COPERNICUS-READY
 Indonesia · earthquake · opened 2026-11-21
-Demand 51.9/100 · tasking gap 37 · serviceable from free data 15
+Demand 51.8/100 · tasking gap 37 · serviceable from free data 15
 Free supply: Sentinel-2 last pass 0.9 d ago, 56% cloud · Sentinel-1 last pass 0.9 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578530</content>
@@ -65,23 +65,10 @@ Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, West Of Macquarie Island — TASKING GAP
 West Of Macquarie Island · earthquake · opened 2026-11-23
-Demand 49.9/100 · tasking gap 50 · serviceable from free data 0
+Demand 49.8/100 · tasking gap 50 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578842</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:GDACS_1578280_1747643</id>
-    <title>[TASKING GAP] Earthquake, Southeast Of Loyalty Islands — €71k tasking</title>
-    <updated>2026-11-20T01:06:14.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1578280_1747643"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake, Southeast Of Loyalty Islands — TASKING GAP
-Southeast Of Loyalty Islands · earthquake · opened 2026-11-20
-Demand 44.5/100 · tasking gap 45 · serviceable from free data 0
-Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
-Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
-Location: -24.6996, 171.2326 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578280</content>
   </entry>
   <entry>
     <id>urn:terrasignal:USGS_nc75468702</id>
@@ -95,6 +82,19 @@ Demand 44.3/100 · tasking gap 32 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 1.9 d ago, 98.5% cloud · Sentinel-1 last pass -0.1 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 36.6072, -121.2083 · https://earthquake.usgs.gov/earthquakes/eventpage/nc75468702</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1578280_1747643</id>
+    <title>[TASKING GAP] Earthquake, Southeast Of Loyalty Islands — €71k tasking</title>
+    <updated>2026-11-20T01:06:14.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1578280_1747643"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake, Southeast Of Loyalty Islands — TASKING GAP
+Southeast Of Loyalty Islands · earthquake · opened 2026-11-20
+Demand 44.5/100 · tasking gap 44 · serviceable from free data 0
+Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
+Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
+Location: -24.6996, 171.2326 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578280</content>
   </entry>
   <entry>
     <id>urn:terrasignal:USGS_us7000tz37</id>
@@ -130,7 +130,7 @@ Location: 45.6816, 26.4521 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake M6.6, Tual, Indonesia — COPERNICUS-READY
 149 km WSW of Tual, Indonesia · earthquake · opened 2026-11-16
-Demand 39.9/100 · tasking gap 29 · serviceable from free data 10
+Demand 39.8/100 · tasking gap 29 · serviceable from free data 10
 Free supply: Sentinel-2 last pass 3.9 d ago, 57.3% cloud · Sentinel-1 last pass 1.9 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -6.0208, 131.4593 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu</content>
@@ -151,7 +151,7 @@ Location: 38.6194, -120.5002 · https://irwin.doi.gov/observer/incidents/2026-CA
   <entry>
     <id>urn:terrasignal:CEMS_EMSR937</id>
     <title>[TASKING GAP] Mass Movement in Manteigas, Portugal — €8k tasking</title>
-    <updated>2026-11-23T08:18:05.265Z</updated>
+    <updated>2026-11-23T09:21:35.385Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=CEMS_EMSR937"/>
     <category term="manual-events"/>
     <content type="text">Mass Movement in Manteigas, Portugal — TASKING GAP
@@ -160,18 +160,5 @@ Demand 100/100 · tasking gap 100 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~314 km² — indicative €8k
 Location: 40.4072, -7.5448 · https://mapping.emergency.copernicus.eu/activations/EMSR937/</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:EONET_25590</id>
-    <title>[PARTIAL] Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida — €18k tasking</title>
-    <updated>2026-10-22T21:45:00Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=EONET_25590"/>
-    <category term="wildfires"/>
-    <content type="text">Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida — PARTIAL
-28 Miles NW from LAKE CITY, FL · wildfires · opened 2026-10-22
-Demand 47.5/100 · tasking gap 25 · serviceable from free data 23
-Free supply: Sentinel-2 last pass 1.9 d ago, 88.6% cloud · Sentinel-1 last pass 5.9 d ago (free optical passes are cloud-covered)
-Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
-Location: 30.4953, -82.8578 · https://irwin.doi.gov/observer/incidents/2026-FLFLS-260601105</content>
   </entry>
 </feed>
