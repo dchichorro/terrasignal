@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone AKVAN-26, India — PARTIAL
 India · severe-storms · opened 2026-11-16
-Demand 40.2/100 · tasking gap 28 · serviceable from free data 12
+Demand 40.1/100 · tasking gap 28 · serviceable from free data 12
 Free supply: Sentinel-2 last pass 0.6 d ago, 100% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: 17.2000, 84.7000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001351</content>
@@ -26,7 +26,7 @@ Location: 17.2000, 84.7000 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, China — COPERNICUS-READY
 China · earthquake · opened 2026-11-21
-Demand 52.3/100 · tasking gap 40 · serviceable from free data 12
+Demand 52.2/100 · tasking gap 40 · serviceable from free data 12
 Free supply: Sentinel-2 no pass · Sentinel-1 last pass 1.6 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578540</content>
@@ -39,7 +39,7 @@ Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, Indonesia — COPERNICUS-READY
 Indonesia · earthquake · opened 2026-11-21
-Demand 52.5/100 · tasking gap 37 · serviceable from free data 15
+Demand 52.4/100 · tasking gap 37 · serviceable from free data 15
 Free supply: Sentinel-2 last pass 0.6 d ago, 56% cloud · Sentinel-1 last pass 0.6 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578530</content>
@@ -65,7 +65,7 @@ Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake M5.0, Pinnacles, CA — PARTIAL
 10 km NW of Pinnacles, CA · earthquake · opened 2026-11-20
-Demand 44.9/100 · tasking gap 38 · serviceable from free data 7
+Demand 44.8/100 · tasking gap 38 · serviceable from free data 7
 Free supply: Sentinel-2 last pass 1.6 d ago, 98.5% cloud (free optical passes are cloud-covered)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~2,827 km² — indicative €87k
 Location: 36.6072, -121.2083 · https://earthquake.usgs.gov/earthquakes/eventpage/nc75468702</content>
@@ -104,7 +104,7 @@ Location: -57.5192, -146.8744 · https://earthquake.usgs.gov/earthquakes/eventpa
     <category term="earthquake"/>
     <content type="text">Earthquake M5.3, Comandău, Romania — COPERNICUS-READY
 17 km ESE of Comandău, Romania · earthquake · opened 2026-11-18
-Demand 41.6/100 · tasking gap 30 · serviceable from free data 12
+Demand 41.5/100 · tasking gap 30 · serviceable from free data 12
 Free supply: Sentinel-2 last pass 2.6 d ago, 47.7% cloud · Sentinel-1 last pass 0.6 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 45.6816, 26.4521 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw8</content>
