@@ -20,14 +20,14 @@ Location: 45.6816, 26.4521 · https://earthquake.usgs.gov/earthquakes/eventpage/
   </entry>
   <entry>
     <id>urn:terrasignal:CEMS_EMSR937</id>
-    <title>[TASKING GAP] Mass Movement in Manteigas, Portugal — €8k tasking</title>
+    <title>[PARTIAL] Mass Movement in Manteigas, Portugal — €8k tasking</title>
     <updated>2026-11-23T20:14:49.622Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=CEMS_EMSR937"/>
     <category term="manual-events"/>
-    <content type="text">Mass Movement in Manteigas, Portugal — TASKING GAP
+    <content type="text">Mass Movement in Manteigas, Portugal — PARTIAL
 Portugal · manual-events · opened 2026-11-20 · Copernicus EMS EMSR937 active
-Demand 100/100 · tasking gap 100 · serviceable from free data 0
-Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
+Demand 100/100 · tasking gap 70 · serviceable from free data 30
+Free supply: Sentinel-2 no pass · Sentinel-1 last pass -0.2 d ago (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~314 km² — indicative €8k
 Location: 40.4072, -7.5448 · https://mapping.emergency.copernicus.eu/activations/EMSR937/</content>
   </entry>
