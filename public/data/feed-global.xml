@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone 03-20262027-27 — TASKING GAP
 severe-storms · opened 2026-11-24
-Demand 49.8/100 · tasking gap 50 · serviceable from free data 0
+Demand 49.7/100 · tasking gap 50 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -10.0800, 77.2700 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001352</content>
@@ -26,7 +26,7 @@ Location: -10.0800, 77.2700 · http://www.gdacs.org/report.aspx?eventtype=TC&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Vanuatu Islands Region — TASKING GAP
 Vanuatu Islands Region · earthquake · opened 2026-11-23
-Demand 53.1/100 · tasking gap 53 · serviceable from free data 0
+Demand 53/100 · tasking gap 53 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578798</content>
@@ -39,7 +39,7 @@ Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Indonesia — COPERNICUS-READY
 Indonesia · earthquake · opened 2026-11-21
-Demand 50.1/100 · tasking gap 37 · serviceable from free data 14
+Demand 50/100 · tasking gap 36 · serviceable from free data 14
 Free supply: Sentinel-2 last pass 1.9 d ago, 56% cloud · Sentinel-1 last pass 1.9 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578530</content>
@@ -52,7 +52,7 @@ Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — COPERNICUS-READY
 Peru · earthquake · opened 2026-11-21
-Demand 49.4/100 · tasking gap 36 · serviceable from free data 14
+Demand 49.3/100 · tasking gap 36 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 1.9 d ago, 48.3% cloud · Sentinel-1 last pass 1.9 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578468</content>
@@ -65,7 +65,7 @@ Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, China — COPERNICUS-READY
 China · earthquake · opened 2026-11-21
-Demand 49.9/100 · tasking gap 35 · serviceable from free data 15
+Demand 49.8/100 · tasking gap 35 · serviceable from free data 15
 Free supply: Sentinel-2 last pass 0.9 d ago, 0.4% cloud · Sentinel-1 last pass 2.9 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578540</content>
@@ -78,7 +78,7 @@ Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, West Of Macquarie Island — TASKING GAP
 West Of Macquarie Island · earthquake · opened 2026-11-23
-Demand 48.2/100 · tasking gap 48 · serviceable from free data 0
+Demand 48.1/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578842</content>
@@ -91,7 +91,7 @@ Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Southeast Of Loyalty Islands — TASKING GAP
 Southeast Of Loyalty Islands · earthquake · opened 2026-11-20
-Demand 43/100 · tasking gap 43 · serviceable from free data 0
+Demand 42.9/100 · tasking gap 43 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -24.6996, 171.2326 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578280</content>
@@ -104,7 +104,7 @@ Location: -24.6996, 171.2326 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="floods"/>
     <content type="text">Flood, Thailand — TASKING GAP
 Thailand · floods · opened 2026-11-22
-Demand 46.1/100 · tasking gap 46 · serviceable from free data 0
+Demand 46/100 · tasking gap 46 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 7.5435, 99.9972 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104297</content>
