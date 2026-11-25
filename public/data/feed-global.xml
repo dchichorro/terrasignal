@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone 03-20262027-27 — TASKING GAP
 severe-storms · opened 2026-11-24
-Demand 47.6/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.5/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001352</content>
@@ -91,7 +91,7 @@ Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, China — COPERNICUS-READY
 China · earthquake · opened 2026-11-21
-Demand 47.7/100 · tasking gap 34 · serviceable from free data 13
+Demand 47.6/100 · tasking gap 34 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 2.2 d ago, 0.4% cloud · Sentinel-1 last pass 4.2 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578540</content>
@@ -104,49 +104,10 @@ Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, West Of Macquarie Island — TASKING GAP
 West Of Macquarie Island · earthquake · opened 2026-11-23
-Demand 46.1/100 · tasking gap 46 · serviceable from free data 0
+Demand 46/100 · tasking gap 46 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578842</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:USGS_nc75468702</id>
-    <title>[COPERNICUS-READY] Earthquake M5.0, Pinnacles, CA — €99k tasking</title>
-    <updated>2026-11-25T10:25:59.712Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_nc75468702"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake M5.0, Pinnacles, CA — COPERNICUS-READY
-10 km NW of Pinnacles, CA · earthquake · opened 2026-11-20
-Demand 40.9/100 · tasking gap 30 · serviceable from free data 11
-Free supply: Sentinel-2 last pass 1.2 d ago, 83.9% cloud · Sentinel-1 last pass 1.2 d ago (free optical passes are cloud-covered)
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: 36.6072, -121.2083 · https://earthquake.usgs.gov/earthquakes/eventpage/nc75468702</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:USGS_us7000tz37</id>
-    <title>[TASKING GAP] Earthquake M6.0, Pacific-Antarctic Ridge — €71k tasking</title>
-    <updated>2026-11-19T19:23:11.741Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us7000tz37"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake M6.0, Pacific-Antarctic Ridge — TASKING GAP
-Pacific-Antarctic Ridge · earthquake · opened 2026-11-18
-Demand 39.2/100 · tasking gap 39 · serviceable from free data 0
-Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
-Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
-Location: -57.5192, -146.8744 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tz37</content>
-  </entry>
-  <entry>
-    <id>urn:terrasignal:USGS_us7000tyw8</id>
-    <title>[COPERNICUS-READY] Earthquake M5.3, Comandău, Romania — €99k tasking</title>
-    <updated>2026-11-24T21:54:05.741Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us7000tyw8"/>
-    <category term="earthquake"/>
-    <content type="text">Earthquake M5.3, Comandău, Romania — COPERNICUS-READY
-17 km ESE of Comandău, Romania · earthquake · opened 2026-11-18
-Demand 38/100 · tasking gap 27 · serviceable from free data 11
-Free supply: Sentinel-2 last pass 0.2 d ago, 47.7% cloud · Sentinel-1 last pass 1.2 d ago
-Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
-Location: 45.6816, 26.4521 · https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyw8</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1104297_1</id>
@@ -156,7 +117,7 @@ Location: 45.6816, 26.4521 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="floods"/>
     <content type="text">Flood, Thailand — TASKING GAP
 Thailand · floods · opened 2026-11-22
-Demand 44.1/100 · tasking gap 44 · serviceable from free data 0
+Demand 44/100 · tasking gap 44 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~1,963 km² — indicative €60k
 Location: 7.5435, 99.9972 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;eventid=1104297</content>
@@ -175,16 +136,29 @@ Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €1
 Location: -16.1872, -64.7533 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1034027</content>
   </entry>
   <entry>
-    <id>urn:terrasignal:GDACS_1034049_6</id>
-    <title>[PARTIAL] Forest fire, Burkina Faso — €18k tasking</title>
-    <updated>2026-11-24T08:03:34.000Z</updated>
-    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1034049_6"/>
+    <id>urn:terrasignal:EONET_26333</id>
+    <title>[PARTIAL] Prescribed Fire Compartment 170 RX, Greene, Georgia — €18k tasking</title>
+    <updated>2026-11-09T16:30:00Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=EONET_26333"/>
     <category term="wildfires"/>
-    <content type="text">Forest fire, Burkina Faso — PARTIAL
-Burkina Faso · wildfires · opened 2026-11-20
-Demand 41.1/100 · tasking gap 21 · serviceable from free data 20
-Free supply: Sentinel-2 last pass 4.2 d ago, 18.8% cloud
+    <content type="text">Prescribed Fire Compartment 170 RX, Greene, Georgia — PARTIAL
+wildfires · opened 2026-11-09
+Demand 77.5/100 · tasking gap 40 · serviceable from free data 38
+Free supply: Sentinel-2 last pass 2.2 d ago, 89.3% cloud · Sentinel-1 last pass 3.2 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
-Location: 13.9513, -0.3523 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1034049</content>
+Location: 33.7473, -83.2594 · https://irwin.doi.gov/observer/incidents/2026-GACHF-260217</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:EONET_25590</id>
+    <title>[PARTIAL] Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida — €18k tasking</title>
+    <updated>2026-10-22T21:45:00Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=EONET_25590"/>
+    <category term="wildfires"/>
+    <content type="text">Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida — PARTIAL
+28 Miles NW from LAKE CITY, FL · wildfires · opened 2026-10-22
+Demand 43.8/100 · tasking gap 23 · serviceable from free data 21
+Free supply: Sentinel-2 last pass 2.2 d ago, 96.6% cloud · Sentinel-1 last pass 3.2 d ago (free optical passes are cloud-covered)
+Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
+Location: 30.4953, -82.8578 · https://irwin.doi.gov/observer/incidents/2026-FLFLS-260601105</content>
   </entry>
 </feed>
