@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone 03-20262027-27 — TASKING GAP
 severe-storms · opened 2026-11-24
-Demand 47.9/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.8/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001352</content>
@@ -65,8 +65,8 @@ Location: -63.0918, 170.9371 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Indonesia — COPERNICUS-READY
 Indonesia · earthquake · opened 2026-11-21
-Demand 48.2/100 · tasking gap 35 · serviceable from free data 13
-Free supply: Sentinel-2 last pass 0 d ago, 76.3% cloud · Sentinel-1 last pass 3 d ago (free optical passes are cloud-covered)
+Demand 48.1/100 · tasking gap 35 · serviceable from free data 13
+Free supply: Sentinel-2 last pass 0.1 d ago, 76.3% cloud · Sentinel-1 last pass 3.1 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578530</content>
   </entry>
@@ -78,8 +78,8 @@ Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, China — COPERNICUS-READY
 China · earthquake · opened 2026-11-21
-Demand 48/100 · tasking gap 35 · serviceable from free data 13
-Free supply: Sentinel-2 last pass 2 d ago, 0.4% cloud · Sentinel-1 last pass 4 d ago
+Demand 47.9/100 · tasking gap 35 · serviceable from free data 13
+Free supply: Sentinel-2 last pass 2.1 d ago, 0.4% cloud · Sentinel-1 last pass 4.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578540</content>
   </entry>
@@ -91,8 +91,8 @@ Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — COPERNICUS-READY
 Peru · earthquake · opened 2026-11-21
-Demand 47.5/100 · tasking gap 35 · serviceable from free data 12
-Free supply: Sentinel-2 last pass 3 d ago, 48.3% cloud · Sentinel-1 last pass 3 d ago
+Demand 47.4/100 · tasking gap 35 · serviceable from free data 12
+Free supply: Sentinel-2 last pass 3.1 d ago, 48.3% cloud · Sentinel-1 last pass 3.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578468</content>
   </entry>
@@ -104,7 +104,7 @@ Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, West Of Macquarie Island — TASKING GAP
 West Of Macquarie Island · earthquake · opened 2026-11-23
-Demand 46.4/100 · tasking gap 46 · serviceable from free data 0
+Demand 46.3/100 · tasking gap 46 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578842</content>
@@ -130,7 +130,7 @@ Location: 7.5435, 99.9972 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;e
     <category term="wildfires"/>
     <content type="text">Forest fire, Bolivia — TASKING GAP
 Bolivia · wildfires · opened 2026-11-22
-Demand 44.3/100 · tasking gap 44 · serviceable from free data 0
+Demand 44.2/100 · tasking gap 44 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -16.1872, -64.7533 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1034027</content>
@@ -144,7 +144,7 @@ Location: -16.1872, -64.7533 · http://www.gdacs.org/report.aspx?eventtype=WF&am
     <content type="text">Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida — PARTIAL
 28 Miles NW from LAKE CITY, FL · wildfires · opened 2026-10-22
 Demand 44.1/100 · tasking gap 23 · serviceable from free data 21
-Free supply: Sentinel-2 last pass 2 d ago, 96.6% cloud · Sentinel-1 last pass 3 d ago (free optical passes are cloud-covered)
+Free supply: Sentinel-2 last pass 2.1 d ago, 96.6% cloud · Sentinel-1 last pass 3.1 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 30.4953, -82.8578 · https://irwin.doi.gov/observer/incidents/2026-FLFLS-260601105</content>
   </entry>
