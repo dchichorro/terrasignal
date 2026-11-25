@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone 03-20262027-27 — TASKING GAP
 severe-storms · opened 2026-11-24
-Demand 48.4/100 · tasking gap 48 · serviceable from free data 0
+Demand 48.3/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001352</content>
@@ -26,7 +26,7 @@ Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, Mauritius - Reunion Region — TASKING GAP
 Mauritius - Reunion Region · earthquake · opened 2026-11-24
-Demand 54.1/100 · tasking gap 54 · serviceable from free data 0
+Demand 54/100 · tasking gap 54 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -17.7049, 65.6995 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579008</content>
@@ -52,7 +52,7 @@ Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Indonesia — COPERNICUS-READY
 Indonesia · earthquake · opened 2026-11-21
-Demand 48.8/100 · tasking gap 36 · serviceable from free data 13
+Demand 48.7/100 · tasking gap 36 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 2.7 d ago, 56% cloud · Sentinel-1 last pass 2.7 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578530</content>
@@ -65,7 +65,7 @@ Location: -7.7563, 127.5428 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Balleny Islands Region — TASKING GAP
 Balleny Islands Region · earthquake · opened 2026-11-25
-Demand 49.8/100 · tasking gap 50 · serviceable from free data 0
+Demand 49.7/100 · tasking gap 50 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -63.0918, 170.9371 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579132</content>
@@ -91,7 +91,7 @@ Location: 37.1958, 96.6398 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake, Peru — COPERNICUS-READY
 Peru · earthquake · opened 2026-11-21
-Demand 48.1/100 · tasking gap 35 · serviceable from free data 13
+Demand 48/100 · tasking gap 35 · serviceable from free data 13
 Free supply: Sentinel-2 last pass 2.7 d ago, 48.3% cloud · Sentinel-1 last pass 2.7 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578468</content>
@@ -104,7 +104,7 @@ Location: -10.8548, -75.9779 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, West Of Macquarie Island — TASKING GAP
 West Of Macquarie Island · earthquake · opened 2026-11-23
-Demand 46.9/100 · tasking gap 47 · serviceable from free data 0
+Demand 46.8/100 · tasking gap 47 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578842</content>
@@ -130,7 +130,7 @@ Location: 7.5435, 99.9972 · http://www.gdacs.org/report.aspx?eventtype=FL&amp;e
     <category term="wildfires"/>
     <content type="text">Wildfire Little Ridge, Highland, Virginia — PARTIAL
 12 Miles SW from Monterey, VA · wildfires · opened 2026-11-20
-Demand 100/100 · tasking gap 61 · serviceable from free data 39
+Demand 100/100 · tasking gap 62 · serviceable from free data 38
 Free supply: Sentinel-2 last pass 1.7 d ago, 98.9% cloud (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 38.3136, -79.7914 · https://irwin.doi.gov/observer/incidents/2026-VAVAF-260139</content>
@@ -143,7 +143,7 @@ Location: 38.3136, -79.7914 · https://irwin.doi.gov/observer/incidents/2026-VAV
     <category term="wildfires"/>
     <content type="text">Forest fire, Bolivia — TASKING GAP
 Bolivia · wildfires · opened 2026-11-22
-Demand 44.8/100 · tasking gap 45 · serviceable from free data 0
+Demand 44.7/100 · tasking gap 45 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -16.1872, -64.7533 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1034027</content>
