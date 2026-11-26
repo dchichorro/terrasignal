@@ -26,7 +26,7 @@ Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake M5.9, Yanglong, China — COPERNICUS-READY
 238 km SW of Yanglong, China · earthquake · opened 2026-11-21
-Demand 73.2/100 · tasking gap 52 · serviceable from free data 21
+Demand 73.1/100 · tasking gap 52 · serviceable from free data 21
 Free supply: Sentinel-2 last pass 3.4 d ago, 0.4% cloud · Sentinel-1 last pass 0.4 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 37.1958, 96.6398 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly</content>
@@ -39,7 +39,7 @@ Location: 37.1958, 96.6398 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Mauritius - Reunion Region — TASKING GAP
 Mauritius - Reunion Region · earthquake · opened 2026-11-24
-Demand 51/100 · tasking gap 51 · serviceable from free data 0
+Demand 50.9/100 · tasking gap 51 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -17.7049, 65.6995 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579008</content>
@@ -52,7 +52,7 @@ Location: -17.7049, 65.6995 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Revilla Gigedo Islands Region — TASKING GAP
 Revilla Gigedo Islands Region · earthquake · opened 2026-11-26
-Demand 49.6/100 · tasking gap 50 · serviceable from free data 0
+Demand 49.5/100 · tasking gap 50 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 19.8135, -109.2958 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579445</content>
@@ -78,7 +78,7 @@ Location: -10.5618, 117.1955 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Vanuatu Islands Region — TASKING GAP
 Vanuatu Islands Region · earthquake · opened 2026-11-23
-Demand 48.7/100 · tasking gap 49 · serviceable from free data 0
+Demand 48.6/100 · tasking gap 49 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578798</content>
@@ -91,7 +91,7 @@ Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Balleny Islands Region — TASKING GAP
 Balleny Islands Region · earthquake · opened 2026-11-25
-Demand 47/100 · tasking gap 47 · serviceable from free data 0
+Demand 46.9/100 · tasking gap 47 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -63.0918, 170.9371 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579132</content>
@@ -104,7 +104,7 @@ Location: -63.0918, 170.9371 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, West Of Macquarie Island — TASKING GAP
 West Of Macquarie Island · earthquake · opened 2026-11-23
-Demand 44.2/100 · tasking gap 44 · serviceable from free data 0
+Demand 44.1/100 · tasking gap 44 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578842</content>
@@ -117,7 +117,7 @@ Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="wildfires"/>
     <content type="text">Prescribed Fire STEELY MILL RX, El Dorado, California — PARTIAL
 wildfires · opened 2026-11-16
-Demand 97.2/100 · tasking gap 50 · serviceable from free data 47
+Demand 97/100 · tasking gap 51 · serviceable from free data 46
 Free supply: Sentinel-2 last pass 2.4 d ago, 94.4% cloud · Sentinel-1 last pass 2.4 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 38.6194, -120.5002 · https://irwin.doi.gov/observer/incidents/2026-CAENF-035548</content>
@@ -143,7 +143,7 @@ Location: 39.2515, 1.1337 · https://mapping.emergency.copernicus.eu/activations
     <category term="wildfires"/>
     <content type="text">Prescribed Fire 3R RX - KRUMM MP, Stevens, Washington — PARTIAL
 wildfires · opened 2026-10-26
-Demand 45/100 · tasking gap 25 · serviceable from free data 20
+Demand 45/100 · tasking gap 25 · serviceable from free data 19
 Free supply: Sentinel-2 last pass 2.4 d ago, 95.7% cloud · Sentinel-1 last pass 6.4 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 48.4021, -117.5331 · https://irwin.doi.gov/observer/incidents/2026-WACOF-002229</content>
