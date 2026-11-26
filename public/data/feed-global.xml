@@ -26,7 +26,7 @@ Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake M5.9, Yanglong, China — COPERNICUS-READY
 238 km SW of Yanglong, China · earthquake · opened 2026-11-21
-Demand 74.5/100 · tasking gap 54 · serviceable from free data 20
+Demand 74.4/100 · tasking gap 54 · serviceable from free data 20
 Free supply: Sentinel-2 last pass 2.9 d ago, 0.4% cloud · Sentinel-1 last pass 4.9 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 37.1958, 96.6398 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly</content>
@@ -39,10 +39,23 @@ Location: 37.1958, 96.6398 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Mauritius - Reunion Region — TASKING GAP
 Mauritius - Reunion Region · earthquake · opened 2026-11-24
-Demand 51.9/100 · tasking gap 52 · serviceable from free data 0
+Demand 51.8/100 · tasking gap 52 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -17.7049, 65.6995 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579008</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:GDACS_1579362_1748829</id>
+    <title>[TASKING GAP] Earthquake, South Of Sumbawa, Indonesia — €71k tasking</title>
+    <updated>2026-11-26T09:24:03.000Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=GDACS_1579362_1748829"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake, South Of Sumbawa, Indonesia — TASKING GAP
+South Of Sumbawa, Indonesia · earthquake · opened 2026-11-26
+Demand 49.9/100 · tasking gap 50 · serviceable from free data 0
+Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
+Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
+Location: -10.5618, 117.1955 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579362</content>
   </entry>
   <entry>
     <id>urn:terrasignal:GDACS_1578798_1748237</id>
@@ -52,7 +65,7 @@ Location: -17.7049, 65.6995 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Vanuatu Islands Region — TASKING GAP
 Vanuatu Islands Region · earthquake · opened 2026-11-23
-Demand 49.5/100 · tasking gap 50 · serviceable from free data 0
+Demand 49.4/100 · tasking gap 49 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578798</content>
@@ -65,7 +78,7 @@ Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Balleny Islands Region — TASKING GAP
 Balleny Islands Region · earthquake · opened 2026-11-25
-Demand 47.8/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.7/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -63.0918, 170.9371 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579132</content>
@@ -78,7 +91,7 @@ Location: -63.0918, 170.9371 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, West Of Macquarie Island — TASKING GAP
 West Of Macquarie Island · earthquake · opened 2026-11-23
-Demand 45/100 · tasking gap 45 · serviceable from free data 0
+Demand 44.9/100 · tasking gap 45 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578842</content>
@@ -91,7 +104,7 @@ Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake M6.8, Lospalos, Timor Leste — COPERNICUS-READY
 105 km NE of Lospalos, Timor Leste · earthquake · opened 2026-11-21
-Demand 42.1/100 · tasking gap 31 · serviceable from free data 11
+Demand 42/100 · tasking gap 31 · serviceable from free data 11
 Free supply: Sentinel-2 last pass 0.9 d ago, 76.3% cloud · Sentinel-1 last pass 3.9 d ago (free optical passes are cloud-covered)
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -7.7324, 127.5407 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucij</content>
@@ -110,6 +123,19 @@ Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €1
 Location: 38.3136, -79.7914 · https://irwin.doi.gov/observer/incidents/2026-VAVAF-260139</content>
   </entry>
   <entry>
+    <id>urn:terrasignal:CEMS_EMSR938</id>
+    <title>[TASKING GAP] Oil Spill in the Balearic Islands, Spain — €8k tasking</title>
+    <updated>2026-11-26T09:37:15.676Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=CEMS_EMSR938"/>
+    <category term="manual-events"/>
+    <content type="text">Oil Spill in the Balearic Islands, Spain — TASKING GAP
+Spain · manual-events · opened 2026-11-26 · Copernicus EMS EMSR938 active
+Demand 100/100 · tasking gap 100 · serviceable from free data 0
+Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
+Recommended: VHR optical tasking (30–50 cm) over ~314 km² — indicative €8k
+Location: 39.2515, 1.1337 · https://mapping.emergency.copernicus.eu/activations/EMSR938/</content>
+  </entry>
+  <entry>
     <id>urn:terrasignal:EONET_26333</id>
     <title>[PARTIAL] Prescribed Fire Compartment 170 RX, Greene, Georgia — €18k tasking</title>
     <updated>2026-11-09T16:30:00Z</updated>
@@ -117,7 +143,7 @@ Location: 38.3136, -79.7914 · https://irwin.doi.gov/observer/incidents/2026-VAV
     <category term="wildfires"/>
     <content type="text">Prescribed Fire Compartment 170 RX, Greene, Georgia — PARTIAL
 wildfires · opened 2026-11-09
-Demand 75.7/100 · tasking gap 41 · serviceable from free data 34
+Demand 75.6/100 · tasking gap 41 · serviceable from free data 34
 Free supply: Sentinel-2 last pass 2.9 d ago, 89.3% cloud · Sentinel-1 last pass 3.9 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 33.7473, -83.2594 · https://irwin.doi.gov/observer/incidents/2026-GACHF-260217</content>
@@ -143,7 +169,7 @@ Location: 48.4021, -117.5331 · https://irwin.doi.gov/observer/incidents/2026-WA
     <category term="wildfires"/>
     <content type="text">Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida — PARTIAL
 28 Miles NW from LAKE CITY, FL · wildfires · opened 2026-10-22
-Demand 42.8/100 · tasking gap 24 · serviceable from free data 19
+Demand 42.7/100 · tasking gap 24 · serviceable from free data 19
 Free supply: Sentinel-2 last pass 2.9 d ago, 96.6% cloud · Sentinel-1 last pass 3.9 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 30.4953, -82.8578 · https://irwin.doi.gov/observer/incidents/2026-FLFLS-260601105</content>
@@ -156,7 +182,7 @@ Location: 30.4953, -82.8578 · https://irwin.doi.gov/observer/incidents/2026-FLF
     <category term="wildfires"/>
     <content type="text">Forest fire, Bolivia — PARTIAL
 Bolivia · wildfires · opened 2026-11-22
-Demand 42.9/100 · tasking gap 22 · serviceable from free data 21
+Demand 42.9/100 · tasking gap 22 · serviceable from free data 20
 Free supply: Sentinel-2 last pass 0.9 d ago, 81% cloud (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -16.1872, -64.7533 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1034027</content>
