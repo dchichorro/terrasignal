@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone 03-20262027-27 — TASKING GAP
 severe-storms · opened 2026-11-24
-Demand 44.6/100 · tasking gap 45 · serviceable from free data 0
+Demand 44.5/100 · tasking gap 45 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001352</content>
@@ -26,7 +26,7 @@ Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake M5.9, Yanglong, China — COPERNICUS-READY
 238 km SW of Yanglong, China · earthquake · opened 2026-11-21
-Demand 71.5/100 · tasking gap 51 · serviceable from free data 20
+Demand 71.4/100 · tasking gap 51 · serviceable from free data 20
 Free supply: Sentinel-2 last pass 4.1 d ago, 0.4% cloud · Sentinel-1 last pass 1.1 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 37.1958, 96.6398 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly</content>
@@ -39,7 +39,7 @@ Location: 37.1958, 96.6398 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Mauritius - Reunion Region — TASKING GAP
 Mauritius - Reunion Region · earthquake · opened 2026-11-24
-Demand 49.8/100 · tasking gap 50 · serviceable from free data 0
+Demand 49.7/100 · tasking gap 50 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -17.7049, 65.6995 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579008</content>
@@ -52,7 +52,7 @@ Location: -17.7049, 65.6995 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp
     <category term="earthquake"/>
     <content type="text">Earthquake, Revilla Gigedo Islands Region — TASKING GAP
 Revilla Gigedo Islands Region · earthquake · opened 2026-11-26
-Demand 48.5/100 · tasking gap 48 · serviceable from free data 0
+Demand 48.4/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: 19.8135, -109.2958 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579445</content>
@@ -65,7 +65,7 @@ Location: 19.8135, -109.2958 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, South Of Sumbawa, Indonesia — TASKING GAP
 South Of Sumbawa, Indonesia · earthquake · opened 2026-11-26
-Demand 48/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.9/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -10.5618, 117.1955 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579362</content>
@@ -78,7 +78,7 @@ Location: -10.5618, 117.1955 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Vanuatu Islands Region — TASKING GAP
 Vanuatu Islands Region · earthquake · opened 2026-11-23
-Demand 47.6/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.5/100 · tasking gap 47 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578798</content>
@@ -91,7 +91,7 @@ Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Balleny Islands Region — TASKING GAP
 Balleny Islands Region · earthquake · opened 2026-11-25
-Demand 45.9/100 · tasking gap 46 · serviceable from free data 0
+Demand 45.8/100 · tasking gap 46 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -63.0918, 170.9371 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579132</content>
@@ -104,7 +104,7 @@ Location: -63.0918, 170.9371 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, West Of Macquarie Island — TASKING GAP
 West Of Macquarie Island · earthquake · opened 2026-11-23
-Demand 43.2/100 · tasking gap 43 · serviceable from free data 0
+Demand 43.1/100 · tasking gap 43 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578842</content>
@@ -112,7 +112,7 @@ Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
   <entry>
     <id>urn:terrasignal:CEMS_EMSR938</id>
     <title>[TASKING GAP] Oil Spill in the Balearic Islands, Spain — €8k tasking</title>
-    <updated>2026-11-27T12:54:00.965Z</updated>
+    <updated>2026-11-27T13:49:45.267Z</updated>
     <link href="https://dchichorro.github.io/terrasignal/radar.html#event=CEMS_EMSR938"/>
     <category term="manual-events"/>
     <content type="text">Oil Spill in the Balearic Islands, Spain — TASKING GAP
@@ -134,5 +134,18 @@ Demand 41.2/100 · tasking gap 24 · serviceable from free data 17
 Free supply: Sentinel-2 last pass 2.1 d ago, 81% cloud (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -16.1872, -64.7533 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1034027</content>
+  </entry>
+  <entry>
+    <id>urn:terrasignal:EONET_26467</id>
+    <title>[PARTIAL] Prescribed Fire 3R RX - KRUMM MP, Stevens, Washington — €18k tasking</title>
+    <updated>2026-11-12T11:59:00Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=EONET_26467"/>
+    <category term="wildfires"/>
+    <content type="text">Prescribed Fire 3R RX - KRUMM MP, Stevens, Washington — PARTIAL
+wildfires · opened 2026-10-26
+Demand 44/100 · tasking gap 23 · serviceable from free data 21
+Free supply: Sentinel-2 last pass 1.1 d ago, 96% cloud · Sentinel-1 last pass 7.1 d ago (free optical passes are cloud-covered)
+Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
+Location: 48.4021, -117.5331 · https://irwin.doi.gov/observer/incidents/2026-WACOF-002229</content>
   </entry>
 </feed>
