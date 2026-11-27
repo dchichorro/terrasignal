@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone 03-20262027-27 — TASKING GAP
 severe-storms · opened 2026-11-24
-Demand 44.4/100 · tasking gap 44 · serviceable from free data 0
+Demand 44.3/100 · tasking gap 44 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001352</content>
@@ -26,7 +26,7 @@ Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake M5.9, Yanglong, China — COPERNICUS-READY
 238 km SW of Yanglong, China · earthquake · opened 2026-11-21
-Demand 71.2/100 · tasking gap 51 · serviceable from free data 20
+Demand 71.1/100 · tasking gap 51 · serviceable from free data 20
 Free supply: Sentinel-2 last pass 4.2 d ago, 0.4% cloud · Sentinel-1 last pass 1.2 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 37.1958, 96.6398 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly</content>
@@ -39,7 +39,7 @@ Location: 37.1958, 96.6398 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Mauritius - Reunion Region — TASKING GAP
 Mauritius - Reunion Region · earthquake · opened 2026-11-24
-Demand 49.6/100 · tasking gap 50 · serviceable from free data 0
+Demand 49.5/100 · tasking gap 50 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -17.7049, 65.6995 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579008</content>
@@ -65,7 +65,7 @@ Location: 19.8135, -109.2958 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, South Of Sumbawa, Indonesia — TASKING GAP
 South Of Sumbawa, Indonesia · earthquake · opened 2026-11-26
-Demand 47.8/100 · tasking gap 48 · serviceable from free data 0
+Demand 47.7/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -10.5618, 117.1955 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579362</content>
@@ -78,7 +78,7 @@ Location: -10.5618, 117.1955 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Vanuatu Islands Region — TASKING GAP
 Vanuatu Islands Region · earthquake · opened 2026-11-23
-Demand 47.4/100 · tasking gap 47 · serviceable from free data 0
+Demand 47.3/100 · tasking gap 47 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578798</content>
@@ -91,7 +91,7 @@ Location: -13.5846, 172.2672 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, Balleny Islands Region — TASKING GAP
 Balleny Islands Region · earthquake · opened 2026-11-25
-Demand 45.7/100 · tasking gap 46 · serviceable from free data 0
+Demand 45.6/100 · tasking gap 46 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -63.0918, 170.9371 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579132</content>
@@ -110,6 +110,19 @@ Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative �
 Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578842</content>
   </entry>
   <entry>
+    <id>urn:terrasignal:USGS_us6000ucij</id>
+    <title>[COPERNICUS-READY] Earthquake M6.8, Lospalos, Timor Leste — €99k tasking</title>
+    <updated>2026-11-22T10:46:43.086Z</updated>
+    <link href="https://dchichorro.github.io/terrasignal/radar.html#event=USGS_us6000ucij"/>
+    <category term="earthquake"/>
+    <content type="text">Earthquake M6.8, Lospalos, Timor Leste — COPERNICUS-READY
+105 km NE of Lospalos, Timor Leste · earthquake · opened 2026-11-21
+Demand 40.2/100 · tasking gap 29 · serviceable from free data 11
+Free supply: Sentinel-2 last pass 0.2 d ago, 56% cloud · Sentinel-1 last pass 5.2 d ago
+Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
+Location: -7.7324, 127.5407 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucij</content>
+  </entry>
+  <entry>
     <id>urn:terrasignal:GDACS_1034027_4</id>
     <title>[PARTIAL] Forest fire, Bolivia — €18k tasking</title>
     <updated>2026-11-24T04:00:57.000Z</updated>
@@ -117,7 +130,7 @@ Location: -60.6317, 153.8482 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="wildfires"/>
     <content type="text">Forest fire, Bolivia — PARTIAL
 Bolivia · wildfires · opened 2026-11-22
-Demand 41.1/100 · tasking gap 24 · serviceable from free data 17
+Demand 41/100 · tasking gap 24 · serviceable from free data 17
 Free supply: Sentinel-2 last pass 2.2 d ago, 81% cloud (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -16.1872, -64.7533 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1034027</content>
