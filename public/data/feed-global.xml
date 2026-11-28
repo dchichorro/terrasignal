@@ -13,7 +13,7 @@
     <category term="severe-storms"/>
     <content type="text">Tropical cyclone 03-20262027-27 — TASKING GAP
 severe-storms · opened 2026-11-24
-Demand 43.4/100 · tasking gap 43 · serviceable from free data 0
+Demand 43.3/100 · tasking gap 43 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: Commercial SAR tasking (sub-metre, all-weather) over ~5,027 km² — indicative €153k
 Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001352</content>
@@ -26,8 +26,8 @@ Location: -9.3500, 78.2900 · http://www.gdacs.org/report.aspx?eventtype=TC&amp;
     <category term="earthquake"/>
     <content type="text">Earthquake M5.9, Yanglong, China — COPERNICUS-READY
 238 km SW of Yanglong, China · earthquake · opened 2026-11-21
-Demand 69.6/100 · tasking gap 51 · serviceable from free data 19
-Free supply: Sentinel-2 last pass 4.8 d ago, 0.4% cloud · Sentinel-1 last pass 1.8 d ago
+Demand 69.5/100 · tasking gap 49 · serviceable from free data 21
+Free supply: Sentinel-2 last pass -0.1 d ago, 0.4% cloud · Sentinel-1 last pass 1.9 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: 37.1958, 96.6398 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly</content>
   </entry>
@@ -39,7 +39,7 @@ Location: 37.1958, 96.6398 · https://earthquake.usgs.gov/earthquakes/eventpage/
     <category term="earthquake"/>
     <content type="text">Earthquake, Mauritius - Reunion Region — TASKING GAP
 Mauritius - Reunion Region · earthquake · opened 2026-11-24
-Demand 48.5/100 · tasking gap 48 · serviceable from free data 0
+Demand 48.4/100 · tasking gap 48 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -17.7049, 65.6995 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579008</content>
@@ -65,7 +65,7 @@ Location: 19.8135, -109.2958 · http://www.gdacs.org/report.aspx?eventtype=EQ&am
     <category term="earthquake"/>
     <content type="text">Earthquake, South Of Sumbawa, Indonesia — TASKING GAP
 South Of Sumbawa, Indonesia · earthquake · opened 2026-11-26
-Demand 46.7/100 · tasking gap 47 · serviceable from free data 0
+Demand 46.6/100 · tasking gap 47 · serviceable from free data 0
 Free supply: Sentinel-2 no pass (no Sentinel-2 pass in the event window)
 Recommended: VHR optical tasking (30–50 cm) over ~2,827 km² — indicative €71k
 Location: -10.5618, 117.1955 · http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1579362</content>
@@ -105,7 +105,7 @@ Location: -13.5846, 172.2672 · https://earthquake.usgs.gov/earthquakes/eventpag
     <content type="text">Earthquake M6.8, Lospalos, Timor Leste — COPERNICUS-READY
 105 km NE of Lospalos, Timor Leste · earthquake · opened 2026-11-21
 Demand 39.3/100 · tasking gap 28 · serviceable from free data 11
-Free supply: Sentinel-2 last pass 0.8 d ago, 56% cloud · Sentinel-1 last pass 0.8 d ago
+Free supply: Sentinel-2 last pass 0.9 d ago, 56% cloud · Sentinel-1 last pass 0.9 d ago
 Recommended: VHR damage assessment (30–50 cm tasking + grading) over ~2,827 km² — indicative €99k
 Location: -7.7324, 127.5407 · https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucij</content>
   </entry>
@@ -118,7 +118,7 @@ Location: -7.7324, 127.5407 · https://earthquake.usgs.gov/earthquakes/eventpage
     <content type="text">Wildfire Little Ridge, Highland, Virginia — PARTIAL
 12 Miles SW from Monterey, VA · wildfires · opened 2026-11-20
 Demand 100/100 · tasking gap 53 · serviceable from free data 47
-Free supply: Sentinel-2 last pass 1.8 d ago, 99.9% cloud · Sentinel-1 last pass 3.8 d ago (free optical passes are cloud-covered)
+Free supply: Sentinel-2 last pass 1.9 d ago, 99.9% cloud · Sentinel-1 last pass 3.9 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 38.3136, -79.7914 · https://irwin.doi.gov/observer/incidents/2026-VAVAF-260139</content>
   </entry>
@@ -130,8 +130,8 @@ Location: 38.3136, -79.7914 · https://irwin.doi.gov/observer/incidents/2026-VAV
     <category term="wildfires"/>
     <content type="text">Prescribed Fire Compartment 170 RX, Greene, Georgia — PARTIAL
 wildfires · opened 2026-11-09
-Demand 70.8/100 · tasking gap 38 · serviceable from free data 33
-Free supply: Sentinel-2 last pass 1.8 d ago, 94.7% cloud · Sentinel-1 last pass 5.8 d ago (free optical passes are cloud-covered)
+Demand 70.7/100 · tasking gap 38 · serviceable from free data 33
+Free supply: Sentinel-2 last pass 1.9 d ago, 94.7% cloud · Sentinel-1 last pass 5.9 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 33.7473, -83.2594 · https://irwin.doi.gov/observer/incidents/2026-GACHF-260217</content>
   </entry>
@@ -144,7 +144,7 @@ Location: 33.7473, -83.2594 · https://irwin.doi.gov/observer/incidents/2026-GAC
     <content type="text">Prescribed Fire 3R RX - KRUMM MP, Stevens, Washington — PARTIAL
 wildfires · opened 2026-10-26
 Demand 42.8/100 · tasking gap 24 · serviceable from free data 19
-Free supply: Sentinel-2 last pass 1.8 d ago, 96% cloud · Sentinel-1 last pass 7.8 d ago (free optical passes are cloud-covered)
+Free supply: Sentinel-2 last pass 1.9 d ago, 96% cloud · Sentinel-1 last pass 7.9 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 48.4021, -117.5331 · https://irwin.doi.gov/observer/incidents/2026-WACOF-002229</content>
   </entry>
@@ -156,8 +156,8 @@ Location: 48.4021, -117.5331 · https://irwin.doi.gov/observer/incidents/2026-WA
     <category term="wildfires"/>
     <content type="text">Wildfire BEE HAVEN (2) (24-06), Hamilton, Florida — PARTIAL
 28 Miles NW from LAKE CITY, FL · wildfires · opened 2026-10-22
-Demand 40/100 · tasking gap 22 · serviceable from free data 18
-Free supply: Sentinel-2 last pass 1.8 d ago, 98.6% cloud · Sentinel-1 last pass 5.8 d ago (free optical passes are cloud-covered)
+Demand 39.9/100 · tasking gap 22 · serviceable from free data 18
+Free supply: Sentinel-2 last pass 1.9 d ago, 98.6% cloud · Sentinel-1 last pass 5.9 d ago (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: 30.4953, -82.8578 · https://irwin.doi.gov/observer/incidents/2026-FLFLS-260601105</content>
   </entry>
@@ -170,7 +170,7 @@ Location: 30.4953, -82.8578 · https://irwin.doi.gov/observer/incidents/2026-FLF
     <content type="text">Forest fire, Bolivia — PARTIAL
 Bolivia · wildfires · opened 2026-11-22
 Demand 40.1/100 · tasking gap 21 · serviceable from free data 19
-Free supply: Sentinel-2 last pass 0.8 d ago, 81.6% cloud (free optical passes are cloud-covered)
+Free supply: Sentinel-2 last pass 0.9 d ago, 81.6% cloud (free optical passes are cloud-covered)
 Recommended: VHR optical tasking (30–50 cm) over ~707 km² — indicative €18k
 Location: -16.1872, -64.7533 · http://www.gdacs.org/report.aspx?eventtype=WF&amp;eventid=1034027</content>
   </entry>
